@@ -34,7 +34,7 @@ def market_tickers(cfg) -> list[str]:
     t = set(cfg["index_trend"]["indices"].values()) | set(cfg["system1"]["breadth_indices"].values())
     t |= set(cfg["system1"]["trend_indices"]) | set(cfg["report_indices"].values())
     t |= {cfg["system1"]["vix_ticker"], cfg["system1"]["momentum_ticker"], cfg["commodities"]["ticker"],
-          cfg["commodities"]["fallback"], "BZ=F", "EURUSD=X"}
+          cfg["commodities"]["fallback"], "BZ=F", "EURUSD=X", "^TNX", "^IRX"}
     return sorted(t)
 
 
@@ -68,7 +68,7 @@ def load_all(cfg, start_market="2003-01-01", start_stocks=None, force_universe=F
     stk = data.yahoo_close(uni["ticker"].tolist(), start_stocks)
     missing = sorted(set(uni["ticker"]) - set(stk.columns[stk.notna().any()]))
     log.info("Aktien mit Daten: %d, ohne Daten: %d (%s …)", stk.shape[1] - len(missing), len(missing), missing[:15])
-    macro = data.macro_bundle(start_market)
+    macro = data.fill_macro_from_yahoo(data.macro_bundle(start_market), mkt)
     for k, v in macro.items():
         log.info("Makro %-7s %s", k, "FEHLT" if v is None else f"{len(v)} Werte bis {v.index[-1].date()}")
     return uni, mkt, stk, macro
