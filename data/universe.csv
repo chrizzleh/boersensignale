@@ -1,0 +1,972 @@
+ticker,name,index,tags
+0001.HK,CK Hutchison Holdings Limited,Hang Seng,large
+0002.HK,CLP Holdings Limited,Hang Seng,large
+0003.HK,Hong Kong and China Gas Company Limited,Hang Seng,large
+0005.HK,HSBC Holdings plc,Hang Seng,large
+0006.HK,Power Assets Holdings Limited,Hang Seng,large
+000660.KS,SK Hynix,statisch,large
+0012.HK,Henderson Land Development Company Limited,Hang Seng,large
+0016.HK,Sun Hung Kai Properties Limited,Hang Seng,large
+0027.HK,Galaxy Entertainment Group Ltd.,Hang Seng,large
+005380.KS,Hyundai Motor,statisch,large
+005930.KS,Samsung Electronics,statisch,large
+0066.HK,MTR Corporation Ltd,Hang Seng,large
+0101.HK,Hang Lung Properties Limited,Hang Seng,large
+0175.HK,Geely Auto,Hang Seng,large
+0241.HK,Alibaba Health,Hang Seng,large
+0267.HK,CITIC Limited,Hang Seng,large
+0285.HK,BYD Electronics,Hang Seng,large
+0288.HK,WH Group,Hang Seng,large
+0291.HK,China Resources Beer,Hang Seng,large
+0300.HK,Midea Group,Hang Seng,large
+0316.HK,Orient Overseas (International) Limited,Hang Seng,large
+0322.HK,Tingyi,Hang Seng,large
+035420.KS,Naver,statisch,large
+0386.HK,Sinopec Corp,Hang Seng,large
+0388.HK,HKEx Limited,Hang Seng,large
+051910.KS,LG Chem,statisch,large
+0669.HK,Techtronic Industries,Hang Seng,large
+0688.HK,China Overseas Land & Investment Limited,Hang Seng,large
+0700.HK,Tencent Holdings Limited,Hang Seng,large
+0762.HK,China Unicom,Hang Seng,large
+0823.HK,Link REIT,Hang Seng,large
+0836.HK,China Resources Power,Hang Seng,large
+0857.HK,PetroChina Company Limited,Hang Seng,large
+0868.HK,Xinyi Glass,Hang Seng,large
+0881.HK,Zhongsheng Group,Hang Seng,large
+0883.HK,CNOOC Limited,Hang Seng,large
+0939.HK,China Construction Bank,Hang Seng,large
+0941.HK,China Mobile Ltd,Hang Seng,large
+0960.HK,Longfor Properties,Hang Seng,large
+0968.HK,Xinyi Solar,Hang Seng,large
+0981.HK,Semiconductor Manufacturing International Corporation,Hang Seng,large
+0992.HK,Lenovo,Hang Seng,large
+1024.HK,Kuaishou,Hang Seng,large
+1038.HK,Cheung Kong Infrastructure Holdings Limited,Hang Seng,large
+1044.HK,Hengan International Group Co. Ltd,Hang Seng,large
+1088.HK,China Shenhua Energy,Hang Seng,large
+1093.HK,CSPC Pharmaceutical Group,Hang Seng,large
+1099.HK,Sinopharm Group,Hang Seng,large
+1109.HK,China Resources Land Limited,Hang Seng,large
+1113.HK,CK Asset Holdings,Hang Seng,large
+1177.HK,Sino Biopharm,Hang Seng,large
+1209.HK,China Resources Mixc Lifestyle,Hang Seng,large
+1211.HK,BYD Company,Hang Seng,large
+1299.HK,AIA Group Limited,Hang Seng,large
+1378.HK,China Hongqiao Group,Hang Seng,large
+1398.HK,Industrial and Commercial Bank of China,Hang Seng,large
+1810.HK,Xiaomi,Hang Seng,large
+1876.HK,Budweiser Brewing Company APAC,Hang Seng,large
+1928.HK,Sands China,Hang Seng,large
+1929.HK,Chow Tai Fook,Hang Seng,large
+1997.HK,Wharf Real Estate Investment Company Limited,Hang Seng,large
+1COV.DE,Covestro,statisch,large
+2015.HK,Li Auto,Hang Seng,large
+2020.HK,Anta Sports,Hang Seng,large
+2057.HK,ZTO Express,Hang Seng,large
+2269.HK,WuXi Biologics,Hang Seng,large
+2313.HK,Shenzhou International,Hang Seng,large
+2317.TW,Hon Hai,statisch,large
+2318.HK,Ping An Insurance,Hang Seng,large
+2319.HK,Mengniu Dairy,Hang Seng,large
+2330.TW,TSMC,statisch,large
+2331.HK,Li-Ning,Hang Seng,large
+2359.HK,WuXi AppTec,Hang Seng,large
+2382.HK,Sunny Optical,Hang Seng,large
+2388.HK,BOC Hong Kong (Holdings) Ltd,Hang Seng,large
+2454.TW,MediaTek,statisch,large
+2618.HK,JD Logistics,Hang Seng,large
+2628.HK,China Life,Hang Seng,large
+2688.HK,ENN Energy,Hang Seng,large
+2899.HK,Zijin Mining,Hang Seng,large
+2914.T,Japan Tobacco,statisch,large
+3382.T,Seven & i,statisch,large
+3690.HK,Meituan,Hang Seng,large
+3692.HK,Hansoh Pharmaceutical Group,Hang Seng,large
+3968.HK,China Merchants Bank,Hang Seng,large
+3988.HK,Bank of China Ltd,Hang Seng,large
+4063.T,Shin-Etsu Chemical,statisch,large
+4502.T,Takeda,statisch,large
+4519.T,Chugai Pharma,statisch,large
+4543.T,Terumo,statisch,large
+4568.T,Daiichi Sankyo,statisch,large
+4661.T,Oriental Land,statisch,large
+4901.T,Fujifilm,statisch,large
+5108.T,Bridgestone,statisch,large
+5401.T,Nippon Steel,statisch,large
+6098.T,Recruit,statisch,large
+6146.T,Disco,statisch,large
+6273.T,SMC,statisch,large
+6301.T,Komatsu,statisch,large
+6367.T,Daikin,statisch,large
+6501.T,Hitachi,statisch,large
+6503.T,Mitsubishi Electric,statisch,large
+6594.T,Nidec,statisch,large
+6618.HK,JD Health,Hang Seng,large
+6690.HK,Haier,Hang Seng,large
+6701.T,NEC,statisch,large
+6702.T,Fujitsu,statisch,large
+6723.T,Renesas,statisch,large
+6752.T,Panasonic,statisch,large
+6758.T,Sony,statisch,large
+6857.T,Advantest,statisch,large
+6861.T,Keyence,statisch,large
+6862.HK,Haidilao,Hang Seng,large
+6902.T,Denso,statisch,large
+6954.T,Fanuc,statisch,large
+6981.T,Murata,statisch,large
+7011.T,Mitsubishi Heavy,statisch,large
+7201.T,Nissan,statisch,large
+7203.T,Toyota,statisch,large
+7267.T,Honda,statisch,large
+7270.T,Subaru,statisch,large
+7733.T,Olympus,statisch,large
+7741.T,Hoya,statisch,large
+7751.T,Canon,statisch,large
+7974.T,Nintendo,statisch,large
+8001.T,Itochu,statisch,large
+8031.T,Mitsui & Co,statisch,large
+8035.T,Tokyo Electron,statisch,large
+8058.T,Mitsubishi Corp,statisch,large
+8306.T,Mitsubishi UFJ,statisch,large
+8316.T,Sumitomo Mitsui FG,statisch,large
+8411.T,Mizuho FG,statisch,large
+8766.T,Tokio Marine,statisch,large
+8802.T,Mitsubishi Estate,statisch,large
+8TRA.DE,Traton,MDAX,mid
+9020.T,JR East,statisch,large
+9432.T,NTT,statisch,large
+9433.T,KDDI,statisch,large
+9618.HK,JD.com,Hang Seng,large
+9633.HK,Nongfu Spring,Hang Seng,large
+9888.HK,Baidu,Hang Seng,large
+9961.HK,Trip.com Group,Hang Seng,large
+9983.T,Fast Retailing,statisch,large
+9984.T,SoftBank Group,statisch,large
+9988.HK,Alibaba Group,Hang Seng,large
+9992.HK,Pop Mart,Hang Seng,large
+9999.HK,NetEase,Hang Seng,large
+A,Agilent Technologies,S&P 500,large
+AAF.L,Airtel Africa,FTSE 100,large
+AAL.L,Anglo American plc,FTSE 100,large
+AAPL,Apple Inc.,S&P 500,large
+ABBN.SW,ABB Ltd,SMI,large
+ABBV,AbbVie,S&P 500,large
+ABDN.L,Aberdeen Group,FTSE 100,large
+ABF.L,Associated British Foods,FTSE 100,large
+ABI.BR,Anheuser-Busch InBev,Euro Stoxx 50,large
+ABN.AS,ABN AMRO,AEX,large
+ABNB,Airbnb,S&P 500,large
+ABT,Abbott Laboratories,S&P 500,large
+AC.PA,Accor,CAC 40,large
+ACA.PA,Crédit Agricole,CAC 40,large
+ACGL,Arch Capital Group,S&P 500,large
+ACN,Accenture,S&P 500,large
+AD.AS,Ahold Delhaize,Euro Stoxx 50,large
+ADBE,Adobe Inc.,S&P 500,large
+ADI,Analog Devices,S&P 500,large
+ADM,Archer Daniels Midland,S&P 500,large
+ADM.L,Admiral Group,FTSE 100,large
+ADP,Automatic Data Processing,S&P 500,large
+ADS.DE,Adidas,DAX,large
+ADSK,Autodesk,S&P 500,large
+ADYEN.AS,Adyen,Euro Stoxx 50,large
+AEE,Ameren,S&P 500,large
+AEP,American Electric Power,S&P 500,large
+AES,AES Corporation,S&P 500,large
+AFL,Aflac,S&P 500,large
+AFX.DE,Carl Zeiss Meditec,MDAX,mid
+AGN.AS,Aegon,AEX,large
+AI.PA,Air Liquide,Euro Stoxx 50,large
+AIG,American International Group,S&P 500,large
+AIR.DE,Airbus,statisch,large
+AIR.PA,Airbus,DAX,large
+AIXA.DE,Aixtron,MDAX,mid
+AIZ,Assurant,S&P 500,large
+AJG,Arthur J. Gallagher & Co.,S&P 500,large
+AKAM,Akamai Technologies,S&P 500,large
+AKZA.AS,AkzoNobel,AEX,large
+ALB,Albemarle Corporation,S&P 500,large
+ALC.SW,Alcon Inc,SMI,large
+ALGN,Align Technology,S&P 500,large
+ALL,Allstate,S&P 500,large
+ALLE,Allegion,S&P 500,large
+ALV.DE,Allianz,DAX,large
+ALW.L,Alliance Witan,FTSE 100,large
+AMAT,Applied Materials,S&P 500,large
+AMCR,Amcor,S&P 500,large
+AMD,Advanced Micro Devices,S&P 500,large
+AME,Ametek,S&P 500,large
+AMGN,Amgen,S&P 500,large
+AMP,Ameriprise Financial,S&P 500,large
+AMRZ.SW,Amrize AG,SMI,large
+AMT,American Tower,S&P 500,large
+AMZN,Amazon,S&P 500,large
+ANDR.VI,Andritz,statisch,large
+ANET,Arista Networks,S&P 500,large
+ANTO.L,Antofagasta plc,FTSE 100,large
+AON,Aon plc,S&P 500,large
+AOS,A. O. Smith,S&P 500,large
+AOX.DE,Aroundtown,statisch,mid
+APA,APA Corporation,S&P 500,large
+APD,Air Products,S&P 500,large
+APH,Amphenol,S&P 500,large
+APO,Apollo Global Management,S&P 500,large
+APP,AppLovin,S&P 500,large
+APTV,Aptiv,S&P 500,large
+ARE,Alexandria Real Estate Equities,S&P 500,large
+ARES,Ares Management,S&P 500,large
+ARGX.BR,Argenx,Euro Stoxx 50,large
+ASM.AS,ASM International,AEX,large
+ASML.AS,ASML Holding,Euro Stoxx 50,large
+ASRNL.AS,ASR Nederland,AEX,large
+AT1.DE,Aroundtown,MDAX,mid
+ATO,Atmos Energy,S&P 500,large
+ATS.VI,AT&S,statisch,large
+AUTO.L,Autotrader Group,FTSE 100,large
+AV.L,Aviva,FTSE 100,large
+AVGO,Broadcom,S&P 500,large
+AVY,Avery Dennison,S&P 500,large
+AWK,American Water Works,S&P 500,large
+AXON,Axon Enterprise,S&P 500,large
+AXP,American Express,S&P 500,large
+AZN.L,AstraZeneca,FTSE 100,large
+AZO,AutoZone,S&P 500,large
+BA,Boeing,S&P 500,large
+BA.L,BAE Systems,FTSE 100,large
+BAB.L,Babcock International,FTSE 100,large
+BABA,Alibaba ADR,statisch,large
+BAC,Bank of America,S&P 500,large
+BALL,Ball Corporation,S&P 500,large
+BARC.L,Barclays,FTSE 100,large
+BAS.DE,BASF,DAX,large
+BATS.L,British American Tobacco,FTSE 100,large
+BAX,Baxter International,S&P 500,large
+BAYN.DE,Bayer,DAX,large
+BBOX.L,Tritax Big Box REIT,FTSE 100,large
+BBVA.MC,BBVA,Euro Stoxx 50,large
+BBY,Best Buy,S&P 500,large
+BC8.DE,Bechtle,MDAX,mid
+BDX,Becton Dickinson,S&P 500,large
+BE,Bloom Energy,S&P 500,large
+BEI.DE,Beiersdorf,DAX,large
+BEN,Franklin Resources,S&P 500,large
+BESI.AS,BE Semiconductors,AEX,large
+BEZ.L,Beazley,FTSE 100,large
+BF-B,Brown–Forman,S&P 500,large
+BFSA.DE,Befesa,MDAX,mid
+BG,Bunge Global,S&P 500,large
+BG.VI,BAWAG,statisch,large
+BGEO.L,Lion Finance Group,FTSE 100,large
+BHP.AX,BHP,statisch,large
+BIIB,Biogen,S&P 500,large
+BKNG,Booking Holdings,S&P 500,large
+BKR,Baker Hughes,S&P 500,large
+BLK,BlackRock,S&P 500,large
+BLND.L,British Land,FTSE 100,large
+BMW.DE,BMW,DAX,large
+BMY,Bristol Myers Squibb,S&P 500,large
+BN.PA,Danone,Euro Stoxx 50,large
+BNP.PA,BNP Paribas,Euro Stoxx 50,large
+BNR.DE,Brenntag,DAX,large
+BNY,BNY Mellon,S&P 500,large
+BNZL.L,Bunzl,FTSE 100,large
+BOSS.DE,Hugo Boss,MDAX,mid
+BP.L,BP,FTSE 100,large
+BR,Broadridge Financial Solutions,S&P 500,large
+BRBY.L,Burberry Group,FTSE 100,large
+BRK-B,Berkshire Hathaway,S&P 500,large
+BRO,Brown & Brown,S&P 500,large
+BSX,Boston Scientific,S&P 500,large
+BT-A.L,BT Group,FTSE 100,large
+BTRW.L,Barratt Redrow,FTSE 100,large
+BVI.PA,Bureau Veritas,CAC 40,large
+BX,Blackstone Inc.,S&P 500,large
+BXP,"BXP, Inc.",S&P 500,large
+C,Citigroup,S&P 500,large
+CA.PA,Carrefour,CAC 40,large
+CAH,Cardinal Health,S&P 500,large
+CAI.VI,CA Immo,statisch,large
+CAP.PA,Capgemini,CAC 40,large
+CARR,Carrier Global,S&P 500,large
+CASY,Casey's,S&P 500,large
+CAT,Caterpillar Inc.,S&P 500,large
+CB,Chubb Limited,S&P 500,large
+CBA.AX,Commonwealth Bank,statisch,large
+CBK.DE,Commerzbank,DAX,large
+CBOE,Cboe Global Markets,S&P 500,large
+CBRE,CBRE Group,S&P 500,large
+CCC.L,Computacenter,FTSE 100,large
+CCEP.L,Coca-Cola Europacific Partners,FTSE 100,large
+CCH.L,Coca-Cola HBC,FTSE 100,large
+CCI,Crown Castle,S&P 500,large
+CCL,Carnival Corporation,S&P 500,large
+CDNS,Cadence Design Systems,S&P 500,large
+CDW,CDW Corporation,S&P 500,large
+CEG,Constellation Energy,S&P 500,large
+CF,CF Industries,S&P 500,large
+CFG,Citizens Financial Group,S&P 500,large
+CFR.SW,Compagnie Financière Richemont SA,SMI,large
+CHD,Church & Dwight,S&P 500,large
+CHRW,C.H. Robinson,S&P 500,large
+CHTR,Charter Communications,S&P 500,large
+CI,Cigna,S&P 500,large
+CIEN,Ciena,S&P 500,large
+CINF,Cincinnati Financial,S&P 500,large
+CL,Colgate-Palmolive,S&P 500,large
+CLX,Clorox,S&P 500,large
+CMCSA,Comcast,S&P 500,large
+CME,CME Group,S&P 500,large
+CMG,Chipotle Mexican Grill,S&P 500,large
+CMI,Cummins,S&P 500,large
+CMS,CMS Energy,S&P 500,large
+CNA.L,Centrica,FTSE 100,large
+CNC,Centene Corporation,S&P 500,large
+CNP,CenterPoint Energy,S&P 500,large
+COF,Capital One,S&P 500,large
+COHR,Coherent Corp.,S&P 500,large
+COIN,Coinbase,S&P 500,large
+COK.DE,Cancom,statisch,mid
+CON.DE,Continental,DAX,large
+COO,Cooper Companies (The),S&P 500,large
+COP,ConocoPhillips,S&P 500,large
+COR,Cencora,S&P 500,large
+COST,Costco,S&P 500,large
+CPAY,Corpay,S&P 500,large
+CPG.L,Compass Group,FTSE 100,large
+CPRT,Copart,S&P 500,large
+CPT,Camden Property Trust,S&P 500,large
+CRDA.L,Croda International,FTSE 100,large
+CRH,CRH plc,S&P 500,large
+CRL,Charles River Laboratories,S&P 500,large
+CRM,Salesforce,S&P 500,large
+CRWD,CrowdStrike,S&P 500,large
+CS.PA,Axa,Euro Stoxx 50,large
+CSCO,Cisco,S&P 500,large
+CSGP,CoStar Group,S&P 500,large
+CSL.AX,CSL,statisch,large
+CSX,CSX Corporation,S&P 500,large
+CTAS,Cintas,S&P 500,large
+CTEC.L,Convatec,FTSE 100,large
+CTSH,Cognizant,S&P 500,large
+CTVA,Corteva,S&P 500,large
+CVNA,Carvana,S&P 500,large
+CVS,CVS Health,S&P 500,large
+CVX,Chevron Corporation,S&P 500,large
+D,Dominion Energy,S&P 500,large
+D05.SI,DBS Group,statisch,large
+DAL,Delta Air Lines,S&P 500,large
+DASH,DoorDash,S&P 500,large
+DB1.DE,Deutsche Börse,DAX,large
+DBK.DE,Deutsche Bank,DAX,large
+DCC.L,DCC Energy,FTSE 100,large
+DD,DuPont,S&P 500,large
+DDOG,Datadog,S&P 500,large
+DE,Deere & Company,S&P 500,large
+DECK,Deckers Brands,S&P 500,large
+DELL,Dell Technologies,S&P 500,large
+DG,Dollar General,S&P 500,large
+DG.PA,Vinci SA,Euro Stoxx 50,large
+DGE.L,Diageo,FTSE 100,large
+DGX,Quest Diagnostics,S&P 500,large
+DHER.DE,Delivery Hero,MDAX,mid
+DHI,D. R. Horton,S&P 500,large
+DHL.DE,Deutsche Post,DAX,large
+DHR,Danaher Corporation,S&P 500,large
+DIS,Walt Disney Company (The),S&P 500,large
+DLR,Digital Realty,S&P 500,large
+DLTR,Dollar Tree,S&P 500,large
+DOC,Healthpeak Properties,S&P 500,large
+DOV,Dover Corporation,S&P 500,large
+DOW,Dow Inc.,S&P 500,large
+DPLM.L,Diploma,FTSE 100,large
+DPZ,Domino's,S&P 500,large
+DRI,Darden Restaurants,S&P 500,large
+DSFIR.AS,DSM Firmenich AG,AEX,large
+DSY.PA,Dassault Systèmes,CAC 40,large
+DTE,DTE Energy,S&P 500,large
+DTE.DE,Deutsche Telekom,DAX,large
+DTG.DE,Daimler Truck,DAX,large
+DUK,Duke Energy,S&P 500,large
+DVA,DaVita,S&P 500,large
+DVN,Devon Energy,S&P 500,large
+DXCM,Dexcom,S&P 500,large
+EBAY,eBay Inc.,S&P 500,large
+EBS.VI,Erste Group,statisch,large
+ECHO,EchoStar,S&P 500,large
+ECL,Ecolab,S&P 500,large
+ECV.DE,Encavis,MDAX,mid
+ED,Consolidated Edison,S&P 500,large
+EDEN.PA,Edenred,CAC 40,large
+EDV.L,Endeavour Mining,FTSE 100,large
+EFX,Equifax,S&P 500,large
+EG,Everest Group,S&P 500,large
+EIX,Edison International,S&P 500,large
+EL,Estée Lauder Companies (The),S&P 500,large
+EL.PA,EssilorLuxottica,Euro Stoxx 50,large
+ELV,Elevance Health,S&P 500,large
+EME,Emcor,S&P 500,large
+EMR,Emerson Electric,S&P 500,large
+EN.PA,Bouygues,CAC 40,large
+ENEL.MI,Enel,Euro Stoxx 50,large
+ENGI.PA,Engie,CAC 40,large
+ENI.MI,Eni,Euro Stoxx 50,large
+ENR.DE,Siemens Energy,DAX,large
+EOAN.DE,E.ON,DAX,large
+EOG,EOG Resources,S&P 500,large
+EQIX,Equinix,S&P 500,large
+EQT,EQT Corporation,S&P 500,large
+ERF.PA,Eurofins Scientific,CAC 40,large
+ERIE,Erie Indemnity,S&P 500,large
+ES,Eversource Energy,S&P 500,large
+ESS,Essex Property Trust,S&P 500,large
+ETN,Eaton Corporation,S&P 500,large
+ETR,Entergy,S&P 500,large
+EVD.DE,CTS Eventim,MDAX,mid
+EVK.DE,Evonik,MDAX,mid
+EVN.VI,EVN,statisch,large
+EVRG,Evergy,S&P 500,large
+EVT.DE,Evotec,MDAX,mid
+EW,Edwards Lifesciences,S&P 500,large
+EXC,Exelon,S&P 500,large
+EXE,Expand Energy,S&P 500,large
+EXO.AS,Exor,AEX,large
+EXPD,Expeditors International,S&P 500,large
+EXPE,Expedia Group,S&P 500,large
+EXPN.L,Experian,FTSE 100,large
+EXR,Extra Space Storage,S&P 500,large
+EZJ.L,EasyJet,FTSE 100,large
+F,Ford Motor Company,S&P 500,large
+FANG,Diamondback Energy,S&P 500,large
+FAST,Fastenal,S&P 500,large
+FCIT.L,F & C Investment Trust,FTSE 100,large
+FCX,Freeport-McMoRan,S&P 500,large
+FDS,FactSet,S&P 500,large
+FDX,FedEx,S&P 500,large
+FDXF,FedEx Freight,S&P 500,large
+FE,FirstEnergy,S&P 500,large
+FERG,Ferguson Enterprises,S&P 500,large
+FFIV,"F5, Inc.",S&P 500,large
+FICO,Fair Isaac,S&P 500,large
+FIS,Fidelity National Information Services,S&P 500,large
+FISV,Fiserv,S&P 500,large
+FITB,Fifth Third Bancorp,S&P 500,large
+FIX,Comfort Systems USA,S&P 500,large
+FLEX,Flex Ltd.,S&P 500,large
+FME.DE,Fresenius Medical Care,DAX,large
+FNTN.DE,Freenet,MDAX,mid
+FOX,Fox Corporation (Class B),S&P 500,large
+FOXA,Fox Corporation (Class A),S&P 500,large
+FPE3.DE,Fuchs Petrolub,MDAX,mid
+FRA.DE,Fraport,MDAX,mid
+FRE.DE,Fresenius,DAX,"large,mid"
+FRES.L,Fresnillo plc,FTSE 100,large
+FRT,Federal Realty Investment Trust,S&P 500,large
+FSLR,First Solar,S&P 500,large
+FTNT,Fortinet,S&P 500,large
+FTV,Fortive,S&P 500,large
+G1A.DE,GEA Group,DAX,"large,mid"
+G24.DE,Scout24,DAX,"large,mid"
+GAW.L,Games Workshop,FTSE 100,large
+GBF.DE,Bilfinger,MDAX,mid
+GD,General Dynamics,S&P 500,large
+GDDY,GoDaddy,S&P 500,large
+GE,GE Aerospace,S&P 500,large
+GEBN.SW,Geberit AG,SMI,large
+GEHC,GE HealthCare,S&P 500,large
+GEN,Gen Digital,S&P 500,large
+GEV,GE Vernova,S&P 500,large
+GILD,Gilead Sciences,S&P 500,large
+GIS,General Mills,S&P 500,large
+GIVN.SW,Givaudan SA,SMI,large
+GL,Globe Life,S&P 500,large
+GLE.PA,Société Générale,CAC 40,large
+GLEN.L,Glencore,FTSE 100,large
+GLW,Corning Inc.,S&P 500,large
+GM,General Motors,S&P 500,large
+GNRC,Generac,S&P 500,large
+GOOG,Alphabet Inc. (Class C),S&P 500,large
+GOOGL,Alphabet Inc. (Class A),S&P 500,large
+GPC,Genuine Parts Company,S&P 500,large
+GPN,Global Payments,S&P 500,large
+GRMN,Garmin,S&P 500,large
+GS,Goldman Sachs,S&P 500,large
+GSK.L,GSK plc,FTSE 100,large
+GWW,W. W. Grainger,S&P 500,large
+GXI.DE,Gerresheimer,MDAX,mid
+HAG.DE,Hensoldt,MDAX,mid
+HAL,Halliburton,S&P 500,large
+HAS,Hasbro,S&P 500,large
+HBAN,Huntington Bancshares,S&P 500,large
+HCA,HCA Healthcare,S&P 500,large
+HD,Home Depot (The),S&P 500,large
+HDB,HDFC Bank ADR,statisch,large
+HEI.DE,Heidelberg Materials,DAX,large
+HEIA.AS,Heineken,AEX,large
+HEN3.DE,Henkel,DAX,large
+HFG.DE,HelloFresh,MDAX,mid
+HIG,Hartford (The),S&P 500,large
+HII,Huntington Ingalls Industries,S&P 500,large
+HLE.DE,Hella,MDAX,mid
+HLMA.L,Halma plc,FTSE 100,large
+HLN.L,Haleon,FTSE 100,large
+HLT,Hilton Worldwide,S&P 500,large
+HNR1.DE,Hannover Re,DAX,large
+HO.PA,Thales,CAC 40,large
+HOLN.SW,Holcim Limited,SMI,large
+HON,Honeywell Technologies,S&P 500,large
+HONA,Honeywell Aerospace,S&P 500,large
+HOOD,Robinhood Markets,S&P 500,large
+HOT.DE,Hochtief,MDAX,mid
+HPE,Hewlett Packard Enterprise,S&P 500,large
+HPQ,HP Inc.,S&P 500,large
+HRL,Hormel Foods,S&P 500,large
+HSBA.L,HSBC,FTSE 100,large
+HSIC,Henry Schein,S&P 500,large
+HST,Host Hotels & Resorts,S&P 500,large
+HSX.L,Hiscox,FTSE 100,large
+HSY,Hershey Company (The),S&P 500,large
+HUBB,Hubbell Incorporated,S&P 500,large
+HUM,Humana,S&P 500,large
+HWDN.L,Howdens Joinery,FTSE 100,large
+HWM,Howmet Aerospace,S&P 500,large
+IAG.L,International Airlines Group,FTSE 100,large
+IBE.MC,Iberdrola,Euro Stoxx 50,large
+IBKR,Interactive Brokers,S&P 500,large
+IBM,IBM,S&P 500,large
+IBN,ICICI Bank ADR,statisch,large
+ICE,Intercontinental Exchange,S&P 500,large
+ICG.L,ICG,FTSE 100,large
+IDXX,Idexx Laboratories,S&P 500,large
+IEX,IDEX Corporation,S&P 500,large
+IFF,International Flavors & Fragrances,S&P 500,large
+IFX.DE,Infineon Technologies,DAX,large
+IGG.L,IG Group,FTSE 100,large
+IHG.L,IHG Hotels & Resorts,FTSE 100,large
+III.L,3i,FTSE 100,large
+ILMN,"Illumina, Inc.",S&P 500,large
+IMB.L,Imperial Brands,FTSE 100,large
+IMCD.AS,IMCD,AEX,large
+IMI.L,IMI,FTSE 100,large
+INCY,Incyte,S&P 500,large
+INF.L,Informa,FTSE 100,large
+INFY,Infosys ADR,statisch,large
+INGA.AS,ING Group,Euro Stoxx 50,large
+INTC,Intel,S&P 500,large
+INTU,Intuit,S&P 500,large
+INVH,Invitation Homes,S&P 500,large
+INVP.L,Investec,FTSE 100,large
+IP,International Paper,S&P 500,large
+IQV,IQVIA,S&P 500,large
+IR,Ingersoll Rand,S&P 500,large
+IRM,Iron Mountain,S&P 500,large
+ISP.MI,Intesa Sanpaolo,Euro Stoxx 50,large
+ISRG,Intuitive Surgical,S&P 500,large
+IT,Gartner,S&P 500,large
+ITH.L,Ithaca Energy,FTSE 100,large
+ITRK.L,Intertek,FTSE 100,large
+ITW,Illinois Tool Works,S&P 500,large
+ITX.MC,Inditex,Euro Stoxx 50,large
+IVZ,Invesco,S&P 500,large
+J,Jacobs Solutions,S&P 500,large
+JBHT,J.B. Hunt,S&P 500,large
+JBL,Jabil,S&P 500,large
+JCI,Johnson Controls,S&P 500,large
+JD.L,JD Sports,FTSE 100,large
+JEN.DE,Jenoptik,MDAX,mid
+JKHY,Jack Henry & Associates,S&P 500,large
+JNJ,Johnson & Johnson,S&P 500,large
+JPM,JPMorgan Chase,S&P 500,large
+JUN3.DE,Jungheinrich,MDAX,mid
+KBX.DE,Knorr-Bremse,MDAX,mid
+KDP,Keurig Dr Pepper,S&P 500,large
+KER.PA,Kering,CAC 40,large
+KEY,KeyCorp,S&P 500,large
+KEYS,Keysight Technologies,S&P 500,large
+KGF.L,Kingfisher plc,FTSE 100,large
+KGX.DE,KION Group,MDAX,mid
+KHC,Kraft Heinz,S&P 500,large
+KIM,Kimco Realty,S&P 500,large
+KKR,KKR & Co.,S&P 500,large
+KLAC,KLA Corporation,S&P 500,large
+KMB,Kimberly-Clark,S&P 500,large
+KMI,Kinder Morgan,S&P 500,large
+KNIN.SW,Kuehne + Nagel,SMI,large
+KO,Coca-Cola Company (The),S&P 500,large
+KPN.AS,KPN,AEX,large
+KR,Kroger,S&P 500,large
+KRN.DE,Krones,MDAX,mid
+KVUE,Kenvue,S&P 500,large
+L,Loews Corporation,S&P 500,large
+LAND.L,Land Securities,FTSE 100,large
+LDOS,Leidos,S&P 500,large
+LEG.DE,LEG Immobilien,MDAX,mid
+LEN,Lennar,S&P 500,large
+LGEN.L,Legal & General,FTSE 100,large
+LH,Labcorp,S&P 500,large
+LHA.DE,Lufthansa,MDAX,mid
+LHX,L3Harris,S&P 500,large
+LII,Lennox International,S&P 500,large
+LIN,Linde plc,S&P 500,large
+LITE,Lumentum,S&P 500,large
+LLOY.L,Lloyds Banking Group,FTSE 100,large
+LLY,Lilly (Eli),S&P 500,large
+LMP.L,LondonMetric Property,FTSE 100,large
+LMT,Lockheed Martin,S&P 500,large
+LNT,Alliant Energy,S&P 500,large
+LNZ.VI,Lenzing,statisch,large
+LOGN.SW,Logitech International SA,SMI,large
+LONN.SW,Lonza Group AG,SMI,large
+LOW,Lowe's,S&P 500,large
+LR.PA,Legrand,CAC 40,large
+LRCX,Lam Research,S&P 500,large
+LSEG.L,London Stock Exchange Group,FTSE 100,large
+LULU,Lululemon Athletica,S&P 500,large
+LUV,Southwest Airlines,S&P 500,large
+LVS,Las Vegas Sands,S&P 500,large
+LXS.DE,Lanxess,MDAX,mid
+LYB,LyondellBasell,S&P 500,large
+LYV,Live Nation Entertainment,S&P 500,large
+MA,Mastercard,S&P 500,large
+MAA,Mid-America Apartment Communities,S&P 500,large
+MAR,Marriott International,S&P 500,large
+MAS,Masco,S&P 500,large
+MBG.DE,Mercedes-Benz Group,DAX,large
+MC.PA,LVMH Moët Hennessy Louis Vuitton,Euro Stoxx 50,large
+MCD,McDonald's,S&P 500,large
+MCHP,Microchip Technology,S&P 500,large
+MCK,McKesson Corporation,S&P 500,large
+MCO,Moody's Corporation,S&P 500,large
+MDLZ,Mondelez International,S&P 500,large
+MDT,Medtronic,S&P 500,large
+MET,MetLife,S&P 500,large
+META,Meta Platforms,S&P 500,large
+MGM,MGM Resorts,S&P 500,large
+MKC,McCormick & Company,S&P 500,large
+MKS.L,Marks & Spencer,FTSE 100,large
+ML.PA,Michelin,CAC 40,large
+MLM,Martin Marietta Materials,S&P 500,large
+MMM,3M,S&P 500,large
+MNG.L,M&G,FTSE 100,large
+MNST,Monster Beverage,S&P 500,large
+MO,Altria,S&P 500,large
+MOS,Mosaic Company (The),S&P 500,large
+MPC,Marathon Petroleum,S&P 500,large
+MPWR,Monolithic Power Systems,S&P 500,large
+MRK,Merck & Co.,S&P 500,large
+MRK.DE,Merck,DAX,large
+MRNA,Moderna,S&P 500,large
+MRO.L,Melrose Industries,FTSE 100,large
+MRSH,Marsh McLennan,S&P 500,large
+MRVL,Marvell Technology,S&P 500,large
+MS,Morgan Stanley,S&P 500,large
+MSCI,MSCI,S&P 500,large
+MSFT,Microsoft,S&P 500,large
+MSI,Motorola Solutions,S&P 500,large
+MT.AS,ArcelorMittal,CAC 40,large
+MTB,M&T Bank,S&P 500,large
+MTD,Mettler Toledo,S&P 500,large
+MTLN.L,Metlen Energy & Metals,FTSE 100,large
+MTX.DE,MTU Aero Engines,DAX,large
+MU,Micron Technology,S&P 500,large
+MUV2.DE,Munich Re,DAX,large
+NCLH,Norwegian Cruise Line Holdings,S&P 500,large
+NDA-FI.HE,Nordea,Euro Stoxx 50,large
+NDA.DE,Aurubis,MDAX,mid
+NDAQ,"Nasdaq, Inc.",S&P 500,large
+NDSN,Nordson Corporation,S&P 500,large
+NDX1.DE,Nordex,MDAX,mid
+NEE,NextEra Energy,S&P 500,large
+NEM,Newmont,S&P 500,large
+NEM.DE,Nemetschek,MDAX,mid
+NESN.SW,Nestlé SA,SMI,large
+NFLX,Netflix,S&P 500,large
+NG.L,National Grid plc,FTSE 100,large
+NI,NiSource,S&P 500,large
+NKE,"Nike, Inc.",S&P 500,large
+NN.AS,NN Group,AEX,large
+NOC,Northrop Grumman,S&P 500,large
+NOVN.SW,Novartis International AG,SMI,large
+NOW,ServiceNow,S&P 500,large
+NRG,NRG Energy,S&P 500,large
+NSC,Norfolk Southern,S&P 500,large
+NTAP,NetApp,S&P 500,large
+NTRS,Northern Trust,S&P 500,large
+NUE,Nucor,S&P 500,large
+NVDA,Nvidia,S&P 500,large
+NVR,"NVR, Inc.",S&P 500,large
+NWG.L,NatWest Group,FTSE 100,large
+NWS,News Corp (Class B),S&P 500,large
+NWSA,News Corp (Class A),S&P 500,large
+NXPI,NXP Semiconductors,S&P 500,large
+NXT.L,Next plc,FTSE 100,large
+O,Realty Income,S&P 500,large
+O39.SI,OCBC,statisch,large
+ODFL,Old Dominion,S&P 500,large
+OKE,Oneok,S&P 500,large
+OMC,Omnicom Group,S&P 500,large
+OMV.VI,OMV,statisch,large
+ON,ON Semiconductor,S&P 500,large
+OR.PA,L'Oréal,Euro Stoxx 50,large
+ORA.PA,Orange,CAC 40,large
+ORCL,Oracle Corporation,S&P 500,large
+ORLY,O'Reilly Automotive,S&P 500,large
+OTIS,Otis Worldwide,S&P 500,large
+OXY,Occidental Petroleum,S&P 500,large
+P,Everpure,S&P 500,large
+P911.DE,Porsche AG,statisch,large
+PAH3.DE,Porsche SE,DAX,large
+PANW,Palo Alto Networks,S&P 500,large
+PAYX,Paychex,S&P 500,large
+PCAR,Paccar,S&P 500,large
+PCG,PG&E Corporation,S&P 500,large
+PCT.L,Polar Capital Technology Trust,FTSE 100,large
+PDD,PDD Holdings ADR,statisch,large
+PEG,Public Service Enterprise Group,S&P 500,large
+PEP,PepsiCo,S&P 500,large
+PFE,Pfizer,S&P 500,large
+PFG,Principal Financial Group,S&P 500,large
+PG,Procter & Gamble,S&P 500,large
+PGHN.SW,Partners Group Holding AG,SMI,large
+PGR,Progressive Corporation,S&P 500,large
+PH,Parker Hannifin,S&P 500,large
+PHIA.AS,Philips,AEX,large
+PHM,PulteGroup,S&P 500,large
+PKG,Packaging Corporation of America,S&P 500,large
+PLD,Prologis,S&P 500,large
+PLTR,Palantir Technologies,S&P 500,large
+PM,Philip Morris International,S&P 500,large
+PNC,PNC Financial Services,S&P 500,large
+PNR,Pentair,S&P 500,large
+PNW,Pinnacle West Capital,S&P 500,large
+PODD,Insulet Corporation,S&P 500,large
+POST.VI,Österreichische Post,statisch,large
+PPG,PPG Industries,S&P 500,large
+PPL,PPL Corporation,S&P 500,large
+PRU,Prudential Financial,S&P 500,large
+PRU.L,Prudential plc,FTSE 100,large
+PRX.AS,Prosus,Euro Stoxx 50,large
+PSA,Public Storage,S&P 500,large
+PSH.L,Pershing Square Holdings,FTSE 100,large
+PSKY,Paramount Skydance Corporation,S&P 500,large
+PSON.L,Pearson plc,FTSE 100,large
+PSX,Phillips 66,S&P 500,large
+PTC,PTC Inc.,S&P 500,large
+PUB.PA,Publicis,CAC 40,large
+PUM.DE,Puma,MDAX,mid
+PWR,Quanta Services,S&P 500,large
+PYPL,PayPal,S&P 500,large
+Q,Qnity Electronics,S&P 500,large
+QCOM,Qualcomm,S&P 500,large
+QIA.DE,Qiagen,DAX,large
+RAA.DE,Rational,MDAX,mid
+RACE.MI,Ferrari,Euro Stoxx 50,large
+RAND.AS,Randstad,AEX,large
+RBI.VI,Raiffeisen Bank Intl,statisch,large
+RCL,Royal Caribbean Group,S&P 500,large
+RDC.DE,Redcare Pharmacy,MDAX,mid
+RDDT,Reddit,S&P 500,large
+REG,Regency Centers,S&P 500,large
+REGN,Regeneron Pharmaceuticals,S&P 500,large
+REL.L,RELX,FTSE 100,large
+REN.AS,RELX,AEX,large
+RENK.DE,Renk,statisch,mid
+RF,Regions Financial Corporation,S&P 500,large
+RHM.DE,Rheinmetall,DAX,large
+RI.PA,Pernod Ricard,CAC 40,large
+RIO.AX,Rio Tinto (AU),statisch,large
+RIO.L,Rio Tinto,FTSE 100,large
+RJF,Raymond James Financial,S&P 500,large
+RKT.L,Reckitt,FTSE 100,large
+RL,Ralph Lauren Corporation,S&P 500,large
+RMD,ResMed|,S&P 500,large
+RMS.PA,Hermès,Euro Stoxx 50,large
+RNO.PA,Renault,CAC 40,large
+ROG.SW,Roche,statisch,large
+ROK,Rockwell Automation,S&P 500,large
+ROL,"Rollins, Inc.",S&P 500,large
+ROP,Roper Technologies,S&P 500,large
+ROP.SW,Roche Holding AG,SMI,large
+ROST,Ross Stores,S&P 500,large
+RR.L,Rolls-Royce Holdings,FTSE 100,large
+RRTL.DE,RTL Group,MDAX,mid
+RSG,Republic Services,S&P 500,large
+RTO.L,Rentokil Initial,FTSE 100,large
+RTX,RTX Corporation,S&P 500,large
+RVTY,Revvity,S&P 500,large
+RWE.DE,RWE,DAX,large
+S92.DE,SMA Solar,statisch,mid
+SAF.PA,Safran,Euro Stoxx 50,large
+SAN.MC,Banco Santander,Euro Stoxx 50,large
+SAN.PA,Sanofi,Euro Stoxx 50,large
+SAP.DE,SAP,DAX,large
+SAX.DE,Ströer,MDAX,mid
+SBAC,SBA Communications,S&P 500,large
+SBO.VI,Schoeller-Bleckmann,statisch,large
+SBRY.L,Sainsbury's,FTSE 100,large
+SBUX,Starbucks,S&P 500,large
+SCHW,Charles Schwab Corporation,S&P 500,large
+SCMN.SW,Swisscom AG,SMI,large
+SDF.DE,K+S,MDAX,mid
+SDLF.L,Standard Life,FTSE 100,large
+SDR.L,Schroders,FTSE 100,large
+SGE.L,Sage Group,FTSE 100,large
+SGO.PA,Saint-Gobain,Euro Stoxx 50,large
+SGRO.L,Segro,FTSE 100,large
+SHA0.DE,Schaeffler,statisch,mid
+SHEL.L,Shell plc,FTSE 100,large
+SHELL.AS,Shell plc,AEX,large
+SHL.DE,Siemens Healthineers,DAX,large
+SHW,Sherwin-Williams,S&P 500,large
+SIE.DE,Siemens,DAX,large
+SIKA.SW,Sika AG,SMI,large
+SJM,J.M. Smucker Company (The),S&P 500,large
+SLB,Schlumberger,S&P 500,large
+SLHN.SW,Swiss Life Holding AG,SMI,large
+SMCI,Supermicro,S&P 500,large
+SMHN.DE,Süss MicroTec,statisch,mid
+SMIN.L,Smiths Group,FTSE 100,large
+SMT.L,Scottish Mortgage Investment Trust,FTSE 100,large
+SN.L,Smith & Nephew,FTSE 100,large
+SNA,Snap-on,S&P 500,large
+SNDK,Sandisk,S&P 500,large
+SNPS,Synopsys,S&P 500,large
+SO,Southern Company,S&P 500,large
+SOLV,Solventum,S&P 500,large
+SOON.SW,Sonova,statisch,large
+SPG,Simon Property Group,S&P 500,large
+SPGI,S&P Global,S&P 500,large
+SPX.L,Spirax Group,FTSE 100,large
+SRE,Sempra,S&P 500,large
+SREN.SW,Swiss Reinsurance Company Ltd,SMI,large
+SRT3.DE,Sartorius,statisch,large
+SSE.L,SSE plc,FTSE 100,large
+STAN.L,Standard Chartered,FTSE 100,large
+STE,Steris,S&P 500,large
+STJ.L,St. James's Place,FTSE 100,large
+STLAP.PA,Stellantis,CAC 40,large
+STLD,Steel Dynamics,S&P 500,large
+STM.DE,Stabilus,MDAX,mid
+STMPA.PA,STMicroelectronics,CAC 40,large
+STT,State Street Corporation,S&P 500,large
+STX,Seagate Technology,S&P 500,large
+STZ,Constellation Brands,S&P 500,large
+SU.PA,Schneider Electric,Euro Stoxx 50,large
+SVT.L,Severn Trent,FTSE 100,large
+SW,Smurfit Westrock,S&P 500,large
+SWK,Stanley Black & Decker,S&P 500,large
+SWKS,Skyworks Solutions,S&P 500,large
+SY1.DE,Symrise,DAX,large
+SYF,Synchrony Financial,S&P 500,large
+SYK,Stryker Corporation,S&P 500,large
+SYY,Sysco,S&P 500,large
+T,AT&T,S&P 500,large
+TDG,TransDigm Group,S&P 500,large
+TDY,Teledyne Technologies,S&P 500,large
+TECH,Bio-Techne,S&P 500,large
+TEG.DE,TAG Tegernsee Immobilien und Beteiligung,MDAX,mid
+TEL,TE Connectivity,S&P 500,large
+TEP.PA,Teleperformance,CAC 40,large
+TER,Teradyne,S&P 500,large
+TFC,Truist Financial,S&P 500,large
+TGT,Target Corporation,S&P 500,large
+TJX,TJX Companies,S&P 500,large
+TKA.DE,ThyssenKrupp,MDAX,mid
+TKO,TKO Group Holdings,S&P 500,large
+TLX.DE,Talanx,MDAX,mid
+TMO,Thermo Fisher Scientific,S&P 500,large
+TMUS,T-Mobile US,S&P 500,large
+TMV.DE,TeamViewer,MDAX,mid
+TPL,Texas Pacific Land Corporation,S&P 500,large
+TPR,"Tapestry, Inc.",S&P 500,large
+TRGP,Targa Resources,S&P 500,large
+TRMB,Trimble Inc.,S&P 500,large
+TROW,T. Rowe Price,S&P 500,large
+TRV,Travelers Companies (The),S&P 500,large
+TSCO,Tractor Supply,S&P 500,large
+TSCO.L,Tesco,FTSE 100,large
+TSLA,"Tesla, Inc.",S&P 500,large
+TSN,Tyson Foods,S&P 500,large
+TT,Trane Technologies,S&P 500,large
+TTE.PA,TotalEnergies,Euro Stoxx 50,large
+TTWO,Take-Two Interactive,S&P 500,large
+TUI1.DE,TUI,MDAX,mid
+TXN,Texas Instruments,S&P 500,large
+TXT,Textron,S&P 500,large
+TYL,Tyler Technologies,S&P 500,large
+UAL,United Airlines Holdings,S&P 500,large
+UBER,Uber,S&P 500,large
+UBSG.SW,UBS Group AG,SMI,large
+UCG.MI,UniCredit,Euro Stoxx 50,large
+UDR,"UDR, Inc.",S&P 500,large
+UHS,Universal Health Services,S&P 500,large
+ULTA,Ulta Beauty,S&P 500,large
+ULVR.L,Unilever,FTSE 100,large
+UMG.AS,Universal Music Group,AEX,large
+UNA.AS,Unilever,AEX,large
+UNH,UnitedHealth Group,S&P 500,large
+UNP,Union Pacific Corporation,S&P 500,large
+UPS,United Parcel Service,S&P 500,large
+UQA.VI,Uniqa,statisch,large
+URI,United Rentals,S&P 500,large
+URW.PA,Unibail-Rodamco-Westfield,CAC 40,large
+USB,U.S. Bancorp,S&P 500,large
+UTDI.DE,United Internet,MDAX,mid
+UU.L,United Utilities,FTSE 100,large
+V,Visa Inc.,S&P 500,large
+VEEV,Veeva Systems,S&P 500,large
+VER.VI,Verbund,statisch,large
+VICI,Vici Properties,S&P 500,large
+VIE.PA,Veolia,CAC 40,large
+VIG.VI,Vienna Insurance,statisch,large
+VLO,Valero Energy,S&P 500,large
+VLTO,Veralto,S&P 500,large
+VMC,Vulcan Materials Company,S&P 500,large
+VMRK,Vivmark Residential,S&P 500,large
+VNA.DE,Vonovia,DAX,large
+VOD.L,Vodafone Group,FTSE 100,large
+VOE.VI,voestalpine,statisch,large
+VOW.DE,Volkswagen Group,Euro Stoxx 50,large
+VOW3.DE,Volkswagen Group,DAX,large
+VRSK,Verisk Analytics,S&P 500,large
+VRSN,Verisign,S&P 500,large
+VRT,Vertiv,S&P 500,large
+VRTX,Vertex Pharmaceuticals,S&P 500,large
+VST,Vistra Corp.,S&P 500,large
+VTR,Ventas,S&P 500,large
+VTRS,Viatris,S&P 500,large
+VZ,Verizon,S&P 500,large
+WAB,Wabtec,S&P 500,large
+WAF.DE,Siltronic,MDAX,mid
+WAT,Waters Corporation,S&P 500,large
+WBD,Warner Bros. Discovery,S&P 500,large
+WCH.DE,Wacker Chemie,MDAX,mid
+WDAY,"Workday, Inc.",S&P 500,large
+WDC,Western Digital,S&P 500,large
+WEC,WEC Energy Group,S&P 500,large
+WEIR.L,Weir,FTSE 100,large
+WELL,Welltower,S&P 500,large
+WES.AX,Wesfarmers,statisch,large
+WFC,Wells Fargo,S&P 500,large
+WIE.VI,Wienerberger,statisch,large
+WKL.AS,Wolters Kluwer,Euro Stoxx 50,large
+WM,Waste Management,S&P 500,large
+WMB,Williams Companies,S&P 500,large
+WMT,Walmart,S&P 500,large
+WRB,W. R. Berkley Corporation,S&P 500,large
+WSM,"Williams-Sonoma, Inc.",S&P 500,large
+WST,West Pharmaceutical Services,S&P 500,large
+WTB.L,Whitbread,FTSE 100,large
+WTW,Willis Towers Watson,S&P 500,large
+WY,Weyerhaeuser,S&P 500,large
+WYNN,Wynn Resorts,S&P 500,large
+XEL,Xcel Energy,S&P 500,large
+XOM,ExxonMobil,S&P 500,large
+XYL,Xylem Inc.,S&P 500,large
+XYZ,"Block, Inc.",S&P 500,large
+YUM,Yum! Brands,S&P 500,large
+ZAL.DE,Zalando,DAX,large
+ZBH,Zimmer Biomet,S&P 500,large
+ZBRA,Zebra Technologies,S&P 500,large
+ZTS,Zoetis,S&P 500,large
+ZURN.SW,Zurich Insurance Group AG,SMI,large
