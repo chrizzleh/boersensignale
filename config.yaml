@@ -1,7 +1,7 @@
 # Musterdepot nach Uwe-Lang-Regeln – alle Parameter an einer Stelle.
 # Zeitfenster in Wochen (Wochenschlusskurse, Freitag).
 
-start_capital_eur: 100000
+start_capital_eur: 25000   # Startkapital je Musterdepot (Neustart zu Jahresbeginn)
 
 # ---------------------------------------------------------------- System 2
 # Drei Stimmen: Index-Trend, Zinsstruktur, Mehrheit der fünf Makro-Indikatoren
@@ -10,6 +10,7 @@ index_trend:
   sell_low_weeks: 26      # Index schließt unter dem tiefsten Wochenschluss der Vorwochen -> Verkauf
   buy_high_weeks: 26      # Index schließt über dem höchsten Wochenschluss der Vorwochen -> Kauf
   votes_needed: 2         # Mehrheit der drei Frühwarnindizes
+  sell_requires: ["Nasdaq Composite"]  # Verkauf nur, wenn der Nasdaq dabei ist (so beschreibt es das Original 2018)
 
 yield_curve:
   smooth_weeks: 32        # gleitender Schnitt der kombinierten Zinsdifferenz
@@ -74,6 +75,7 @@ rsl:
 
 depots:
   konservativ:
+    label: "Musterdepot konservativ"
     universe_tags: ["large"]
     max_positions: 6
     buy_top_pct: 0.05     # nur aus den besten 5 % der RSL-Rangliste kaufen
@@ -81,7 +83,9 @@ depots:
     max_vol_pct: 0.66     # die volatilsten 34 % des Universums ausschließen
     sell_below_pct: 0.70  # verkaufen, wenn der Titel aus den besten 30 % fällt …
     sell_rsl_below: 1.00  # … oder die RSL unter 1 sinkt (Kurs unter 27-Wochen-Schnitt)
+    fee_eur: 0
   spekulativ:
+    label: "Musterdepot spekulativ"
     universe_tags: ["large", "mid", "tech"]
     max_positions: 6
     buy_top_pct: 0.03
@@ -89,6 +93,25 @@ depots:
     max_vol_pct: 1.0
     sell_below_pct: 0.75
     sell_rsl_below: 1.00
+    fee_eur: 0
+  mein_depot:
+    label: "Mein Depot"
+    capital: 25000          # Barbestand für neue Käufe
+    start_date: "2026-09-25" # ab diesem Freitagsschluss läuft das Depot echt mit
+    year_reset: false       # kein Neustart zu Jahresbeginn, G/V seit Kauf
+    universe_tags: ["large", "mid"]
+    max_positions: 6
+    buy_top_pct: 0.05
+    min_rsl: 1.05
+    max_vol_pct: 0.80
+    sell_below_pct: 0.70
+    sell_rsl_below: 1.00
+    fee_eur: 0              # Ordergebühr je Kauf/Verkauf, z. B. 1 bei Trade Republic
+    initial_sell_rule: "trend"  # eigene Altbestände nur verkaufen, wenn der Kurs unter den 27-Wochen-Schnitt fällt
+                                # (RSL < 1) oder beide Systeme auf Verkauf stehen; "rang" = wie Neukäufe behandeln
+    initial_positions:      # deine vorhandenen Aktien
+      - {ticker: "SAP.DE", name: "SAP", shares: 6, buy_price_eur: 142.46, buy_date: "2026-07-02"}
+      - {ticker: "JEN.DE", name: "Jenoptik", shares: 10, buy_price_eur: 42.07, buy_date: "2026-08-27"}
 
 # Indizes für die Wochentabelle im Report
 report_indices:

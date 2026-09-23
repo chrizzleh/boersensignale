@@ -62,6 +62,11 @@ def load_all(cfg, start_market="2003-01-01", start_stocks=None, force_universe=F
     today = date.today()
     start_stocks = start_stocks or str(today - timedelta(days=int(365 * 4.2)))
     uni = get_universe(force_universe)
+    extra = [ip for d in cfg["depots"].values() for ip in d.get("initial_positions", [])
+             if ip["ticker"] not in set(uni["ticker"])]
+    if extra:
+        uni = pd.concat([uni, pd.DataFrame([{"ticker": ip["ticker"], "name": ip.get("name", ip["ticker"]),
+                                              "index": "eigene", "tags": "mine"} for ip in extra])], ignore_index=True)
     log.info("Lade %d Markt- und %d Devisenreihen …", len(market_tickers(cfg)), len(data.FX_TICKERS))
     mkt = data.yahoo_close(market_tickers(cfg) + data.FX_TICKERS, start_market)
     log.info("Lade %d Aktien ab %s …", len(uni), start_stocks)
@@ -113,35 +118,67 @@ def signal_meta(sig: pd.Series) -> dict:
 def run_depots(cfg, sig_df, uni, stk_eur_w, stk_loc_w, asof, rsl, vol):
     """Depots aus dem gespeicherten Zustand bis `asof` fortschreiben (holt verpasste Wochen nach)."""
     STATE.mkdir(exist_ok=True)
-    cap = cfg["start_capital_eur"]
-    results, week_actions = {}, {}
+    results, week_actions, tab = {}, {}, None
+    rank = lambda d: portfolio.ranking(d, rsl, vol, stk_eur_w, uni, cfg["rsl"]["min_history_weeks"],  # noqa: E731
+                                       cfg["rsl"]["min_price_eur"])
     for name, dcfg in cfg["depots"].items():
+        cap = float(dcfg.get("capital", cfg["start_capital_eur"]))
+        year_reset = dcfg.get("year_reset", True)
+        start_cfg = pd.Timestamp(dcfg["start_date"]) if dcfg.get("start_date") else None
         path = STATE / f"depot_{name}.json"
-        if path.exists():
-            depot = json.loads(path.read_text(encoding="utf-8"))
-            start = pd.Timestamp(depot["history"][-1]["date"]) + pd.Timedelta(days=1) if depot["history"] else None
-        else:  # Erststart: ab Jahresbeginn simulieren, damit das Depot sofort einen Verlauf hat
-            first = sig_df.loc[str(asof.year)].index[0]
-            depot = portfolio.new_depot(name, cap, first)
+        depot = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+        if depot is not None and float(depot.get("capital", 100000)) != cap:
+            log.info("Depot %s: Startkapital geändert (%s -> %s), baue neu auf", name, depot.get("capital"), cap)
+            depot = None
+        if depot is not None and depot.get("history"):
+            start = pd.Timestamp(depot["history"][-1]["date"]) + pd.Timedelta(days=1)
+        else:
+            if start_cfg is not None:
+                weeks_from = sig_df.loc[start_cfg:asof].index
+                if len(weeks_from) == 0:  # Start liegt in der Zukunft: Vorschau ohne Speichern
+                    d0 = portfolio.new_depot(name, cap, asof, dcfg.get("initial_positions"), stk_eur_w.loc[asof],
+                                             year_reset)
+                    tab = rank(asof)
+                    results[name] = {**portfolio.snapshot(d0, tab, dcfg), "history": [], "closed_this_year": [],
+                                     "label": dcfg.get("label", name), "pending": True,
+                                     "start_date": str(start_cfg.date())}
+                    week_actions[name] = []
+                    continue
+                first = weeks_from[0]
+            else:  # Musterdepot: ab Jahresbeginn simulieren, damit es sofort einen Verlauf hat
+                first = sig_df.loc[str(asof.year)].index[0]
+            depot = portfolio.new_depot(name, cap, first, dcfg.get("initial_positions"), stk_eur_w.loc[first],
+                                        year_reset)
             start = first
-        weeks = sig_df.loc[start:asof].index if start is not None else []
         acts = []
-        for d in weeks:
+        for d in sig_df.loc[start:asof].index:
             q = float(sig_df.at[d, "Aktienquote"]) if pd.notna(sig_df.at[d, "Aktienquote"]) else 0.0
             i = sig_df.index.get_loc(d)
             pq = float(sig_df["Aktienquote"].iloc[i - 1]) if i > 0 else q
-            tab = portfolio.ranking(d, rsl, vol, stk_eur_w, uni, cfg["rsl"]["min_history_weeks"],
-                                    cfg["rsl"]["min_price_eur"])
-            a = portfolio.step(depot, d, tab, stk_eur_w.loc[d], stk_loc_w.loc[d], q, pq, dcfg, cap)
+            a = portfolio.step(depot, d, rank(d), stk_eur_w.loc[d], stk_loc_w.loc[d], q, pq, dcfg, cap)
             acts.extend(a)
         depot.setdefault("transactions", []).extend(acts)
         path.write_text(json.dumps(depot, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
-        tab = portfolio.ranking(asof, rsl, vol, stk_eur_w, uni, cfg["rsl"]["min_history_weeks"],
-                                cfg["rsl"]["min_price_eur"])
-        results[name] = {**portfolio.snapshot(depot, tab), "history": depot["history"],
-                         "closed_this_year": [c for c in depot["closed"] if c["sell_date"][:4] == str(asof.year)]}
+        tab = rank(asof)
+        closed = depot["closed"] if not year_reset else [c for c in depot["closed"] if c["sell_date"][:4] == str(asof.year)]
+        results[name] = {**portfolio.snapshot(depot, tab, dcfg), "history": depot["history"],
+                         "closed_this_year": closed, "label": dcfg.get("label", name), "pending": False,
+                         "transactions": depot["transactions"][-40:]}
         week_actions[name] = [a for a in depot["transactions"] if a["date"] == str(asof.date())]
     return results, week_actions, tab
+
+
+def _clean(o):
+    """NaN/Inf -> None, damit latest.json gültiges JSON bleibt."""
+    if isinstance(o, dict):
+        return {k: _clean(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [_clean(v) for v in o]
+    if isinstance(o, (float, np.floating)):
+        return float(o) if np.isfinite(o) else None
+    if isinstance(o, np.integer):
+        return int(o)
+    return o
 
 
 def weekly_run(cfg):
@@ -156,8 +193,8 @@ def weekly_run(cfg):
     depots, actions, tab = run_depots(cfg, sig, uni, stk_eur_w, stk_loc_w, asof, rsl, vol)
 
     comp = {c: signal_meta(sig[c]) for c in sig.columns if c not in ("Aktienquote",)}
-    top = tab.head(25).reset_index().rename(columns={"index": "ticker"})
-    top_large = tab[tab["tags"].fillna("").str.contains("large")].head(15).reset_index().rename(columns={"index": "ticker"})
+    top = tab.head(25).rename_axis("ticker").reset_index()
+    top_large = tab[tab["tags"].fillna("").str.contains("large")].head(15).rename_axis("ticker").reset_index()
     it_dist = det["index_trend_dist"].loc[asof].to_dict()
     out = {
         "asof": str(asof.date()),
@@ -183,7 +220,7 @@ def weekly_run(cfg):
         "universe_size": int(tab.shape[0]),
     }
     OUT.mkdir(exist_ok=True)
-    js = json.dumps(out, ensure_ascii=False, indent=1, default=lambda o: None if o is None or (isinstance(o, float) and np.isnan(o)) else float(o))
+    js = json.dumps(_clean(out), ensure_ascii=False, indent=1, default=float)
     (OUT / "latest.json").write_text(js, encoding="utf-8")
     sig.to_csv(OUT / "signals_history.csv", float_format="%.3f")
     REPORTS.mkdir(exist_ok=True)
