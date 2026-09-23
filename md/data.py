@@ -51,8 +51,17 @@ def weekly(df: pd.DataFrame | pd.Series) -> pd.DataFrame | pd.Series:
 # ------------------------------------------------------------------ FRED
 def fred(series_id: str, start: str = "1990-01-01") -> pd.Series:
     url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}"
-    r = requests.get(url, headers=UA, timeout=60)
-    r.raise_for_status()
+    last = None
+    for attempt in range(2):
+        try:
+            r = requests.get(url, headers=UA, timeout=25)
+            r.raise_for_status()
+            break
+        except Exception as e:  # noqa: BLE001
+            last = e
+            time.sleep(3)
+    else:
+        raise last
     df = pd.read_csv(io.StringIO(r.text))
     df.columns = ["date", "value"]
     df["date"] = pd.to_datetime(df["date"])
@@ -86,16 +95,36 @@ def macro_bundle(start: str = "2003-01-01") -> dict[str, pd.Series]:
     """Alle Makroreihen als Tagesreihen. Mit Fallbacks, falls eine Quelle ausfällt."""
     out: dict[str, pd.Series] = {}
     out["us10"] = safe(fred, "DGS10", start)
-    out["us1"] = safe(fred, "DGS1", start)
+    fred_ok = out["us10"] is not None  # FRED blockt gelegentlich Cloud-IPs -> dann nicht weiter warten
+    out["us1"] = safe(fred, "DGS1", start) if fred_ok else None
     out["eu10"] = safe(ecb, "YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y", start)
     out["eu1"] = safe(ecb, "YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_1Y", start)
-    if out["eu10"] is None:  # Fallback: deutsche 10J-Rendite, monatlich
+    if out["eu10"] is None and fred_ok:  # Fallback: deutsche 10J-Rendite, monatlich
         out["eu10"] = safe(fred, "IRLTLT01DEM156N", start)
-    if out["eu1"] is None:
+    if out["eu1"] is None and fred_ok:
         out["eu1"] = safe(fred, "IR3TIB01DEM156N", start)
-    out["brent"] = safe(fred, "DCOILBRENTEU", start)
-    out["eurusd"] = safe(fred, "DEXUSEU", start)
+    out["brent"] = safe(fred, "DCOILBRENTEU", start) if fred_ok else None
+    out["eurusd"] = safe(fred, "DEXUSEU", start) if fred_ok else None
     return out
+
+
+def yahoo_yield(s: pd.Series | None) -> pd.Series | None:
+    """^TNX/^IRX kommen je nach Zeitraum als Prozent oder Prozent x 10."""
+    if s is None or s.dropna().empty:
+        return None
+    s = s.dropna()
+    return s.where(s < 25, s / 10)
+
+
+def fill_macro_from_yahoo(macro: dict, mkt: pd.DataFrame) -> dict:
+    """Ersatzquellen, wenn FRED nicht erreichbar ist."""
+    alt = {"us10": yahoo_yield(mkt.get("^TNX")), "us1": yahoo_yield(mkt.get("^IRX")),
+           "brent": mkt.get("BZ=F"), "eurusd": mkt.get("EURUSD=X")}
+    for k, v in alt.items():
+        if macro.get(k) is None and v is not None and not v.dropna().empty:
+            macro[k] = v.dropna()
+            log.info("Makro %s aus Yahoo ersetzt", k)
+    return macro
 
 
 def fx_to_eur(fx_close: pd.DataFrame, ccy: str) -> pd.Series | None:

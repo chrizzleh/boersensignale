@@ -22,8 +22,6 @@ WIKI = [
     ("Nasdaq-100", "Nasdaq-100", ["Ticker", "Symbol"], "", "tech", 80),
     ("DAX", "DAX", ["Ticker", "Symbol"], ".DE", "large", 30),
     ("MDAX", "MDAX", ["Symbol", "Ticker"], ".DE", "mid", 40),
-    ("TecDAX", "TecDAX", ["Symbol", "Ticker"], ".DE", "tech", 20),
-    ("SDAX", "SDAX", ["Symbol", "Ticker"], ".DE", "mid", 40),
     ("Euro Stoxx 50", "EURO_STOXX_50", ["Ticker", "Symbol"], "", "large", 40),
     ("SMI", "Swiss_Market_Index", ["Ticker", "Symbol"], ".SW", "large", 15),
     ("FTSE 100", "FTSE_100_Index", ["Ticker", "EPIC"], ".L", "large", 80),
@@ -134,7 +132,7 @@ def scrape_index(index, page, cols, suffix, tag, min_rows) -> pd.DataFrame:
     for t in tables:
         if isinstance(t.columns, pd.MultiIndex):
             t.columns = [" ".join(map(str, c)).strip() for c in t.columns]
-        colmap = {str(c).strip(): c for c in t.columns}
+        colmap = {re.sub(r"\[.*?\]", "", str(c)).strip(): c for c in t.columns}
         tcol = next((colmap[c] for c in cols if c in colmap), None)
         if tcol is None or len(t) < min_rows:
             continue
