@@ -1,0 +1,115 @@
+# Musterdepot nach Uwe-Lang-Regeln – alle Parameter an einer Stelle.
+# Zeitfenster in Wochen (Wochenschlusskurse, Freitag).
+
+start_capital_eur: 100000
+
+# ---------------------------------------------------------------- System 2
+# Drei Stimmen: Index-Trend, Zinsstruktur, Mehrheit der fünf Makro-Indikatoren
+index_trend:
+  indices: {"Nasdaq Composite": "^IXIC", "Dow Jones Utility": "^DJU", "DAX": "^GDAXI"}
+  sell_low_weeks: 26      # Index schließt unter dem tiefsten Wochenschluss der Vorwochen -> Verkauf
+  buy_high_weeks: 26      # Index schließt über dem höchsten Wochenschluss der Vorwochen -> Kauf
+  votes_needed: 2         # Mehrheit der drei Frühwarnindizes
+
+yield_curve:
+  smooth_weeks: 32        # gleitender Schnitt der kombinierten Zinsdifferenz
+  threshold: 0.0          # darüber Kauf, darunter (invers) Verkauf
+
+bonds:
+  window_weeks: 39        # Kauf, wenn US- ODER EU-Rendite ein 39-Wochen-Tief macht;
+                          # Verkauf, wenn BEIDE seit dem letzten Kauf ein 39-Wochen-Hoch gemacht haben
+oil:
+  buy_low_weeks: 5        # Brent 5-Wochen-Tief -> Kauf
+  sell_high_weeks: 6      # Brent 6-Wochen-Hoch -> Verkauf
+dollar:
+  window_weeks: 15        # USD 15-Wochen-Hoch ggü. EUR -> Kauf, 15-Wochen-Tief -> Verkauf
+commodities:
+  ticker: "^SPGSCI"       # Ersatz für CRB (auf Yahoo nicht verfügbar); Fallback DBC
+  fallback: "DBC"
+season:
+  weak_months: [5, 6, 7, 8, 9]   # Mai bis September -> Verkauf
+
+# ---------------------------------------------------------------- System 1
+# Schnelleres, technisches System: Mehrheit aus fünf Marktindikatoren
+system1:
+  confirm_weeks: 2        # Signalwechsel erst nach zwei Wochen in Folge (gegen Fehlsignale)
+  breadth_indices:        # Marktbreite: Anteil dieser Indizes über ihrer 40-Wochen-Linie (~200 Tage)
+    "DAX": "^GDAXI"
+    "MDAX": "^MDAXI"
+    "Euro Stoxx 50": "^STOXX50E"
+    "SMI": "^SSMI"
+    "ATX": "^ATX"
+    "FTSE 100": "^FTSE"
+    "CAC 40": "^FCHI"
+    "S&P 500": "^GSPC"
+    "Nasdaq Comp.": "^IXIC"
+    "Dow Jones": "^DJI"
+    "Russell 2000": "^RUT"
+    "Nikkei 225": "^N225"
+    "Hang Seng": "^HSI"
+    "Shanghai": "000001.SS"
+    "Kospi": "^KS11"
+    "ASX 200": "^AXJO"
+    "TSX": "^GSPTSE"
+    "Bovespa": "^BVSP"
+  breadth_ma_weeks: 40
+  breadth_threshold: 0.5
+  trend_indices: ["^GSPC", "^GDAXI", "^STOXX50E", "^N225"]
+  trend_ma_weeks: 20      # Mehrheit der Leitindizes über 20-Wochen-Linie
+  hilo_weeks: 39          # Hoch-Tief-Signal: neue 9-Monats-Hochs vs. -Tiefs im Aktienuniversum
+  hilo_sum_weeks: 4
+  vix_ticker: "^VIX"
+  vix_ma_weeks: 26        # VIX unter seinem Halbjahresschnitt -> ruhiger Markt -> Kauf
+  momentum_ticker: "ACWI" # MSCI ACWI: 13-Wochen-Momentum positiv -> Kauf
+  momentum_weeks: 13
+
+# Aktienquote aus beiden Systemen
+equity_quota: {both_buy: 1.0, one_buy: 0.5, none: 0.0}
+
+# ---------------------------------------------------------------- Aktienauswahl
+rsl:
+  weeks: 27               # Levy: Kurs / Durchschnitt der letzten 27 Wochenschlusskurse
+  min_history_weeks: 60
+  min_price_eur: 1.0
+
+depots:
+  konservativ:
+    universe_tags: ["large"]
+    max_positions: 6
+    buy_top_pct: 0.05     # nur aus den besten 5 % der RSL-Rangliste kaufen
+    min_rsl: 1.05
+    max_vol_pct: 0.66     # die volatilsten 34 % des Universums ausschließen
+    sell_below_pct: 0.70  # verkaufen, wenn der Titel aus den besten 30 % fällt …
+    sell_rsl_below: 1.00  # … oder die RSL unter 1 sinkt (Kurs unter 27-Wochen-Schnitt)
+  spekulativ:
+    universe_tags: ["large", "mid", "tech"]
+    max_positions: 6
+    buy_top_pct: 0.03
+    min_rsl: 1.10
+    max_vol_pct: 1.0
+    sell_below_pct: 0.75
+    sell_rsl_below: 1.00
+
+# Indizes für die Wochentabelle im Report
+report_indices:
+  "DAX": "^GDAXI"
+  "MDAX": "^MDAXI"
+  "Euro Stoxx 50": "^STOXX50E"
+  "SMI": "^SSMI"
+  "ATX": "^ATX"
+  "S&P 500": "^GSPC"
+  "Nasdaq Comp.": "^IXIC"
+  "Dow Jones Utility": "^DJU"
+  "Nikkei 225": "^N225"
+  "Hang Seng": "^HSI"
+  "FTSE 100": "^FTSE"
+  "Gold (USD)": "GC=F"
+  "Brent (USD)": "BZ=F"
+  "EUR/USD": "EURUSD=X"
+
+# Referenzsignale aus dem Original (für den Backtest-Abgleich)
+reference_signals:
+  system1: [["2016-03-11", "Kauf"], ["2018-07-06", "Verkauf"]]
+  system2: [["2016-02-05", "Verkauf"], ["2016-03-11", "Kauf"], ["2018-11-30", "Verkauf"]]
+  index_trend: [["2015-09-01", "Verkauf"], ["2016-07-08", "Kauf"], ["2018-11-23", "Verkauf"]]
+  yield_curve: [["2009-03-20", "Kauf"]]
