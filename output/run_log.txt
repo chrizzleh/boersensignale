@@ -1,55 +1,11 @@
-2026-09-23 06:36:21,812 INFO Universum S&P 500         503 Titel
-2026-09-23 06:36:21,870 WARNING Universum Nasdaq-100 nicht geladen: keine passende Tabelle für Nasdaq-100
-2026-09-23 06:36:21,937 INFO Universum DAX              40 Titel
-2026-09-23 06:36:21,986 INFO Universum MDAX             50 Titel
-2026-09-23 06:36:22,025 WARNING Universum TecDAX nicht geladen: keine passende Tabelle für TecDAX
-2026-09-23 06:36:22,071 WARNING Universum SDAX nicht geladen: keine passende Tabelle für SDAX
-2026-09-23 06:36:22,136 INFO Universum Euro Stoxx 50    50 Titel
-2026-09-23 06:36:22,361 INFO Universum SMI              20 Titel
-2026-09-23 06:36:22,456 INFO Universum FTSE 100        100 Titel
-2026-09-23 06:36:22,519 INFO Universum CAC 40           40 Titel
-2026-09-23 06:36:22,582 INFO Universum AEX              25 Titel
-2026-09-23 06:36:22,651 INFO Universum Hang Seng        85 Titel
-2026-09-23 06:36:22,678 INFO Universum neu aufgebaut: 971 Titel
-2026-09-23 06:36:22,679 INFO Lade 26 Markt- und 15 Devisenreihen …
-2026-09-23 06:36:26,742 INFO Lade 971 Aktien ab 2022-07-13 …
-2026-09-23 06:36:35,593 ERROR $AOX.DE: possibly delisted; no timezone found
-2026-09-23 06:36:43,039 ERROR 
+2026-09-23 06:45:04,786 INFO Lade 28 Markt- und 15 Devisenreihen …
+2026-09-23 06:45:10,126 INFO Lade 971 Aktien ab 2022-07-13 …
+2026-09-23 06:45:26,481 ERROR $AOX.DE: possibly delisted; no timezone found
+2026-09-23 06:45:31,998 ERROR 
 1 Failed download:
-2026-09-23 06:36:43,039 ERROR ['AOX.DE']: possibly delisted; no timezone found
-2026-09-23 06:36:45,725 ERROR $ECV.DE: possibly delisted; no timezone found
-2026-09-23 06:36:52,436 ERROR 
+2026-09-23 06:45:31,998 ERROR ['AOX.DE']: possibly delisted; no timezone found
+2026-09-23 06:45:43,003 ERROR $ECV.DE: possibly delisted; no timezone found
+2026-09-23 06:45:43,837 ERROR 
 1 Failed download:
-2026-09-23 06:36:52,436 ERROR ['ECV.DE']: possibly delisted; no timezone found
-2026-09-23 06:37:13,580 ERROR $ROG.SW: possibly delisted; no timezone found
-2026-09-23 06:37:16,975 ERROR $RENK.DE: possibly delisted; no timezone found
-2026-09-23 06:37:19,072 ERROR 
-2 Failed downloads:
-2026-09-23 06:37:19,072 ERROR ['ROG.SW', 'RENK.DE']: possibly delisted; no timezone found
-2026-09-23 06:37:25,005 INFO Aktien mit Daten: 967, ohne Daten: 4 (['AOX.DE', 'ECV.DE', 'RENK.DE', 'ROG.SW'] …)
-2026-09-23 06:38:25,058 WARNING fred('DGS10', '2003-01-01') fehlgeschlagen: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)
-2026-09-23 06:39:25,152 WARNING fred('DGS1', '2003-01-01') fehlgeschlagen: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)
-2026-09-23 06:40:34,001 WARNING fred('DCOILBRENTEU', '2003-01-01') fehlgeschlagen: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)
-2026-09-23 06:41:34,065 WARNING fred('DEXUSEU', '2003-01-01') fehlgeschlagen: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)
-2026-09-23 06:41:34,065 INFO Makro us10    FEHLT
-2026-09-23 06:41:34,065 INFO Makro us1     FEHLT
-2026-09-23 06:41:34,065 INFO Makro eu10    5635 Werte bis 2026-09-21
-2026-09-23 06:41:34,065 INFO Makro eu1     5635 Werte bis 2026-09-21
-2026-09-23 06:41:34,065 INFO Makro brent   FEHLT
-2026-09-23 06:41:34,065 INFO Makro eurusd  FEHLT
-Traceback (most recent call last):
-  File "/home/runner/work/boersensignale/boersensignale/run_weekly.py", line 246, in <module>
-    weekly_run(cfg)
-  File "/home/runner/work/boersensignale/boersensignale/run_weekly.py", line 152, in weekly_run
-    res = signals.compute_all(idx_w, stk_eur_w, macro, cfg)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/boersensignale/boersensignale/md/signals.py", line 160, in compute_all
-    bd = bonds(macro["us10"], macro["eu10"], ix, cfg["bonds"])
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/boersensignale/boersensignale/md/signals.py", line 90, in bonds
-    a, b = w(us10), w(eu10)
-           ^^^^^^^
-  File "/home/runner/work/boersensignale/boersensignale/md/signals.py", line 89, in <lambda>
-    w = lambda s: s.resample("W-FRI").last().ffill().reindex(idx).ffill()  # noqa: E731
-                  ^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'resample'
+2026-09-23 06:45:43,837 ERROR ['ECV.DE']: possibly delisted; no timezone found
+2026-09-23 06:46:11,684 ERROR $ROG.SW: possibly delisted; no timezone found
