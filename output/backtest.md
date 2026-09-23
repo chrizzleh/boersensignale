@@ -1,0 +1,43 @@
+# Backtest der Timing-Signale
+
+## System 1 (32 Wechsel seit 2014)
+2014-10-10 Verkauf, 2014-11-07 Kauf, 2014-12-19 Verkauf, 2015-01-02 Kauf, 2015-07-10 Verkauf, 2015-07-24 Kauf, 2015-08-14 Verkauf, 2015-10-30 Kauf, 2015-12-18 Verkauf, 2016-03-18 Kauf, 2016-06-24 Verkauf, 2016-07-08 Kauf, 2018-02-16 Verkauf, 2018-03-16 Kauf, 2018-03-30 Verkauf, 2018-05-11 Kauf, 2018-10-12 Verkauf, 2019-02-01 Kauf, 2020-03-06 Verkauf, 2020-06-05 Kauf, 2021-10-08 Verkauf, 2021-10-22 Kauf, 2022-01-28 Verkauf, 2022-08-05 Kauf, 2022-09-02 Verkauf, 2022-11-18 Kauf, 2023-09-29 Verkauf, 2023-11-24 Kauf, 2025-04-04 Verkauf, 2025-05-23 Kauf, 2026-03-20 Verkauf, 2026-04-17 Kauf
+
+## System 2 (20 Wechsel seit 2014)
+2016-05-06 Verkauf, 2016-06-24 Kauf, 2018-03-09 Verkauf, 2018-07-06 Kauf, 2020-06-05 Verkauf, 2020-08-28 Kauf, 2022-02-04 Verkauf, 2022-03-11 Kauf, 2022-05-20 Verkauf, 2022-07-01 Kauf, 2023-01-20 Verkauf, 2023-03-31 Kauf, 2023-04-14 Verkauf, 2023-12-08 Kauf, 2024-03-15 Verkauf, 2024-04-12 Kauf, 2024-06-21 Verkauf, 2024-07-26 Kauf, 2026-03-27 Verkauf, 2026-04-17 Kauf
+
+## Index-Trend (14 Wechsel seit 2014)
+2015-08-21 Verkauf, 2016-07-08 Kauf, 2018-03-02 Verkauf, 2018-07-06 Kauf, 2018-11-23 Verkauf, 2019-04-05 Kauf, 2020-03-13 Verkauf, 2020-08-28 Kauf, 2022-02-04 Verkauf, 2023-03-31 Kauf, 2023-09-29 Verkauf, 2023-12-08 Kauf, 2026-03-20 Verkauf, 2026-04-17 Kauf
+
+## Zinsstruktur (2 Wechsel seit 2014)
+2023-03-03 Verkauf, 2025-03-28 Kauf
+
+## Makro 5 (50 Wechsel seit 2014)
+2014-01-03 Kauf, 2014-02-21 Verkauf, 2014-03-14 Kauf, 2014-04-18 Verkauf, 2014-05-30 Kauf, 2014-06-20 Verkauf, 2014-07-04 Kauf, 2016-05-06 Verkauf, 2016-06-24 Kauf, 2016-08-19 Verkauf, 2016-08-26 Kauf, 2016-12-02 Verkauf, 2017-03-10 Kauf, 2017-03-17 Verkauf, 2017-12-01 Kauf, 2018-01-26 Verkauf, 2018-02-09 Kauf, 2018-03-09 Verkauf, 2018-07-20 Kauf, 2018-08-24 Verkauf, 2018-10-05 Kauf, 2019-12-13 Verkauf, 2020-01-17 Kauf, 2020-06-05 Verkauf, 2020-09-04 Kauf, 2021-01-22 Verkauf, 2021-03-19 Kauf, 2021-04-30 Verkauf, 2021-11-12 Kauf, 2022-01-07 Verkauf, 2022-03-11 Kauf, 2022-05-20 Verkauf, 2022-07-01 Kauf, 2023-01-20 Verkauf, 2023-03-17 Kauf, 2023-04-14 Verkauf, 2023-10-06 Kauf, 2024-03-15 Verkauf, 2024-04-12 Kauf, 2024-06-21 Verkauf, 2024-07-26 Kauf, 2025-05-02 Verkauf, 2025-10-03 Kauf, 2025-10-17 Verkauf, 2025-11-21 Kauf, 2026-01-23 Verkauf, 2026-03-13 Kauf, 2026-03-27 Verkauf, 2026-04-17 Kauf, 2026-05-01 Verkauf
+
+## Anleihen (10 Wechsel seit 2014)
+2014-03-14 Kauf, 2016-12-02 Verkauf, 2017-09-08 Kauf, 2018-01-26 Verkauf, 2018-07-06 Kauf, 2021-04-16 Verkauf, 2023-12-15 Kauf, 2025-03-07 Verkauf, 2026-02-27 Kauf, 2026-03-27 Verkauf
+
+## Öl (72 Wechsel seit 2014)
+2014-01-03 Kauf, 2014-02-21 Verkauf, 2014-03-14 Kauf, 2014-04-18 Verkauf, 2014-07-11 Kauf, 2015-02-20 Verkauf, 2015-03-13 Kauf, 2015-04-17 Verkauf, 2015-06-05 Kauf, 2015-10-09 Verkauf, 2015-11-06 Kauf, 2016-02-26 Verkauf, 2016-06-24 Kauf, 2016-08-19 Verkauf, 2016-09-16 Kauf, 2016-10-07 Verkauf, 2016-11-04 Kauf, 2016-12-02 Verkauf, 2017-03-10 Kauf, 2017-07-28 Verkauf, 2018-02-09 Kauf, 2018-03-23 Verkauf, 2018-06-15 Kauf, 2018-06-29 Verkauf, 2018-07-20 Kauf, 2018-08-24 Verkauf, 2018-10-26 Kauf, 2019-01-18 Verkauf, 2019-05-24 Kauf, 2019-07-12 Verkauf, 2019-08-02 Kauf, 2019-09-20 Verkauf, 2019-10-04 Kauf, 2019-11-08 Verkauf, 2020-01-17 Kauf, 2020-05-22 Verkauf, 2020-09-04 Kauf, 2020-11-20 Verkauf, 2021-04-09 Kauf, 2021-04-30 Verkauf, 2021-08-06 Kauf, 2021-09-17 Verkauf, 2021-11-12 Kauf, 2022-01-07 Verkauf, 2022-04-08 Kauf, 2022-05-20 Verkauf, 2022-07-01 Kauf, 2022-11-04 Verkauf, 2022-11-18 Kauf, 2023-01-20 Verkauf, 2023-03-17 Kauf, 2023-04-14 Verkauf, 2023-05-05 Kauf, 2023-07-07 Verkauf, 2023-10-06 Kauf, 2024-01-26 Verkauf, 2024-05-03 Kauf, 2024-06-21 Verkauf, 2024-07-26 Kauf, 2024-10-11 Verkauf, 2024-11-15 Kauf, 2025-01-03 Verkauf, 2025-02-07 Kauf, 2025-06-13 Verkauf, 2025-08-08 Kauf, 2025-09-26 Verkauf, 2025-10-03 Kauf, 2026-01-16 Verkauf, 2026-04-17 Kauf, 2026-05-15 Verkauf, 2026-05-29 Kauf, 2026-07-24 Verkauf
+
+## Dollar (25 Wechsel seit 2014)
+2014-05-30 Kauf, 2015-09-18 Verkauf, 2015-11-06 Kauf, 2016-02-05 Verkauf, 2016-07-01 Kauf, 2017-03-17 Verkauf, 2018-05-04 Kauf, 2019-12-13 Verkauf, 2020-02-07 Kauf, 2020-03-06 Verkauf, 2020-03-20 Kauf, 2020-06-05 Verkauf, 2021-03-19 Kauf, 2021-05-21 Verkauf, 2021-07-23 Kauf, 2022-11-18 Verkauf, 2023-09-08 Kauf, 2023-12-15 Verkauf, 2024-04-12 Kauf, 2024-07-19 Verkauf, 2024-11-15 Kauf, 2025-03-07 Verkauf, 2025-11-21 Kauf, 2026-01-30 Verkauf, 2026-03-13 Kauf
+
+## Rohstoffe (43 Wechsel seit 2014)
+2014-02-28 Verkauf, 2014-03-14 Kauf, 2014-04-04 Verkauf, 2014-05-30 Kauf, 2014-06-20 Verkauf, 2014-07-04 Kauf, 2016-08-19 Verkauf, 2016-08-26 Kauf, 2016-09-30 Verkauf, 2016-10-07 Kauf, 2016-10-14 Verkauf, 2016-11-04 Kauf, 2016-11-11 Verkauf, 2017-06-09 Kauf, 2017-07-07 Verkauf, 2017-08-18 Kauf, 2017-08-25 Verkauf, 2017-12-01 Kauf, 2018-03-09 Verkauf, 2018-03-30 Kauf, 2018-04-20 Verkauf, 2018-11-02 Kauf, 2019-11-22 Verkauf, 2020-01-24 Kauf, 2021-01-22 Verkauf, 2022-03-11 Kauf, 2024-03-15 Verkauf, 2024-07-19 Kauf, 2024-12-13 Verkauf, 2024-12-20 Kauf, 2024-12-27 Verkauf, 2025-02-28 Kauf, 2025-08-01 Verkauf, 2025-08-08 Kauf, 2025-08-22 Verkauf, 2025-10-03 Kauf, 2025-10-17 Verkauf, 2025-11-21 Kauf, 2025-11-28 Verkauf, 2025-12-12 Kauf, 2025-12-19 Verkauf, 2025-12-26 Kauf, 2026-01-23 Verkauf
+
+## Marktbreite (54 Wechsel seit 2014)
+2014-08-08 Verkauf, 2014-08-15 Kauf, 2014-10-03 Verkauf, 2014-10-31 Kauf, 2014-11-07 Verkauf, 2014-11-14 Kauf, 2014-12-12 Verkauf, 2014-12-26 Kauf, 2015-08-07 Verkauf, 2016-04-15 Kauf, 2016-05-06 Verkauf, 2016-05-27 Kauf, 2016-06-17 Verkauf, 2016-07-01 Kauf, 2016-07-08 Verkauf, 2016-07-15 Kauf, 2018-02-09 Verkauf, 2018-02-16 Kauf, 2018-03-02 Verkauf, 2018-03-09 Kauf, 2018-03-23 Verkauf, 2018-04-13 Kauf, 2018-06-29 Verkauf, 2018-07-13 Kauf, 2018-08-17 Verkauf, 2018-08-24 Kauf, 2018-08-31 Verkauf, 2018-09-21 Kauf, 2018-10-05 Verkauf, 2019-02-22 Kauf, 2019-03-08 Verkauf, 2019-03-15 Kauf, 2020-02-28 Verkauf, 2020-06-05 Kauf, 2020-06-12 Verkauf, 2020-07-17 Kauf, 2020-10-30 Verkauf, 2020-11-06 Kauf, 2022-01-21 Verkauf, 2022-11-11 Kauf, 2022-11-18 Verkauf, 2022-11-25 Kauf, 2022-12-16 Verkauf, 2023-01-06 Kauf, 2023-03-17 Verkauf, 2023-03-24 Kauf, 2023-08-18 Verkauf, 2023-08-25 Kauf, 2023-09-22 Verkauf, 2023-11-24 Kauf, 2025-04-04 Verkauf, 2025-05-02 Kauf, 2026-03-20 Verkauf, 2026-04-10 Kauf
+
+## Hoch-Tief (39 Wechsel seit 2014)
+2015-08-28 Verkauf, 2015-10-23 Kauf, 2015-12-25 Verkauf, 2016-03-11 Kauf, 2017-08-11 Verkauf, 2017-09-22 Kauf, 2018-02-16 Verkauf, 2018-03-09 Kauf, 2018-03-23 Verkauf, 2018-03-30 Kauf, 2018-04-06 Verkauf, 2018-04-20 Kauf, 2018-10-12 Verkauf, 2018-11-23 Kauf, 2018-12-07 Verkauf, 2019-01-25 Kauf, 2020-03-13 Verkauf, 2020-05-01 Kauf, 2022-03-04 Verkauf, 2022-03-25 Kauf, 2022-05-06 Verkauf, 2022-07-29 Kauf, 2022-09-16 Verkauf, 2022-11-11 Kauf, 2022-12-23 Verkauf, 2023-01-13 Kauf, 2023-03-24 Verkauf, 2023-04-14 Kauf, 2023-08-25 Verkauf, 2023-09-01 Kauf, 2023-10-06 Verkauf, 2023-11-24 Kauf, 2025-01-10 Verkauf, 2025-01-17 Kauf, 2025-03-28 Verkauf, 2025-05-09 Kauf, 2026-03-27 Verkauf, 2026-04-17 Kauf, 2026-09-18 Verkauf
+
+## Referenz aus dem Original
+- system1: 2016-03-11 Kauf, 2018-07-06 Verkauf
+- system2: 2016-02-05 Verkauf, 2016-03-11 Kauf, 2018-11-30 Verkauf
+- index_trend: 2015-09-01 Verkauf, 2016-07-08 Kauf, 2018-11-23 Verkauf
+- yield_curve: 2009-03-20 Kauf
+- ACWI ab 2010: Kaufen+Halten +422.3% (max. DD -32.1%), mit Aktienquote +266.2% (max. DD -22.0%), Ø Quote 83%
+- ACWI ab 2015: Kaufen+Halten +234.3% (max. DD -32.1%), mit Aktienquote +164.9% (max. DD -22.0%), Ø Quote 81%
+- ACWI ab 2020: Kaufen+Halten +123.6% (max. DD -32.1%), mit Aktienquote +75.7% (max. DD -22.0%), Ø Quote 78%
