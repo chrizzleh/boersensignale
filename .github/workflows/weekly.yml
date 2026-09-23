@@ -1,0 +1,56 @@
+name: Musterdepot Wochenlauf
+
+on:
+  schedule:
+    - cron: "0 5 * * 6"      # jeden Samstag 05:00 UTC (07:00 Uhr MESZ) nach Freitagsschluss
+  workflow_dispatch:
+    inputs:
+      backtest:
+        description: "Zusätzlich Backtest der Signale rechnen"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["config.yaml", "md/**", "run_weekly.py", ".github/workflows/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: musterdepot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Systembibliotheken für PDF
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq libpango-1.0-0 libpangoft2-1.0-0 fonts-dejavu-core > /dev/null
+      - run: pip install -q -r requirements.txt
+      - name: Wochenlauf
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          mkdir -p output
+          set -o pipefail
+          python run_weekly.py 2>&1 | tee output/run_log.txt
+      - name: Backtest (bei Code-Änderungen oder auf Wunsch)
+        if: github.event_name == 'push' || inputs.backtest
+        continue-on-error: true
+        run: python run_weekly.py --backtest 2>&1 | tail -80 > output/backtest_log.txt
+      - name: Ergebnisse speichern
+        if: always()
+        run: |
+          git config user.name "musterdepot-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A .
+          git commit -m "Wochenlauf $(date +%F)" || echo "nichts zu committen"
+          git pull --rebase -q && git push
