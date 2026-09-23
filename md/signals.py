@@ -60,10 +60,12 @@ def index_trend(idx_w: pd.DataFrame, cfg) -> tuple[pd.Series, pd.DataFrame, pd.D
         per[name] = hold_state(s > high, s < low).reindex(idx_w.index).ffill()
         dist[name] = (low / s - 1).reindex(idx_w.index)  # nötiger Rückgang bis zur Verkaufsschwelle
     per = pd.DataFrame(per)
-    votes = per.fillna(0).sum(axis=1)
     need = cfg["votes_needed"]
     buy = (per == 1).sum(axis=1) >= need
     sell = (per == -1).sum(axis=1) >= need
+    for req in cfg.get("sell_requires", []):  # z. B. Nasdaq als maßgeblicher Frühwarnindex
+        if req in per:
+            sell &= per[req] == -1
     total = hold_state(buy, sell)
     return total, per, pd.DataFrame(dist)
 

@@ -111,7 +111,6 @@ TEMPLATE = r"""<!doctype html><html lang="de"><head><meta charset="utf-8">
  .sig td { font-size: 14px; padding: 6px; } .muted { color: {{ GREY }}; font-size: 11px; }
  .box { background:#f3f5fa; border-left: 4px solid {{ NAVY }}; padding: 8px 12px; margin: 10px 0; }
  img { width: 100%; } .grid { display:grid; grid-template-columns: 1fr 1fr; gap: 14px; }
- @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } table { font-size: 11px; } }
  .pb { page-break-before: always; }
 </style></head><body>
 <div class="head"><h1>Musterdepot · Lang-Signale</h1><div>Ausgabe vom <b>{{ d(r.asof) }}</b></div></div>
@@ -153,7 +152,7 @@ Brent {{ n(r.details.brent,1) }} USD · EUR/USD {{ n(r.details.eurusd,4) }}</p>
 <img src="{{ chart_depots }}" alt="Depotentwicklung">
 
 {% for name, dep in r.depots.items() %}
-<h2>Musterdepot – {{ name|capitalize }}</h2>
+<h2>{{ dep.label or name }}</h2>
 <table><tr><th>Aktie</th><th>Ticker</th><th class="n">RSL</th><th>Kaufdatum</th><th class="n">Kurs bei Kauf*</th><th class="n">Stück</th><th class="n">Kurs aktuell</th><th class="n">G/V {{ r.asof[:4] }}</th></tr>
 {% for pz in dep.positions %}<tr><td>{{ pz.name }}</td><td>{{ pz.ticker }}</td><td class="n">{{ n(pz.rsl*100) }}</td><td>{{ d(pz.buy_date) }}</td>
 <td class="n">{{ n(pz.year_start_price_eur,3) }} €</td><td class="n">{{ '%d' % pz.shares }}</td><td class="n">{{ n(pz.last_price_eur,3) }} €</td>
