@@ -1,0 +1,143 @@
+{
+ "name": "mein_depot",
+ "cash": 7816.996287057022,
+ "positions": [
+  {
+   "ticker": "SAP.DE",
+   "name": "SAP",
+   "shares": 6.0,
+   "buy_date": "2026-07-02",
+   "buy_price_eur": 142.46,
+   "year_start_price_eur": 185.9199981689453,
+   "last_price_eur": 185.9199981689453,
+   "buy_rsl": null,
+   "fees_eur": 0.0,
+   "initial": true
+  },
+  {
+   "ticker": "JEN.DE",
+   "name": "Jenoptik",
+   "shares": 10.0,
+   "buy_date": "2026-08-27",
+   "buy_price_eur": 42.07,
+   "year_start_price_eur": 40.68000030517578,
+   "last_price_eur": 40.68000030517578,
+   "buy_rsl": null,
+   "fees_eur": 0.0,
+   "initial": true
+  },
+  {
+   "ticker": "2269.HK",
+   "name": "WuXi Biologics",
+   "shares": 743,
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 5.941604252118602,
+   "year_start_price_eur": 5.941604252118602,
+   "last_price_eur": 5.941604252118602,
+   "buy_rsl": 1.3873531572668796,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "VLO",
+   "name": "Valero Energy",
+   "shares": 12,
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 340.3854210836198,
+   "year_start_price_eur": 340.3854210836198,
+   "last_price_eur": 340.3854210836198,
+   "buy_rsl": 1.3645605891184207,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "IQV",
+   "name": "IQVIA",
+   "shares": 18,
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 237.6930791292324,
+   "year_start_price_eur": 237.6930791292324,
+   "last_price_eur": 237.6930791292324,
+   "buy_rsl": 1.3369395107636166,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "A",
+   "name": "Agilent Technologies",
+   "shares": 29,
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 151.9065957341115,
+   "year_start_price_eur": 151.9065957341115,
+   "last_price_eur": 151.9065957341115,
+   "buy_rsl": 1.316229585361321,
+   "fees_eur": 0.0
+  }
+ ],
+ "year": 2026,
+ "year_start_value": 26522.31999206543,
+ "yearly_perf": {},
+ "history": [
+  {
+   "date": "2026-09-25",
+   "value": 26522.32,
+   "cash": 7817.0,
+   "quota": 1.0
+  }
+ ],
+ "closed": [],
+ "last_sold": {},
+ "start_date": "2026-09-25",
+ "capital": 25000.0,
+ "start_value": 26522.31999206543,
+ "year_reset": false,
+ "realized_eur": 0.0,
+ "fees_eur": 0.0,
+ "transactions": [
+  {
+   "date": "2026-09-25",
+   "action": "Kauf",
+   "ticker": "2269.HK",
+   "name": "WuXi Biologics",
+   "shares": 743,
+   "price_eur": 5.942,
+   "price_local": 53.0,
+   "reason": "RSL 1.39, Rang-Perzentil 98.6%",
+   "gain": null,
+   "amount_eur": 4414.61
+  },
+  {
+   "date": "2026-09-25",
+   "action": "Kauf",
+   "ticker": "VLO",
+   "name": "Valero Energy",
+   "shares": 12,
+   "price_eur": 340.385,
+   "price_local": 387.17999267578125,
+   "reason": "RSL 1.36, Rang-Perzentil 98.2%",
+   "gain": null,
+   "amount_eur": 4084.63
+  },
+  {
+   "date": "2026-09-25",
+   "action": "Kauf",
+   "ticker": "IQV",
+   "name": "IQVIA",
+   "shares": 18,
+   "price_eur": 237.693,
+   "price_local": 270.3699951171875,
+   "reason": "RSL 1.34, Rang-Perzentil 97.8%",
+   "gain": null,
+   "amount_eur": 4278.48
+  },
+  {
+   "date": "2026-09-25",
+   "action": "Kauf",
+   "ticker": "A",
+   "name": "Agilent Technologies",
+   "shares": 29,
+   "price_eur": 151.907,
+   "price_local": 172.7899932861328,
+   "reason": "RSL 1.32, Rang-Perzentil 97.4%",
+   "gain": null,
+   "amount_eur": 4405.29
+  }
+ ]
+}
