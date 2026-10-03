@@ -1,18 +1,7 @@
 {
  "name": "konservativ",
- "cash": 51.769571475508656,
+ "cash": 560.0904240461819,
  "positions": [
-  {
-   "ticker": "NUE",
-   "name": "Nucor",
-   "shares": 16,
-   "buy_date": "2026-06-05",
-   "buy_price_eur": 218.5261562100545,
-   "year_start_price_eur": 218.5261562100545,
-   "last_price_eur": 217.36736648321488,
-   "buy_rsl": 1.3625021958637387,
-   "fees_eur": 0.0
-  },
   {
    "ticker": "6752.T",
    "name": "Panasonic",
@@ -20,7 +9,7 @@
    "buy_date": "2026-07-03",
    "buy_price_eur": 24.5223776348186,
    "year_start_price_eur": 24.5223776348186,
-   "last_price_eur": 25.61454182146918,
+   "last_price_eur": 25.71710063335679,
    "buy_rsl": 1.520872392480966,
    "fees_eur": 0.0
   },
@@ -31,7 +20,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 86.26000213623047,
    "year_start_price_eur": 86.26000213623047,
-   "last_price_eur": 97.77999877929688,
+   "last_price_eur": 96.16000366210938,
    "buy_rsl": 1.2969140802079702,
    "fees_eur": 0.0
   },
@@ -42,7 +31,7 @@
    "buy_date": "2026-07-31",
    "buy_price_eur": 19.429507329341504,
    "year_start_price_eur": 19.429507329341504,
-   "last_price_eur": 21.99017548043437,
+   "last_price_eur": 21.987637304070276,
    "buy_rsl": 1.268059817466986,
    "fees_eur": 0.0
   },
@@ -53,7 +42,7 @@
    "buy_date": "2026-08-21",
    "buy_price_eur": 160.2520058193853,
    "year_start_price_eur": 160.2520058193853,
-   "last_price_eur": 138.43817781780734,
+   "last_price_eur": 144.28656675957066,
    "buy_rsl": 1.3077730888493186,
    "fees_eur": 0.0
   },
@@ -64,8 +53,19 @@
    "buy_date": "2026-08-28",
    "buy_price_eur": 66.15485268664597,
    "year_start_price_eur": 66.15485268664597,
-   "last_price_eur": 62.833913949030624,
+   "last_price_eur": 63.609188817907146,
    "buy_rsl": 1.4073948493664035,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "shares": 5,
+   "buy_date": "2026-10-02",
+   "buy_price_eur": 581.6588463526003,
+   "year_start_price_eur": 581.6588463526003,
+   "last_price_eur": 581.6588463526003,
+   "buy_rsl": 1.245367592929613,
    "fees_eur": 0.0
   }
  ],
@@ -306,6 +306,12 @@
    "value": 20819.05,
    "cash": 51.77,
    "quota": 1.0
+  },
+  {
+   "date": "2026-10-02",
+   "value": 20863.99,
+   "cash": 560.09,
+   "quota": 1.0
   }
  ],
  "closed": [
@@ -542,6 +548,19 @@
    "gain": -0.09874343635371208,
    "pnl_eur": -348.92,
    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 67%)"
+  },
+  {
+   "ticker": "NUE",
+   "name": "Nucor",
+   "buy_date": "2026-06-05",
+   "buy_price_eur": 218.5261562100545,
+   "buy_rsl": 1.3625021958637387,
+   "shares": 16,
+   "sell_date": "2026-10-02",
+   "sell_price_eur": 213.538,
+   "gain": -0.02282433153862573,
+   "pnl_eur": -79.8,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 68%)"
   }
  ],
  "last_sold": {
@@ -561,13 +580,14 @@
   "STLD": "2026-07-03",
   "PWR": "2026-07-17",
   "FFIV": "2026-08-21",
-  "WST": "2026-08-28"
+  "WST": "2026-08-28",
+  "NUE": "2026-10-02"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": -4626.846886145789,
+ "realized_eur": -4706.650301172986,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -1073,6 +1093,30 @@
    "reason": "RSL 1.41, Rang-Perzentil 98.9%",
    "gain": null,
    "amount_eur": 3241.59
+  },
+  {
+   "date": "2026-10-02",
+   "action": "Verkauf",
+   "ticker": "NUE",
+   "name": "Nucor",
+   "shares": 16,
+   "price_eur": 213.538,
+   "price_local": 240.38999938964844,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 68%)",
+   "gain": -0.02282433153862573,
+   "pnl_eur": -79.8
+  },
+  {
+   "date": "2026-10-02",
+   "action": "Kauf",
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "shares": 5,
+   "price_eur": 581.659,
+   "price_local": 654.7999877929688,
+   "reason": "RSL 1.25, Rang-Perzentil 95.8%",
+   "gain": null,
+   "amount_eur": 2908.29
   }
  ]
 }
