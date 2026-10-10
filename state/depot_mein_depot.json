@@ -1,6 +1,6 @@
 {
  "name": "mein_depot",
- "cash": 7816.996287057022,
+ "cash": 3742.735511393378,
  "positions": [
   {
    "ticker": "SAP.DE",
@@ -9,19 +9,7 @@
    "buy_date": "2026-07-02",
    "buy_price_eur": 142.46,
    "year_start_price_eur": 185.9199981689453,
-   "last_price_eur": 183.9199981689453,
-   "buy_rsl": null,
-   "fees_eur": 0.0,
-   "initial": true
-  },
-  {
-   "ticker": "JEN.DE",
-   "name": "Jenoptik",
-   "shares": 10.0,
-   "buy_date": "2026-08-27",
-   "buy_price_eur": 42.07,
-   "year_start_price_eur": 40.68000030517578,
-   "last_price_eur": 43.84000015258789,
+   "last_price_eur": 191.4600067138672,
    "buy_rsl": null,
    "fees_eur": 0.0,
    "initial": true
@@ -33,7 +21,7 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 5.941604252118602,
    "year_start_price_eur": 5.941604252118602,
-   "last_price_eur": 6.181653206218547,
+   "last_price_eur": 6.12010382511529,
    "buy_rsl": 1.3873531572668796,
    "fees_eur": 0.0
   },
@@ -44,7 +32,7 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 340.3854210836198,
    "year_start_price_eur": 340.3854210836198,
-   "last_price_eur": 360.91628982658864,
+   "last_price_eur": 387.0784912512205,
    "buy_rsl": 1.3645605891184207,
    "fees_eur": 0.0
   },
@@ -55,7 +43,7 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 237.6930791292324,
    "year_start_price_eur": 237.6930791292324,
-   "last_price_eur": 229.36794219055767,
+   "last_price_eur": 231.916911115617,
    "buy_rsl": 1.3369395107636166,
    "fees_eur": 0.0
   },
@@ -66,8 +54,19 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 151.9065957341115,
    "year_start_price_eur": 151.9065957341115,
-   "last_price_eur": 149.0389773218234,
+   "last_price_eur": 152.18988656873674,
    "buy_rsl": 1.316229585361321,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "shares": 18,
+   "buy_date": "2026-10-09",
+   "buy_price_eur": 248.2478198529498,
+   "year_start_price_eur": 248.2478198529498,
+   "last_price_eur": 248.2478198529498,
+   "buy_rsl": 1.3971305711439463,
    "fees_eur": 0.0
   }
  ],
@@ -86,15 +85,37 @@
    "value": 26733.63,
    "cash": 7817.0,
    "quota": 1.0
+  },
+  {
+   "date": "2026-10-09",
+   "value": 27140.15,
+   "cash": 3742.74,
+   "quota": 1.0
   }
  ],
- "closed": [],
- "last_sold": {},
+ "closed": [
+  {
+   "ticker": "JEN.DE",
+   "name": "Jenoptik",
+   "buy_date": "2026-08-27",
+   "buy_price_eur": 42.07,
+   "buy_rsl": null,
+   "shares": 10.0,
+   "sell_date": "2026-10-09",
+   "sell_price_eur": 39.42,
+   "gain": -0.06299029786200827,
+   "pnl_eur": -26.5,
+   "reason": "RSL 0.98 unter 1.00"
+  }
+ ],
+ "last_sold": {
+  "JEN.DE": "2026-10-09"
+ },
  "start_date": "2026-09-25",
  "capital": 25000.0,
  "start_value": 26522.31999206543,
  "year_reset": false,
- "realized_eur": 0.0,
+ "realized_eur": -26.500018310546878,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -144,6 +165,30 @@
    "reason": "RSL 1.32, Rang-Perzentil 97.4%",
    "gain": null,
    "amount_eur": 4405.29
+  },
+  {
+   "date": "2026-10-09",
+   "action": "Verkauf",
+   "ticker": "JEN.DE",
+   "name": "Jenoptik",
+   "shares": 10.0,
+   "price_eur": 39.42,
+   "price_local": 39.41999816894531,
+   "reason": "RSL 0.98 unter 1.00",
+   "gain": -0.06299029786200827,
+   "pnl_eur": -26.5
+  },
+  {
+   "date": "2026-10-09",
+   "action": "Kauf",
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "shares": 18,
+   "price_eur": 248.248,
+   "price_local": 278.17999267578125,
+   "reason": "RSL 1.40, Rang-Perzentil 98.2%",
+   "gain": null,
+   "amount_eur": 4468.46
   }
  ]
 }

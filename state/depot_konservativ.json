@@ -9,7 +9,7 @@
    "buy_date": "2026-07-03",
    "buy_price_eur": 24.5223776348186,
    "year_start_price_eur": 24.5223776348186,
-   "last_price_eur": 25.71710063335679,
+   "last_price_eur": 25.114258913839024,
    "buy_rsl": 1.520872392480966,
    "fees_eur": 0.0
   },
@@ -20,7 +20,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 86.26000213623047,
    "year_start_price_eur": 86.26000213623047,
-   "last_price_eur": 96.16000366210938,
+   "last_price_eur": 100.6500015258789,
    "buy_rsl": 1.2969140802079702,
    "fees_eur": 0.0
   },
@@ -31,7 +31,7 @@
    "buy_date": "2026-07-31",
    "buy_price_eur": 19.429507329341504,
    "year_start_price_eur": 19.429507329341504,
-   "last_price_eur": 21.987637304070276,
+   "last_price_eur": 20.19822067413521,
    "buy_rsl": 1.268059817466986,
    "fees_eur": 0.0
   },
@@ -42,7 +42,7 @@
    "buy_date": "2026-08-21",
    "buy_price_eur": 160.2520058193853,
    "year_start_price_eur": 160.2520058193853,
-   "last_price_eur": 144.28656675957066,
+   "last_price_eur": 148.02238029696426,
    "buy_rsl": 1.3077730888493186,
    "fees_eur": 0.0
   },
@@ -53,7 +53,7 @@
    "buy_date": "2026-08-28",
    "buy_price_eur": 66.15485268664597,
    "year_start_price_eur": 66.15485268664597,
-   "last_price_eur": 63.609188817907146,
+   "last_price_eur": 65.59430913037139,
    "buy_rsl": 1.4073948493664035,
    "fees_eur": 0.0
   },
@@ -64,7 +64,7 @@
    "buy_date": "2026-10-02",
    "buy_price_eur": 581.6588463526003,
    "year_start_price_eur": 581.6588463526003,
-   "last_price_eur": 581.6588463526003,
+   "last_price_eur": 587.21705215736,
    "buy_rsl": 1.245367592929613,
    "fees_eur": 0.0
   }
@@ -310,6 +310,12 @@
   {
    "date": "2026-10-02",
    "value": 20863.99,
+   "cash": 560.09,
+   "quota": 1.0
+  },
+  {
+   "date": "2026-10-09",
+   "value": 20832.95,
    "cash": 560.09,
    "quota": 1.0
   }

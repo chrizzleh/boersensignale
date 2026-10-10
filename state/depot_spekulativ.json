@@ -1,6 +1,6 @@
 {
  "name": "spekulativ",
- "cash": 110.55798251471379,
+ "cash": 95.08344332589695,
  "positions": [
   {
    "ticker": "ATS.VI",
@@ -9,19 +9,8 @@
    "buy_date": "2026-04-17",
    "buy_price_eur": 84.69999694824219,
    "year_start_price_eur": 84.69999694824219,
-   "last_price_eur": 223.0,
+   "last_price_eur": 215.0,
    "buy_rsl": 2.046717619758352,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "STX",
-   "name": "Seagate Technology",
-   "shares": 13,
-   "buy_date": "2026-04-17",
-   "buy_price_eur": 464.544184034347,
-   "year_start_price_eur": 464.544184034347,
-   "last_price_eur": 754.1578306210449,
-   "buy_rsl": 1.5860134756040702,
    "fees_eur": 0.0
   },
   {
@@ -31,7 +20,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 313.40382039390545,
    "year_start_price_eur": 313.40382039390545,
-   "last_price_eur": 358.1980939149293,
+   "last_price_eur": 373.7192624638114,
    "buy_rsl": 1.6857415229074324,
    "fees_eur": 0.0
   },
@@ -42,7 +31,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 345.73867045758976,
    "year_start_price_eur": 345.73867045758976,
-   "last_price_eur": 499.6865481222944,
+   "last_price_eur": 522.9999300004022,
    "buy_rsl": 1.6678615317026506,
    "fees_eur": 0.0
   },
@@ -53,7 +42,7 @@
    "buy_date": "2026-07-31",
    "buy_price_eur": 2.6048375395109065,
    "year_start_price_eur": 2.6048375395109065,
-   "last_price_eur": 3.889172119489139,
+   "last_price_eur": 3.73229742331799,
    "buy_rsl": 1.564990537880528,
    "fees_eur": 0.0
   },
@@ -64,8 +53,19 @@
    "buy_date": "2026-09-04",
    "buy_price_eur": 125.16863129112446,
    "year_start_price_eur": 125.16863129112446,
-   "last_price_eur": 168.78588311039198,
+   "last_price_eur": 200.7899954617282,
    "buy_rsl": 2.2339868840933157,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "P",
+   "name": "Everpure",
+   "shares": 66,
+   "buy_date": "2026-10-09",
+   "buy_price_eur": 137.86687778602123,
+   "year_start_price_eur": 137.86687778602123,
+   "last_price_eur": 137.86687778602123,
+   "buy_rsl": 1.7938751169942944,
    "fees_eur": 0.0
   }
  ],
@@ -312,6 +312,12 @@
    "value": 58846.05,
    "cash": 110.56,
    "quota": 1.0
+  },
+  {
+   "date": "2026-10-09",
+   "value": 58519.25,
+   "cash": 95.08,
+   "quota": 1.0
   }
  ],
  "closed": [
@@ -457,6 +463,19 @@
    "gain": -0.18989120966902007,
    "pnl_eur": -429.22,
    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 60%)"
+  },
+  {
+   "ticker": "STX",
+   "name": "Seagate Technology",
+   "buy_date": "2026-04-17",
+   "buy_price_eur": 464.544184034347,
+   "buy_rsl": 1.5860134756040702,
+   "shares": 13,
+   "sell_date": "2026-10-09",
+   "sell_price_eur": 698.749,
+   "gain": 0.5041608704225018,
+   "pnl_eur": 3044.67,
+   "reason": "RSL 0.98 unter 1.00"
   }
  ],
  "last_sold": {
@@ -470,13 +489,14 @@
   "COHR": "2026-07-17",
   "BE": "2026-07-17",
   "SNDK": "2026-07-31",
-  "DDOG": "2026-09-04"
+  "DDOG": "2026-09-04",
+  "STX": "2026-10-09"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": 11532.816220765928,
+ "realized_eur": 14577.481223008002,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -814,6 +834,30 @@
    "reason": "RSL 2.23, Rang-Perzentil 100.0%",
    "gain": null,
    "amount_eur": 2002.7
+  },
+  {
+   "date": "2026-10-09",
+   "action": "Verkauf",
+   "ticker": "STX",
+   "name": "Seagate Technology",
+   "shares": 13,
+   "price_eur": 698.749,
+   "price_local": 783.0,
+   "reason": "RSL 0.98 unter 1.00",
+   "gain": 0.5041608704225018,
+   "pnl_eur": 3044.67
+  },
+  {
+   "date": "2026-10-09",
+   "action": "Kauf",
+   "ticker": "P",
+   "name": "Everpure",
+   "shares": 66,
+   "price_eur": 137.867,
+   "price_local": 154.49000549316406,
+   "reason": "RSL 1.79, Rang-Perzentil 99.9%",
+   "gain": null,
+   "amount_eur": 9099.21
   }
  ]
 }
