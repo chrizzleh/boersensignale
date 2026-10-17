@@ -1,18 +1,7 @@
 {
  "name": "konservativ",
- "cash": 560.0904240461819,
+ "cash": 401.44111714149176,
  "positions": [
-  {
-   "ticker": "6752.T",
-   "name": "Panasonic",
-   "shares": 145,
-   "buy_date": "2026-07-03",
-   "buy_price_eur": 24.5223776348186,
-   "year_start_price_eur": 24.5223776348186,
-   "last_price_eur": 25.114258913839024,
-   "buy_rsl": 1.520872392480966,
-   "fees_eur": 0.0
-  },
   {
    "ticker": "DSFIR.AS",
    "name": "DSM Firmenich AG",
@@ -20,7 +9,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 86.26000213623047,
    "year_start_price_eur": 86.26000213623047,
-   "last_price_eur": 100.6500015258789,
+   "last_price_eur": 107.05000305175781,
    "buy_rsl": 1.2969140802079702,
    "fees_eur": 0.0
   },
@@ -31,7 +20,7 @@
    "buy_date": "2026-07-31",
    "buy_price_eur": 19.429507329341504,
    "year_start_price_eur": 19.429507329341504,
-   "last_price_eur": 20.19822067413521,
+   "last_price_eur": 20.174754590702815,
    "buy_rsl": 1.268059817466986,
    "fees_eur": 0.0
   },
@@ -42,7 +31,7 @@
    "buy_date": "2026-08-21",
    "buy_price_eur": 160.2520058193853,
    "year_start_price_eur": 160.2520058193853,
-   "last_price_eur": 148.02238029696426,
+   "last_price_eur": 154.48877298735624,
    "buy_rsl": 1.3077730888493186,
    "fees_eur": 0.0
   },
@@ -53,7 +42,7 @@
    "buy_date": "2026-08-28",
    "buy_price_eur": 66.15485268664597,
    "year_start_price_eur": 66.15485268664597,
-   "last_price_eur": 65.59430913037139,
+   "last_price_eur": 60.48028628890975,
    "buy_rsl": 1.4073948493664035,
    "fees_eur": 0.0
   },
@@ -64,8 +53,19 @@
    "buy_date": "2026-10-02",
    "buy_price_eur": 581.6588463526003,
    "year_start_price_eur": 581.6588463526003,
-   "last_price_eur": 587.21705215736,
+   "last_price_eur": 613.6859829251398,
    "buy_rsl": 1.245367592929613,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "shares": 13,
+   "buy_date": "2026-10-16",
+   "buy_price_eur": 260.7454026877908,
+   "year_start_price_eur": 260.7454026877908,
+   "last_price_eur": 260.7454026877908,
+   "buy_rsl": 1.429892147889684,
    "fees_eur": 0.0
   }
  ],
@@ -318,6 +318,12 @@
    "value": 20832.95,
    "cash": 560.09,
    "quota": 1.0
+  },
+  {
+   "date": "2026-10-16",
+   "value": 20678.93,
+   "cash": 401.44,
+   "quota": 1.0
   }
  ],
  "closed": [
@@ -567,6 +573,19 @@
    "gain": -0.02282433153862573,
    "pnl_eur": -79.8,
    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 68%)"
+  },
+  {
+   "ticker": "6752.T",
+   "name": "Panasonic",
+   "buy_date": "2026-07-03",
+   "buy_price_eur": 24.5223776348186,
+   "buy_rsl": 1.520872392480966,
+   "shares": 145,
+   "sell_date": "2026-10-16",
+   "sell_price_eur": 22.283,
+   "gain": -0.09131809260730361,
+   "pnl_eur": -324.7,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 49%)"
   }
  ],
  "last_sold": {
@@ -587,13 +606,14 @@
   "PWR": "2026-07-17",
   "FFIV": "2026-08-21",
   "WST": "2026-08-28",
-  "NUE": "2026-10-02"
+  "NUE": "2026-10-02",
+  "6752.T": "2026-10-16"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": -4706.650301172986,
+ "realized_eur": -5031.354130185093,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -1123,6 +1143,30 @@
    "reason": "RSL 1.25, Rang-Perzentil 95.8%",
    "gain": null,
    "amount_eur": 2908.29
+  },
+  {
+   "date": "2026-10-16",
+   "action": "Verkauf",
+   "ticker": "6752.T",
+   "name": "Panasonic",
+   "shares": 145,
+   "price_eur": 22.283,
+   "price_local": 3957.0,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 49%)",
+   "gain": -0.09131809260730361,
+   "pnl_eur": -324.7
+  },
+  {
+   "date": "2026-10-16",
+   "action": "Kauf",
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "shares": 13,
+   "price_eur": 260.745,
+   "price_local": 293.1700134277344,
+   "reason": "RSL 1.43, Rang-Perzentil 99.5%",
+   "gain": null,
+   "amount_eur": 3389.69
   }
  ]
 }
