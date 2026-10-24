@@ -1,6 +1,6 @@
 {
  "name": "konservativ",
- "cash": 401.44111714149176,
+ "cash": 1.9167869116686234,
  "positions": [
   {
    "ticker": "DSFIR.AS",
@@ -9,7 +9,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 86.26000213623047,
    "year_start_price_eur": 86.26000213623047,
-   "last_price_eur": 107.05000305175781,
+   "last_price_eur": 108.9000015258789,
    "buy_rsl": 1.2969140802079702,
    "fees_eur": 0.0
   },
@@ -20,7 +20,7 @@
    "buy_date": "2026-07-31",
    "buy_price_eur": 19.429507329341504,
    "year_start_price_eur": 19.429507329341504,
-   "last_price_eur": 20.174754590702815,
+   "last_price_eur": 20.245741580157265,
    "buy_rsl": 1.268059817466986,
    "fees_eur": 0.0
   },
@@ -31,19 +31,8 @@
    "buy_date": "2026-08-21",
    "buy_price_eur": 160.2520058193853,
    "year_start_price_eur": 160.2520058193853,
-   "last_price_eur": 154.48877298735624,
+   "last_price_eur": 153.51891291425545,
    "buy_rsl": 1.3077730888493186,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "CCC.L",
-   "name": "Computacenter",
-   "shares": 49,
-   "buy_date": "2026-08-28",
-   "buy_price_eur": 66.15485268664597,
-   "year_start_price_eur": 66.15485268664597,
-   "last_price_eur": 60.48028628890975,
-   "buy_rsl": 1.4073948493664035,
    "fees_eur": 0.0
   },
   {
@@ -53,7 +42,7 @@
    "buy_date": "2026-10-02",
    "buy_price_eur": 581.6588463526003,
    "year_start_price_eur": 581.6588463526003,
-   "last_price_eur": 613.6859829251398,
+   "last_price_eur": 601.3843283983053,
    "buy_rsl": 1.245367592929613,
    "fees_eur": 0.0
   },
@@ -64,8 +53,19 @@
    "buy_date": "2026-10-16",
    "buy_price_eur": 260.7454026877908,
    "year_start_price_eur": 260.7454026877908,
-   "last_price_eur": 260.7454026877908,
+   "last_price_eur": 252.738131637607,
    "buy_rsl": 1.429892147889684,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "WKL.AS",
+   "name": "Wolters Kluwer",
+   "shares": 35,
+   "buy_date": "2026-10-23",
+   "buy_price_eur": 88.18000030517578,
+   "year_start_price_eur": 88.18000030517578,
+   "last_price_eur": 88.18000030517578,
+   "buy_rsl": 1.3446313043328875,
    "fees_eur": 0.0
   }
  ],
@@ -323,6 +323,12 @@
    "date": "2026-10-16",
    "value": 20678.93,
    "cash": 401.44,
+   "quota": 1.0
+  },
+  {
+   "date": "2026-10-23",
+   "value": 20301.95,
+   "cash": 1.92,
    "quota": 1.0
   }
  ],
@@ -586,6 +592,19 @@
    "gain": -0.09131809260730361,
    "pnl_eur": -324.7,
    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 49%)"
+  },
+  {
+   "ticker": "CCC.L",
+   "name": "Computacenter",
+   "buy_date": "2026-08-28",
+   "buy_price_eur": 66.15485268664597,
+   "buy_rsl": 1.4073948493664035,
+   "shares": 49,
+   "sell_date": "2026-10-23",
+   "sell_price_eur": 54.832,
+   "gain": -0.1711544275727318,
+   "pnl_eur": -554.81,
+   "reason": "RSL 1.00 unter 1.00"
   }
  ],
  "last_sold": {
@@ -607,13 +626,14 @@
   "FFIV": "2026-08-21",
   "WST": "2026-08-28",
   "NUE": "2026-10-02",
-  "6752.T": "2026-10-16"
+  "6752.T": "2026-10-16",
+  "CCC.L": "2026-10-23"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": -5031.354130185093,
+ "realized_eur": -5586.166231379416,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -1167,6 +1187,30 @@
    "reason": "RSL 1.43, Rang-Perzentil 99.5%",
    "gain": null,
    "amount_eur": 3389.69
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Verkauf",
+   "ticker": "CCC.L",
+   "name": "Computacenter",
+   "shares": 49,
+   "price_eur": 54.832,
+   "price_local": 4590.0,
+   "reason": "RSL 1.00 unter 1.00",
+   "gain": -0.1711544275727318,
+   "pnl_eur": -554.81
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Kauf",
+   "ticker": "WKL.AS",
+   "name": "Wolters Kluwer",
+   "shares": 35,
+   "price_eur": 88.18,
+   "price_local": 88.18000030517578,
+   "reason": "RSL 1.34, Rang-Perzentil 98.1%",
+   "gain": null,
+   "amount_eur": 3086.3
   }
  ]
 }

@@ -1,18 +1,7 @@
 {
  "name": "spekulativ",
- "cash": 95.08344332589695,
+ "cash": 2530.424192368877,
  "positions": [
-  {
-   "ticker": "ATS.VI",
-   "name": "AT&S",
-   "shares": 71,
-   "buy_date": "2026-04-17",
-   "buy_price_eur": 84.69999694824219,
-   "year_start_price_eur": 84.69999694824219,
-   "last_price_eur": 174.1999969482422,
-   "buy_rsl": 2.046717619758352,
-   "fees_eur": 0.0
-  },
   {
    "ticker": "PANW",
    "name": "Palo Alto Networks",
@@ -20,7 +9,7 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 313.40382039390545,
    "year_start_price_eur": 313.40382039390545,
-   "last_price_eur": 304.17479153680847,
+   "last_price_eur": 339.6408482135495,
    "buy_rsl": 1.6857415229074324,
    "fees_eur": 0.0
   },
@@ -31,19 +20,8 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 345.73867045758976,
    "year_start_price_eur": 345.73867045758976,
-   "last_price_eur": 401.7508552220524,
+   "last_price_eur": 407.37268311813136,
    "buy_rsl": 1.6678615317026506,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "0992.HK",
-   "name": "Lenovo",
-   "shares": 2779,
-   "buy_date": "2026-07-31",
-   "buy_price_eur": 2.6048375395109065,
-   "year_start_price_eur": 2.6048375395109065,
-   "last_price_eur": 3.189045774008257,
-   "buy_rsl": 1.564990537880528,
    "fees_eur": 0.0
   },
   {
@@ -53,7 +31,7 @@
    "buy_date": "2026-09-04",
    "buy_price_eur": 125.16863129112446,
    "year_start_price_eur": 125.16863129112446,
-   "last_price_eur": 193.8980837194666,
+   "last_price_eur": 178.58924709126,
    "buy_rsl": 2.2339868840933157,
    "fees_eur": 0.0
   },
@@ -64,8 +42,30 @@
    "buy_date": "2026-10-09",
    "buy_price_eur": 137.86687778602123,
    "year_start_price_eur": 137.86687778602123,
-   "last_price_eur": 110.29449283119027,
+   "last_price_eur": 110.07202148398537,
    "buy_rsl": 1.7938751169942944,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "VEEV",
+   "name": "Veeva Systems",
+   "shares": 25,
+   "buy_date": "2026-10-23",
+   "buy_price_eur": 288.31319413627045,
+   "year_start_price_eur": 288.31319413627045,
+   "last_price_eur": 288.31319413627045,
+   "buy_rsl": 1.515638894800536,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "6098.T",
+   "name": "Recruit",
+   "shares": 68,
+   "buy_date": "2026-10-23",
+   "buy_price_eur": 108.54399555089209,
+   "year_start_price_eur": 108.54399555089209,
+   "last_price_eur": 108.54399555089209,
+   "buy_rsl": 1.5013275030913908,
    "fees_eur": 0.0
   }
  ],
@@ -324,6 +324,12 @@
    "value": 47846.16,
    "cash": 95.08,
    "quota": 1.0
+  },
+  {
+   "date": "2026-10-23",
+   "value": 44355.01,
+   "cash": 2530.42,
+   "quota": 1.0
   }
  ],
  "closed": [
@@ -482,6 +488,32 @@
    "gain": 0.5041608704225018,
    "pnl_eur": 3044.67,
    "reason": "RSL 0.98 unter 1.00"
+  },
+  {
+   "ticker": "ATS.VI",
+   "name": "AT&S",
+   "buy_date": "2026-04-17",
+   "buy_price_eur": 84.69999694824219,
+   "buy_rsl": 2.046717619758352,
+   "shares": 71,
+   "sell_date": "2026-10-23",
+   "sell_price_eur": 139.0,
+   "gain": 0.6410862456693951,
+   "pnl_eur": 3855.3,
+   "reason": "RSL 0.88 unter 1.00"
+  },
+  {
+   "ticker": "0992.HK",
+   "name": "Lenovo",
+   "buy_date": "2026-07-31",
+   "buy_price_eur": 2.6048375395109065,
+   "buy_rsl": 1.564990537880528,
+   "shares": 2779,
+   "sell_date": "2026-10-23",
+   "sell_price_eur": 2.575,
+   "gain": -0.011560026423089065,
+   "pnl_eur": -83.68,
+   "reason": "RSL 0.93 unter 1.00"
   }
  ],
  "last_sold": {
@@ -496,13 +528,15 @@
   "BE": "2026-07-17",
   "SNDK": "2026-07-31",
   "DDOG": "2026-09-04",
-  "STX": "2026-10-09"
+  "STX": "2026-10-09",
+  "ATS.VI": "2026-10-23",
+  "0992.HK": "2026-10-23"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": 14577.481223008002,
+ "realized_eur": 18349.1002172924,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -864,6 +898,54 @@
    "reason": "RSL 1.79, Rang-Perzentil 99.9%",
    "gain": null,
    "amount_eur": 9099.21
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Verkauf",
+   "ticker": "ATS.VI",
+   "name": "AT&S",
+   "shares": 71,
+   "price_eur": 139.0,
+   "price_local": 139.0,
+   "reason": "RSL 0.88 unter 1.00",
+   "gain": 0.6410862456693951,
+   "pnl_eur": 3855.3
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Verkauf",
+   "ticker": "0992.HK",
+   "name": "Lenovo",
+   "shares": 2779,
+   "price_eur": 2.575,
+   "price_local": 22.639999389648438,
+   "reason": "RSL 0.93 unter 1.00",
+   "gain": -0.011560026423089065,
+   "pnl_eur": -83.68
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Kauf",
+   "ticker": "VEEV",
+   "name": "Veeva Systems",
+   "shares": 25,
+   "price_eur": 288.313,
+   "price_local": 323.0400085449219,
+   "reason": "RSL 1.52, Rang-Perzentil 99.9%",
+   "gain": null,
+   "amount_eur": 7207.83
+  },
+  {
+   "date": "2026-10-23",
+   "action": "Kauf",
+   "ticker": "6098.T",
+   "name": "Recruit",
+   "shares": 68,
+   "price_eur": 108.544,
+   "price_local": 19060.0,
+   "reason": "RSL 1.50, Rang-Perzentil 99.8%",
+   "gain": null,
+   "amount_eur": 7380.99
   }
  ]
 }
