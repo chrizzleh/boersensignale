@@ -1,6 +1,6 @@
 {
  "name": "konservativ",
- "cash": 1.9167869116686234,
+ "cash": 80.27676956178493,
  "positions": [
   {
    "ticker": "DSFIR.AS",
@@ -9,30 +9,8 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 86.26000213623047,
    "year_start_price_eur": 86.26000213623047,
-   "last_price_eur": 108.9000015258789,
+   "last_price_eur": 106.75,
    "buy_rsl": 1.2969140802079702,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "O39.SI",
-   "name": "OCBC",
-   "shares": 178,
-   "buy_date": "2026-07-31",
-   "buy_price_eur": 19.429507329341504,
-   "year_start_price_eur": 19.429507329341504,
-   "last_price_eur": 20.245741580157265,
-   "buy_rsl": 1.268059817466986,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "ABNB",
-   "name": "Airbnb",
-   "shares": 20,
-   "buy_date": "2026-08-21",
-   "buy_price_eur": 160.2520058193853,
-   "year_start_price_eur": 160.2520058193853,
-   "last_price_eur": 153.51891291425545,
-   "buy_rsl": 1.3077730888493186,
    "fees_eur": 0.0
   },
   {
@@ -42,7 +20,7 @@
    "buy_date": "2026-10-02",
    "buy_price_eur": 581.6588463526003,
    "year_start_price_eur": 581.6588463526003,
-   "last_price_eur": 601.3843283983053,
+   "last_price_eur": 623.2783110468949,
    "buy_rsl": 1.245367592929613,
    "fees_eur": 0.0
   },
@@ -53,7 +31,7 @@
    "buy_date": "2026-10-16",
    "buy_price_eur": 260.7454026877908,
    "year_start_price_eur": 260.7454026877908,
-   "last_price_eur": 252.738131637607,
+   "last_price_eur": 252.91505931732812,
    "buy_rsl": 1.429892147889684,
    "fees_eur": 0.0
   },
@@ -64,8 +42,30 @@
    "buy_date": "2026-10-23",
    "buy_price_eur": 88.18000030517578,
    "year_start_price_eur": 88.18000030517578,
-   "last_price_eur": 88.18000030517578,
+   "last_price_eur": 87.0,
    "buy_rsl": 1.3446313043328875,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "ROP",
+   "name": "Roper Technologies",
+   "shares": 8,
+   "buy_date": "2026-10-30",
+   "buy_price_eur": 417.2477241587806,
+   "year_start_price_eur": 417.2477241587806,
+   "last_price_eur": 417.2477241587806,
+   "buy_rsl": 1.293739089412813,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "ALLE",
+   "name": "Allegion",
+   "shares": 19,
+   "buy_date": "2026-10-30",
+   "buy_price_eur": 166.72024366321185,
+   "year_start_price_eur": 166.72024366321185,
+   "last_price_eur": 166.72024366321185,
+   "buy_rsl": 1.2909144441442528,
    "fees_eur": 0.0
   }
  ],
@@ -329,6 +329,12 @@
    "date": "2026-10-23",
    "value": 20301.95,
    "cash": 1.92,
+   "quota": 1.0
+  },
+  {
+   "date": "2026-10-30",
+   "value": 20198.48,
+   "cash": 80.28,
    "quota": 1.0
   }
  ],
@@ -605,6 +611,32 @@
    "gain": -0.1711544275727318,
    "pnl_eur": -554.81,
    "reason": "RSL 1.00 unter 1.00"
+  },
+  {
+   "ticker": "O39.SI",
+   "name": "OCBC",
+   "buy_date": "2026-07-31",
+   "buy_price_eur": 19.429507329341504,
+   "buy_rsl": 1.268059817466986,
+   "shares": 178,
+   "sell_date": "2026-10-30",
+   "sell_price_eur": 20.472,
+   "gain": 0.05364385468847632,
+   "pnl_eur": 185.52,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 70%)"
+  },
+  {
+   "ticker": "ABNB",
+   "name": "Airbnb",
+   "buy_date": "2026-08-21",
+   "buy_price_eur": 160.2520058193853,
+   "buy_rsl": 1.3077730888493186,
+   "shares": 20,
+   "sell_date": "2026-10-30",
+   "sell_price_eur": 147.002,
+   "gain": -0.08267937958417237,
+   "pnl_eur": -264.99,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 65%)"
   }
  ],
  "last_sold": {
@@ -627,13 +659,15 @@
   "WST": "2026-08-28",
   "NUE": "2026-10-02",
   "6752.T": "2026-10-16",
-  "CCC.L": "2026-10-23"
+  "CCC.L": "2026-10-23",
+  "O39.SI": "2026-10-30",
+  "ABNB": "2026-10-30"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": -5586.166231379416,
+ "realized_eur": -5665.632246868524,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -1211,6 +1245,54 @@
    "reason": "RSL 1.34, Rang-Perzentil 98.1%",
    "gain": null,
    "amount_eur": 3086.3
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Verkauf",
+   "ticker": "O39.SI",
+   "name": "OCBC",
+   "shares": 178,
+   "price_eur": 20.472,
+   "price_local": 29.290000915527344,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 70%)",
+   "gain": 0.05364385468847632,
+   "pnl_eur": 185.52
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Verkauf",
+   "ticker": "ABNB",
+   "name": "Airbnb",
+   "shares": 20,
+   "price_eur": 147.002,
+   "price_local": 164.38999938964844,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 65%)",
+   "gain": -0.08267937958417237,
+   "pnl_eur": -264.99
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Kauf",
+   "ticker": "ROP",
+   "name": "Roper Technologies",
+   "shares": 8,
+   "price_eur": 417.248,
+   "price_local": 466.6000061035156,
+   "reason": "RSL 1.29, Rang-Perzentil 98.1%",
+   "gain": null,
+   "amount_eur": 3337.98
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Kauf",
+   "ticker": "ALLE",
+   "name": "Allegion",
+   "shares": 19,
+   "price_eur": 166.72,
+   "price_local": 186.44000244140625,
+   "reason": "RSL 1.29, Rang-Perzentil 98.0%",
+   "gain": null,
+   "amount_eur": 3167.68
   }
  ]
 }

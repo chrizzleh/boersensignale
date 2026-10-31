@@ -1,6 +1,6 @@
 {
  "name": "spekulativ",
- "cash": 2530.424192368877,
+ "cash": 3807.0087457185473,
  "positions": [
   {
    "ticker": "PANW",
@@ -9,19 +9,8 @@
    "buy_date": "2026-07-17",
    "buy_price_eur": 313.40382039390545,
    "year_start_price_eur": 313.40382039390545,
-   "last_price_eur": 339.6408482135495,
+   "last_price_eur": 327.1719262831798,
    "buy_rsl": 1.6857415229074324,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "DELL",
-   "name": "Dell Technologies",
-   "shares": 22,
-   "buy_date": "2026-07-17",
-   "buy_price_eur": 345.73867045758976,
-   "year_start_price_eur": 345.73867045758976,
-   "last_price_eur": 407.37268311813136,
-   "buy_rsl": 1.6678615317026506,
    "fees_eur": 0.0
   },
   {
@@ -31,7 +20,7 @@
    "buy_date": "2026-09-04",
    "buy_price_eur": 125.16863129112446,
    "year_start_price_eur": 125.16863129112446,
-   "last_price_eur": 178.58924709126,
+   "last_price_eur": 198.2686770246131,
    "buy_rsl": 2.2339868840933157,
    "fees_eur": 0.0
   },
@@ -42,7 +31,7 @@
    "buy_date": "2026-10-09",
    "buy_price_eur": 137.86687778602123,
    "year_start_price_eur": 137.86687778602123,
-   "last_price_eur": 110.07202148398537,
+   "last_price_eur": 113.54932859259486,
    "buy_rsl": 1.7938751169942944,
    "fees_eur": 0.0
   },
@@ -53,7 +42,7 @@
    "buy_date": "2026-10-23",
    "buy_price_eur": 288.31319413627045,
    "year_start_price_eur": 288.31319413627045,
-   "last_price_eur": 288.31319413627045,
+   "last_price_eur": 279.85821362894086,
    "buy_rsl": 1.515638894800536,
    "fees_eur": 0.0
   },
@@ -64,8 +53,19 @@
    "buy_date": "2026-10-23",
    "buy_price_eur": 108.54399555089209,
    "year_start_price_eur": 108.54399555089209,
-   "last_price_eur": 108.54399555089209,
+   "last_price_eur": 108.79912953170393,
    "buy_rsl": 1.5013275030913908,
+   "fees_eur": 0.0
+  },
+  {
+   "ticker": "CRL",
+   "name": "Charles River Laboratories",
+   "shares": 22,
+   "buy_date": "2026-10-30",
+   "buy_price_eur": 321.3952081146024,
+   "year_start_price_eur": 321.3952081146024,
+   "last_price_eur": 321.3952081146024,
+   "buy_rsl": 1.5021736018824998,
    "fees_eur": 0.0
   }
  ],
@@ -330,6 +330,12 @@
    "value": 44355.01,
    "cash": 2530.42,
    "quota": 1.0
+  },
+  {
+   "date": "2026-10-30",
+   "value": 43791.18,
+   "cash": 3807.01,
+   "quota": 1.0
   }
  ],
  "closed": [
@@ -514,6 +520,19 @@
    "gain": -0.011560026423089065,
    "pnl_eur": -83.68,
    "reason": "RSL 0.93 unter 1.00"
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "buy_date": "2026-07-17",
+   "buy_price_eur": 345.73867045758976,
+   "buy_rsl": 1.6678615317026506,
+   "shares": 22,
+   "sell_date": "2026-10-30",
+   "sell_price_eur": 379.422,
+   "gain": 0.09742360673521366,
+   "pnl_eur": 741.03,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 41%)"
   }
  ],
  "last_sold": {
@@ -530,13 +549,14 @@
   "DDOG": "2026-09-04",
   "STX": "2026-10-09",
   "ATS.VI": "2026-10-23",
-  "0992.HK": "2026-10-23"
+  "0992.HK": "2026-10-23",
+  "DELL": "2026-10-30"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": 18349.1002172924,
+ "realized_eur": 19090.12859909635,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -946,6 +966,30 @@
    "reason": "RSL 1.50, Rang-Perzentil 99.8%",
    "gain": null,
    "amount_eur": 7380.99
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Verkauf",
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "shares": 22,
+   "price_eur": 379.422,
+   "price_local": 424.29998779296875,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 41%)",
+   "gain": 0.09742360673521366,
+   "pnl_eur": 741.03
+  },
+  {
+   "date": "2026-10-30",
+   "action": "Kauf",
+   "ticker": "CRL",
+   "name": "Charles River Laboratories",
+   "shares": 22,
+   "price_eur": 321.395,
+   "price_local": 359.4100036621094,
+   "reason": "RSL 1.50, Rang-Perzentil 99.9%",
+   "gain": null,
+   "amount_eur": 7070.69
   }
  ]
 }
