@@ -1,6 +1,6 @@
 {
  "name": "mein_depot",
- "cash": 3742.735511393378,
+ "cash": 15404.671352066249,
  "positions": [
   {
    "ticker": "SAP.DE",
@@ -9,32 +9,10 @@
    "buy_date": "2026-07-02",
    "buy_price_eur": 142.46,
    "year_start_price_eur": 185.9199981689453,
-   "last_price_eur": 211.25,
+   "last_price_eur": 210.75,
    "buy_rsl": null,
    "fees_eur": 0.0,
    "initial": true
-  },
-  {
-   "ticker": "2269.HK",
-   "name": "WuXi Biologics",
-   "shares": 743,
-   "buy_date": "2026-09-25",
-   "buy_price_eur": 5.941604252118602,
-   "year_start_price_eur": 5.941604252118602,
-   "last_price_eur": 5.07017097779103,
-   "buy_rsl": 1.3873531572668796,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "VLO",
-   "name": "Valero Energy",
-   "shares": 12,
-   "buy_date": "2026-09-25",
-   "buy_price_eur": 340.3854210836198,
-   "year_start_price_eur": 340.3854210836198,
-   "last_price_eur": 357.38796567505796,
-   "buy_rsl": 1.3645605891184207,
-   "fees_eur": 0.0
   },
   {
    "ticker": "IQV",
@@ -43,7 +21,7 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 237.6930791292324,
    "year_start_price_eur": 237.6930791292324,
-   "last_price_eur": 239.0544942940471,
+   "last_price_eur": 242.09449315300319,
    "buy_rsl": 1.3369395107636166,
    "fees_eur": 0.0
   },
@@ -54,19 +32,8 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 151.9065957341115,
    "year_start_price_eur": 151.9065957341115,
-   "last_price_eur": 156.37399599629757,
+   "last_price_eur": 155.6429915148689,
    "buy_rsl": 1.316229585361321,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "PSX",
-   "name": "Phillips 66",
-   "shares": 18,
-   "buy_date": "2026-10-09",
-   "buy_price_eur": 248.2478198529498,
-   "year_start_price_eur": 248.2478198529498,
-   "last_price_eur": 252.91505931732812,
-   "buy_rsl": 1.3971305711439463,
    "fees_eur": 0.0
   }
  ],
@@ -109,6 +76,12 @@
    "value": 26456.33,
    "cash": 3742.74,
    "quota": 1.0
+  },
+  {
+   "date": "2026-11-06",
+   "value": 25540.52,
+   "cash": 15404.67,
+   "quota": 0.5
   }
  ],
  "closed": [
@@ -124,16 +97,58 @@
    "gain": -0.06299029786200827,
    "pnl_eur": -26.5,
    "reason": "RSL 0.98 unter 1.00"
+  },
+  {
+   "ticker": "VLO",
+   "name": "Valero Energy",
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 340.3854210836198,
+   "buy_rsl": 1.3645605891184207,
+   "shares": 12,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 308.552,
+   "gain": -0.09352218984569305,
+   "pnl_eur": -382.0,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)"
+  },
+  {
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "buy_date": "2026-10-09",
+   "buy_price_eur": 248.2478198529498,
+   "buy_rsl": 1.3971305711439463,
+   "shares": 18,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 218.841,
+   "gain": -0.11845880337105275,
+   "pnl_eur": -529.33,
+   "reason": "Aktienquote auf 50% gesenkt"
+  },
+  {
+   "ticker": "2269.HK",
+   "name": "WuXi Biologics",
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 5.941604252118602,
+   "buy_rsl": 1.3873531572668796,
+   "shares": 743,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 5.411,
+   "gain": -0.08934654704875888,
+   "pnl_eur": -394.43,
+   "reason": "Aktienquote auf 50% gesenkt"
   }
  ],
  "last_sold": {
-  "JEN.DE": "2026-10-09"
+  "JEN.DE": "2026-10-09",
+  "VLO": "2026-11-06",
+  "PSX": "2026-11-06",
+  "2269.HK": "2026-11-06"
  },
  "start_date": "2026-09-25",
  "capital": 25000.0,
  "start_value": 26522.31999206543,
  "year_reset": false,
- "realized_eur": -26.500018310546878,
+ "realized_eur": -1332.2619473183306,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -207,6 +222,42 @@
    "reason": "RSL 1.40, Rang-Perzentil 98.2%",
    "gain": null,
    "amount_eur": 4468.46
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "VLO",
+   "name": "Valero Energy",
+   "shares": 12,
+   "price_eur": 308.552,
+   "price_local": 346.45001220703125,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)",
+   "gain": -0.09352218984569305,
+   "pnl_eur": -382.0
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "shares": 18,
+   "price_eur": 218.841,
+   "price_local": 245.72000122070312,
+   "reason": "Aktienquote auf 50% gesenkt",
+   "gain": -0.11845880337105275,
+   "pnl_eur": -529.33
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "2269.HK",
+   "name": "WuXi Biologics",
+   "shares": 743,
+   "price_eur": 5.411,
+   "price_local": 47.619998931884766,
+   "reason": "Aktienquote auf 50% gesenkt",
+   "gain": -0.08934654704875888,
+   "pnl_eur": -394.43
   }
  ]
 }

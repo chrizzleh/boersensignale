@@ -1,40 +1,7 @@
 {
  "name": "konservativ",
- "cash": 80.27676956178493,
+ "cash": 10301.206649348715,
  "positions": [
-  {
-   "ticker": "DSFIR.AS",
-   "name": "DSM Firmenich AG",
-   "shares": 39,
-   "buy_date": "2026-07-17",
-   "buy_price_eur": 86.26000213623047,
-   "year_start_price_eur": 86.26000213623047,
-   "last_price_eur": 106.75,
-   "buy_rsl": 1.2969140802079702,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "TMO",
-   "name": "Thermo Fisher Scientific",
-   "shares": 5,
-   "buy_date": "2026-10-02",
-   "buy_price_eur": 581.6588463526003,
-   "year_start_price_eur": 581.6588463526003,
-   "last_price_eur": 623.2783110468949,
-   "buy_rsl": 1.245367592929613,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "PSX",
-   "name": "Phillips 66",
-   "shares": 13,
-   "buy_date": "2026-10-16",
-   "buy_price_eur": 260.7454026877908,
-   "year_start_price_eur": 260.7454026877908,
-   "last_price_eur": 252.91505931732812,
-   "buy_rsl": 1.429892147889684,
-   "fees_eur": 0.0
-  },
   {
    "ticker": "WKL.AS",
    "name": "Wolters Kluwer",
@@ -42,7 +9,7 @@
    "buy_date": "2026-10-23",
    "buy_price_eur": 88.18000030517578,
    "year_start_price_eur": 88.18000030517578,
-   "last_price_eur": 87.0,
+   "last_price_eur": 90.08000183105469,
    "buy_rsl": 1.3446313043328875,
    "fees_eur": 0.0
   },
@@ -53,7 +20,7 @@
    "buy_date": "2026-10-30",
    "buy_price_eur": 417.2477241587806,
    "year_start_price_eur": 417.2477241587806,
-   "last_price_eur": 417.2477241587806,
+   "last_price_eur": 424.464711819697,
    "buy_rsl": 1.293739089412813,
    "fees_eur": 0.0
   },
@@ -64,7 +31,7 @@
    "buy_date": "2026-10-30",
    "buy_price_eur": 166.72024366321185,
    "year_start_price_eur": 166.72024366321185,
-   "last_price_eur": 166.72024366321185,
+   "last_price_eur": 165.1101797260352,
    "buy_rsl": 1.2909144441442528,
    "fees_eur": 0.0
   }
@@ -336,6 +303,12 @@
    "value": 20198.48,
    "cash": 80.28,
    "quota": 1.0
+  },
+  {
+   "date": "2026-11-06",
+   "value": 19986.82,
+   "cash": 10301.21,
+   "quota": 0.5
   }
  ],
  "closed": [
@@ -637,6 +610,45 @@
    "gain": -0.08267937958417237,
    "pnl_eur": -264.99,
    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 65%)"
+  },
+  {
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "buy_date": "2026-10-16",
+   "buy_price_eur": 260.7454026877908,
+   "buy_rsl": 1.429892147889684,
+   "shares": 13,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 218.841,
+   "gain": -0.1607112611848026,
+   "pnl_eur": -544.76,
+   "reason": "Aktienquote auf 50% gesenkt"
+  },
+  {
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "buy_date": "2026-10-02",
+   "buy_price_eur": 581.6588463526003,
+   "buy_rsl": 1.245367592929613,
+   "shares": 5,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 618.76,
+   "gain": 0.06378539169843966,
+   "pnl_eur": 185.51,
+   "reason": "Aktienquote auf 50% gesenkt"
+  },
+  {
+   "ticker": "DSFIR.AS",
+   "name": "DSM Firmenich AG",
+   "buy_date": "2026-07-17",
+   "buy_price_eur": 86.26000213623047,
+   "buy_rsl": 1.2969140802079702,
+   "shares": 39,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 109.8,
+   "gain": 0.27289589998329244,
+   "pnl_eur": 918.06,
+   "reason": "Aktienquote auf 50% gesenkt"
   }
  ],
  "last_sold": {
@@ -661,13 +673,16 @@
   "6752.T": "2026-10-16",
   "CCC.L": "2026-10-23",
   "O39.SI": "2026-10-30",
-  "ABNB": "2026-10-30"
+  "ABNB": "2026-10-30",
+  "PSX": "2026-11-06",
+  "TMO": "2026-11-06",
+  "DSFIR.AS": "2026-11-06"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": -5665.632246868524,
+ "realized_eur": -5106.826917098864,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -1293,6 +1308,42 @@
    "reason": "RSL 1.29, Rang-Perzentil 98.0%",
    "gain": null,
    "amount_eur": 3167.68
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "PSX",
+   "name": "Phillips 66",
+   "shares": 13,
+   "price_eur": 218.841,
+   "price_local": 245.72000122070312,
+   "reason": "Aktienquote auf 50% gesenkt",
+   "gain": -0.1607112611848026,
+   "pnl_eur": -544.76
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "shares": 5,
+   "price_eur": 618.76,
+   "price_local": 694.760009765625,
+   "reason": "Aktienquote auf 50% gesenkt",
+   "gain": 0.06378539169843966,
+   "pnl_eur": 185.51
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "DSFIR.AS",
+   "name": "DSM Firmenich AG",
+   "shares": 39,
+   "price_eur": 109.8,
+   "price_local": 109.80000305175781,
+   "reason": "Aktienquote auf 50% gesenkt",
+   "gain": 0.27289589998329244,
+   "pnl_eur": 918.06
   }
  ]
 }

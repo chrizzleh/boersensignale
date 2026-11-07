@@ -1,11 +1,11 @@
 {
- "asof": "2026-10-30",
- "generated": "2026-10-31T11:48+01:00",
+ "asof": "2026-11-06",
+ "generated": "2026-11-07T12:33+01:00",
  "system1": {
-  "value": "Kauf",
-  "since": "2026-04-17",
-  "previous": "Verkauf",
-  "previous_since": "2026-03-20"
+  "value": "Verkauf",
+  "since": "2026-11-06",
+  "previous": "Kauf",
+  "previous_since": "2026-04-17"
  },
  "system2": {
   "value": "Kauf",
@@ -13,14 +13,14 @@
   "previous": "Verkauf",
   "previous_since": "2026-03-27"
  },
- "quota": 1.0,
+ "quota": 0.5,
  "quota_prev": 1.0,
  "components": {
   "System 1": {
-   "value": "Kauf",
-   "since": "2026-04-17",
-   "previous": "Verkauf",
-   "previous_since": "2026-03-20"
+   "value": "Verkauf",
+   "since": "2026-11-06",
+   "previous": "Kauf",
+   "previous_since": "2026-04-17"
   },
   "System 2": {
    "value": "Kauf",
@@ -29,10 +29,10 @@
    "previous_since": "2026-03-27"
   },
   "Marktbreite": {
-   "value": "Kauf",
-   "since": "2026-04-10",
-   "previous": "Verkauf",
-   "previous_since": "2026-03-20"
+   "value": "Verkauf",
+   "since": "2026-11-06",
+   "previous": "Kauf",
+   "previous_since": "2026-04-10"
   },
   "Leitindizes-Trend": {
    "value": "Verkauf",
@@ -59,10 +59,10 @@
    "previous_since": "2026-04-10"
   },
   "Index-Trend": {
-   "value": "Kauf",
-   "since": "2026-04-17",
-   "previous": "Verkauf",
-   "previous_since": "2026-03-20"
+   "value": "Verkauf",
+   "since": "2026-11-06",
+   "previous": "Kauf",
+   "previous_since": "2026-04-17"
   },
   "Zinsstruktur": {
    "value": "Kauf",
@@ -71,10 +71,10 @@
    "previous_since": "2023-03-03"
   },
   "Makro 5": {
-   "value": "Verkauf",
-   "since": "2026-05-01",
-   "previous": "Kauf",
-   "previous_since": "2026-04-17"
+   "value": "Kauf",
+   "since": "2026-11-06",
+   "previous": "Verkauf",
+   "previous_since": "2026-05-01"
   },
   "Anleihen": {
    "value": "Verkauf",
@@ -83,10 +83,10 @@
    "previous_since": "2026-02-27"
   },
   "Öl": {
-   "value": "Verkauf",
-   "since": "2026-07-24",
-   "previous": "Kauf",
-   "previous_since": "2026-05-29"
+   "value": "Kauf",
+   "since": "2026-11-06",
+   "previous": "Verkauf",
+   "previous_since": "2026-07-24"
   },
   "Dollar": {
    "value": "Kauf",
@@ -107,10 +107,10 @@
    "previous_since": "2026-05-01"
   },
   "IT Nasdaq Composite": {
-   "value": "Kauf",
-   "since": "2026-04-17",
-   "previous": "Verkauf",
-   "previous_since": "2026-03-13"
+   "value": "Verkauf",
+   "since": "2026-11-06",
+   "previous": "Kauf",
+   "previous_since": "2026-04-17"
   },
   "IT Dow Jones Utility": {
    "value": "Verkauf",
@@ -126,159 +126,141 @@
   }
  },
  "details": {
-  "breadth": 0.6666666666666666,
+  "breadth": 0.5,
   "trend_share": 0.25,
-  "new_highs_4w": 583,
-  "new_lows_4w": 146,
-  "yield_curve": 0.7535720012524735,
+  "new_highs_4w": 638,
+  "new_lows_4w": 139,
+  "yield_curve": 0.7505006443932041,
   "index_trend_dist": {
-   "Nasdaq Composite": -0.018130270373864832,
-   "Dow Jones Utility": -0.09103013286170158,
-   "DAX": -0.07233811163450221
+   "Nasdaq Composite": 0.016126925239505763,
+   "Dow Jones Utility": -0.08193621360513459,
+   "DAX": -0.07241529969990979
   },
-  "vix": 19.420000076293945,
-  "brent": 117.63999938964844,
-  "eurusd": 1.1182805299758911
+  "vix": 25.639999389648438,
+  "brent": 98.31999969482422,
+  "eurusd": 1.1228259801864624
  },
  "indices": [
   {
    "name": "DAX",
-   "last": 25818.2109375,
-   "w1": 0.025278746110778627,
-   "w4": 0.023265311872840977,
-   "w52": 0.07763113808578548,
-   "ytd": 0.060729117241854036
+   "last": 25820.359375,
+   "w1": 8.32140346673782e-05,
+   "w4": 0.029221587579980612,
+   "w52": 0.09547739359718665,
+   "ytd": 0.06081738479138887
   },
   {
    "name": "MDAX",
-   "last": 30472.3203125,
-   "w1": 0.019949242550879154,
-   "w4": 0.000733015188834063,
-   "w52": 0.024223931089884854,
-   "ytd": 0.0055948998593169375
+   "last": 30642.23046875,
+   "w1": 0.0055758850821838735,
+   "w4": 0.021751658712708455,
+   "w52": 0.06419027929936161,
+   "ytd": 0.011201981460162935
   },
   {
    "name": "Euro Stoxx 50",
-   "last": 6131.31005859375,
-   "w1": 0.010396762397592907,
-   "w4": -0.017182005515147925,
-   "w52": 0.08288002491924273,
-   "ytd": 0.06644837052874752
+   "last": 6170.490234375,
+   "w1": 0.00639018014206183,
+   "w4": -0.00046650091568012364,
+   "w52": 0.10849855700570865,
+   "ytd": 0.07326316772863439
   },
   {
    "name": "SMI",
-   "last": 14810.66015625,
-   "w1": 0.024083192246683982,
-   "w4": 0.08416272410278469,
-   "w52": 0.21056521772446768,
-   "ytd": 0.11839341941932324
+   "last": 14796.5,
+   "w1": -0.0009560786690541168,
+   "w4": 0.07318998366516993,
+   "w52": 0.2031289132259393,
+   "ytd": 0.11732414732740604
   },
   {
    "name": "ATX",
-   "last": 6420.02978515625,
-   "w1": 0.023885775889592953,
-   "w4": -0.04438956794459126,
-   "w52": 0.3352362601339358,
-   "ytd": 0.22351303510812937
+   "last": 6434.7998046875,
+   "w1": 0.00230061542166049,
+   "w4": -0.016604449851675085,
+   "w52": 0.3535035625001477,
+   "ytd": 0.2263278680653018
   },
   {
    "name": "S&P 500",
-   "last": 7580.06982421875,
-   "w1": -0.005720380519245838,
-   "w4": -0.01847152125889706,
-   "w52": 0.10816490859628236,
-   "ytd": 0.09381464894493341
+   "last": 7376.85986328125,
+   "w1": -0.026808455020853827,
+   "w4": -0.05564589998996128,
+   "w52": 0.09631138946090956,
+   "ytd": 0.06449116812754219
   },
   {
    "name": "Nasdaq Comp.",
-   "last": 25437.0,
-   "w1": -0.019970451046697257,
-   "w4": -0.06450180006493456,
-   "w52": 0.07216193388095005,
-   "ytd": 0.07815422395335903
+   "last": 24579.4296875,
+   "w1": -0.033713500511066585,
+   "w4": -0.1018315768092719,
+   "w52": 0.06845999481759879,
+   "ytd": 0.041805870973098846
   },
   {
    "name": "Dow Jones Utility",
-   "last": 1111.5,
-   "w1": 0.012212145267778363,
-   "w4": 0.09182528700348458,
-   "w52": -6.292567489429857e-05,
-   "ytd": 0.03887239533387499
+   "last": 1100.489990234375,
+   "w1": -0.009905541849415167,
+   "w4": 0.042170187264809256,
+   "w52": -0.023860442317693353,
+   "ytd": 0.028581801345693103
   },
   {
    "name": "Nikkei 225",
-   "last": 63290.109375,
-   "w1": 0.009521759905900762,
-   "w4": -0.07347959555840256,
-   "w52": 0.20756518653562495,
-   "ytd": 0.2470861523541228
+   "last": 57434.76953125,
+   "w1": -0.09251587493800251,
+   "w4": -0.1679848976194771,
+   "w52": 0.1423809690669955,
+   "ytd": 0.1317108858460141
   },
   {
    "name": "Hang Seng",
-   "last": 23294.419921875,
-   "w1": 0.008705996081633582,
-   "w4": -0.028277197011001953,
-   "w52": -0.10083242832872386,
-   "ytd": -0.09777747552592075
+   "last": 24481.859375,
+   "w1": 0.05097527464119911,
+   "w4": 0.011172849510225236,
+   "w52": -0.06706737669916163,
+   "ytd": -0.0517864345533785
   },
   {
    "name": "FTSE 100",
-   "last": 10729.7998046875,
-   "w1": 0.00368549470766788,
-   "w4": 0.025597381445947143,
-   "w52": 0.1041956119859122,
-   "ytd": 0.08703532600280761
+   "last": 10673.900390625,
+   "w1": -0.005209735044458097,
+   "w4": 0.011542800557131416,
+   "w52": 0.10237961097660087,
+   "ytd": 0.08137215997036695
   },
   {
    "name": "Gold (USD)",
-   "last": 3898.89990234375,
-   "w1": -0.027196287995181367,
-   "w4": -0.06328229937860652,
-   "w52": -0.024421393133053915,
-   "ytd": -0.14360714848781575
+   "last": 4074.89990234375,
+   "w1": 0.04514093831806276,
+   "w4": -0.03353649144838977,
+   "w52": 0.016235186972639815,
+   "ytd": -0.10494877160167437
   },
   {
    "name": "Brent (USD)",
-   "last": 117.63999938964844,
-   "w1": 0.007882095264938327,
-   "w4": 0.1505134414635545,
-   "w52": 0.807899184591601,
-   "ytd": 0.9399736242367145
+   "last": 98.31999969482422,
+   "w1": -0.1642298520491513,
+   "w4": -0.06111536909162707,
+   "w52": 0.5451830590034679,
+   "ytd": 0.621372042949063
   },
   {
    "name": "EUR/USD",
-   "last": 1.1182805299758911,
-   "w1": -0.0034442979722495437,
-   "w4": -0.0059604330413711715,
-   "w52": -0.03367145362814983,
-   "ytd": -0.05112772448281866
+   "last": 1.1228259801864624,
+   "w1": 0.004064677948626416,
+   "w4": 0.0013586830852567733,
+   "w52": -0.027789943230829395,
+   "ytd": -0.047270864268460944
   }
  ],
  "depots": {
   "konservativ": {
-   "cash": 80.27676956178493,
-   "invested": 20118.203749231012,
-   "total": 20198.480518792796,
-   "ytd": -0.19206077924828813,
+   "cash": 10301.206649348715,
+   "invested": 9685.611173439158,
+   "total": 19986.817822787874,
+   "ytd": -0.200527287088485,
    "positions": [
-    {
-     "ticker": "PSX",
-     "name": "Phillips 66",
-     "shares": 13,
-     "buy_date": "2026-10-16",
-     "buy_price_eur": 260.7454026877908,
-     "year_start_price_eur": 260.7454026877908,
-     "last_price_eur": 252.91505931732812,
-     "buy_rsl": 1.429892147889684,
-     "fees_eur": 0.0,
-     "rsl": 1.323185105723005,
-     "pct": 0.9851222104144527,
-     "gain_total": -0.030030609513136852,
-     "gain_ytd": -0.030030609513136852,
-     "value": 3287.8957711252656,
-     "pnl_eur": -101.79446381601454,
-     "status": "Halten"
-    },
     {
      "ticker": "WKL.AS",
      "name": "Wolters Kluwer",
@@ -286,15 +268,15 @@
      "buy_date": "2026-10-23",
      "buy_price_eur": 88.18000030517578,
      "year_start_price_eur": 88.18000030517578,
-     "last_price_eur": 87.0,
+     "last_price_eur": 90.08000183105469,
      "buy_rsl": 1.3446313043328875,
      "fees_eur": 0.0,
-     "rsl": 1.3094856216571023,
-     "pct": 0.9840595111583422,
-     "gain_total": -0.013381722625221193,
-     "gain_ytd": -0.013381722625221193,
-     "value": 3045.0,
-     "pnl_eur": -41.300010681152344,
+     "rsl": 1.3362733003893743,
+     "pct": 0.9925531914893617,
+     "gain_total": 0.02154685324680572,
+     "gain_ytd": 0.02154685324680572,
+     "value": 3152.800064086914,
+     "pnl_eur": 66.50005340576172,
      "status": "Halten"
     },
     {
@@ -304,15 +286,15 @@
      "buy_date": "2026-10-30",
      "buy_price_eur": 417.2477241587806,
      "year_start_price_eur": 417.2477241587806,
-     "last_price_eur": 417.2477241587806,
+     "last_price_eur": 424.464711819697,
      "buy_rsl": 1.293739089412813,
      "fees_eur": 0.0,
-     "rsl": 1.293739089412813,
-     "pct": 0.9808714133900106,
-     "gain_total": 0.0,
-     "gain_ytd": 0.0,
-     "value": 3337.981793270245,
-     "pnl_eur": 0.0,
+     "rsl": 1.2956976464472,
+     "pct": 0.9893617021276596,
+     "gain_total": 0.0172966495514546,
+     "gain_ytd": 0.0172966495514546,
+     "value": 3395.717694557576,
+     "pnl_eur": 57.73590128733122,
      "status": "Halten"
     },
     {
@@ -322,62 +304,26 @@
      "buy_date": "2026-10-30",
      "buy_price_eur": 166.72024366321185,
      "year_start_price_eur": 166.72024366321185,
-     "last_price_eur": 166.72024366321185,
+     "last_price_eur": 165.1101797260352,
      "buy_rsl": 1.2909144441442528,
      "fees_eur": 0.0,
-     "rsl": 1.2909144441442528,
-     "pct": 0.9798087141339001,
-     "gain_total": 0.0,
-     "gain_ytd": 0.0,
-     "value": 3167.684629601025,
-     "pnl_eur": 0.0,
-     "status": "Halten"
-    },
-    {
-     "ticker": "TMO",
-     "name": "Thermo Fisher Scientific",
-     "shares": 5,
-     "buy_date": "2026-10-02",
-     "buy_price_eur": 581.6588463526003,
-     "year_start_price_eur": 581.6588463526003,
-     "last_price_eur": 623.2783110468949,
-     "buy_rsl": 1.245367592929613,
-     "fees_eur": 0.0,
-     "rsl": 1.2612626622900192,
-     "pct": 0.9691817215727949,
-     "gain_total": 0.07155305030651071,
-     "gain_ytd": 0.07155305030651071,
-     "value": 3116.3915552344747,
-     "pnl_eur": 208.09732347147303,
-     "status": "Halten"
-    },
-    {
-     "ticker": "DSFIR.AS",
-     "name": "DSM Firmenich AG",
-     "shares": 39,
-     "buy_date": "2026-07-17",
-     "buy_price_eur": 86.26000213623047,
-     "year_start_price_eur": 86.26000213623047,
-     "last_price_eur": 106.75,
-     "buy_rsl": 1.2969140802079702,
-     "fees_eur": 0.0,
-     "rsl": 1.2397890926589112,
-     "pct": 0.9543039319872476,
-     "gain_total": 0.2375376461434544,
-     "gain_ytd": 0.2375376461434544,
-     "value": 4163.25,
-     "pnl_eur": 799.1099166870117,
+     "rsl": 1.2602059146415578,
+     "pct": 0.9797872340425532,
+     "gain_total": -0.009657279174981936,
+     "gain_ytd": -0.009657279174981936,
+     "value": 3137.0934147946687,
+     "pnl_eur": -30.591214806356305,
      "status": "Halten"
     }
    ],
    "yearly_perf": {},
-   "equity_share": 0.9960256035355187,
-   "realized_eur": -5665.632246868524,
-   "unrealized_eur": 864.1127656613179,
+   "equity_share": 0.4845999628012897,
+   "realized_eur": -5106.826917098864,
+   "unrealized_eur": 93.64473988673663,
    "fees_eur": 0.0,
    "start_value": 25000.0,
    "start_date": "2026-01-02",
-   "since_start": -0.19206077924828813,
+   "since_start": -0.200527287088485,
    "year_reset": true,
    "history": [
     {
@@ -643,6 +589,12 @@
      "value": 20198.48,
      "cash": 80.28,
      "quota": 1.0
+    },
+    {
+     "date": "2026-11-06",
+     "value": 19986.82,
+     "cash": 10301.21,
+     "quota": 0.5
     }
    ],
    "closed_this_year": [
@@ -944,47 +896,50 @@
      "gain": -0.08267937958417237,
      "pnl_eur": -264.99,
      "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 65%)"
+    },
+    {
+     "ticker": "PSX",
+     "name": "Phillips 66",
+     "buy_date": "2026-10-16",
+     "buy_price_eur": 260.7454026877908,
+     "buy_rsl": 1.429892147889684,
+     "shares": 13,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 218.841,
+     "gain": -0.1607112611848026,
+     "pnl_eur": -544.76,
+     "reason": "Aktienquote auf 50% gesenkt"
+    },
+    {
+     "ticker": "TMO",
+     "name": "Thermo Fisher Scientific",
+     "buy_date": "2026-10-02",
+     "buy_price_eur": 581.6588463526003,
+     "buy_rsl": 1.245367592929613,
+     "shares": 5,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 618.76,
+     "gain": 0.06378539169843966,
+     "pnl_eur": 185.51,
+     "reason": "Aktienquote auf 50% gesenkt"
+    },
+    {
+     "ticker": "DSFIR.AS",
+     "name": "DSM Firmenich AG",
+     "buy_date": "2026-07-17",
+     "buy_price_eur": 86.26000213623047,
+     "buy_rsl": 1.2969140802079702,
+     "shares": 39,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 109.8,
+     "gain": 0.27289589998329244,
+     "pnl_eur": 918.06,
+     "reason": "Aktienquote auf 50% gesenkt"
     }
    ],
    "label": "Musterdepot konservativ",
    "pending": false,
    "transactions": [
-    {
-     "date": "2026-02-13",
-     "action": "Kauf",
-     "ticker": "VTRS",
-     "name": "Viatris",
-     "shares": 323,
-     "price_eur": 12.981,
-     "price_local": 15.406808853149414,
-     "reason": "RSL 1.38, Rang-Perzentil 96.8%",
-     "gain": null,
-     "amount_eur": 4192.96
-    },
-    {
-     "date": "2026-02-13",
-     "action": "Kauf",
-     "ticker": "8411.T",
-     "name": "Mizuho FG",
-     "shares": 100,
-     "price_eur": 41.868,
-     "price_local": 7593.7021484375,
-     "reason": "RSL 1.38, Rang-Perzentil 96.4%",
-     "gain": null,
-     "amount_eur": 4186.81
-    },
-    {
-     "date": "2026-02-13",
-     "action": "Kauf",
-     "ticker": "FDX",
-     "name": "FedEx",
-     "shares": 16,
-     "price_eur": 251.452,
-     "price_local": 298.43450927734375,
-     "reason": "RSL 1.37, Rang-Perzentil 96.3%",
-     "gain": null,
-     "amount_eur": 4023.23
-    },
     {
      "date": "2026-02-13",
      "action": "Kauf",
@@ -1428,14 +1383,50 @@
      "reason": "RSL 1.29, Rang-Perzentil 98.0%",
      "gain": null,
      "amount_eur": 3167.68
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "PSX",
+     "name": "Phillips 66",
+     "shares": 13,
+     "price_eur": 218.841,
+     "price_local": 245.72000122070312,
+     "reason": "Aktienquote auf 50% gesenkt",
+     "gain": -0.1607112611848026,
+     "pnl_eur": -544.76
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "TMO",
+     "name": "Thermo Fisher Scientific",
+     "shares": 5,
+     "price_eur": 618.76,
+     "price_local": 694.760009765625,
+     "reason": "Aktienquote auf 50% gesenkt",
+     "gain": 0.06378539169843966,
+     "pnl_eur": 185.51
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "DSFIR.AS",
+     "name": "DSM Firmenich AG",
+     "shares": 39,
+     "price_eur": 109.8,
+     "price_local": 109.80000305175781,
+     "reason": "Aktienquote auf 50% gesenkt",
+     "gain": 0.27289589998329244,
+     "pnl_eur": 918.06
     }
    ]
   },
   "spekulativ": {
-   "cash": 3807.0087457185473,
-   "invested": 39984.171477702024,
-   "total": 43791.18022342057,
-   "ytd": 0.7516472089368227,
+   "cash": 22739.900302283506,
+   "invested": 16997.941273902485,
+   "total": 39737.841576185994,
+   "ytd": 0.5895136630474398,
    "positions": [
     {
      "ticker": "MRNA",
@@ -1444,15 +1435,15 @@
      "buy_date": "2026-09-04",
      "buy_price_eur": 125.16863129112446,
      "year_start_price_eur": 125.16863129112446,
-     "last_price_eur": 198.2686770246131,
+     "last_price_eur": 226.3841476122543,
      "buy_rsl": 2.2339868840933157,
      "fees_eur": 0.0,
-     "rsl": 2.113251760338686,
+     "rsl": 2.2464638354597626,
      "pct": 1.0,
-     "gain_total": 0.5840125036077797,
-     "gain_ytd": 0.5840125036077797,
-     "value": 3172.29883239381,
-     "pnl_eur": 1169.6007317358185,
+     "gain_total": 0.8086332436256889,
+     "gain_ytd": 0.8086332436256889,
+     "value": 3622.146361796069,
+     "pnl_eur": 1619.4482611380777,
      "status": "Halten"
     },
     {
@@ -1462,33 +1453,15 @@
      "buy_date": "2026-10-30",
      "buy_price_eur": 321.3952081146024,
      "year_start_price_eur": 321.3952081146024,
-     "last_price_eur": 321.3952081146024,
+     "last_price_eur": 300.59866352364014,
      "buy_rsl": 1.5021736018824998,
      "fees_eur": 0.0,
-     "rsl": 1.5021736018824998,
-     "pct": 0.9989373007438895,
-     "gain_total": 0.0,
-     "gain_ytd": 0.0,
-     "value": 7070.694578521252,
-     "pnl_eur": 0.0,
-     "status": "Halten"
-    },
-    {
-     "ticker": "6098.T",
-     "name": "Recruit",
-     "shares": 68,
-     "buy_date": "2026-10-23",
-     "buy_price_eur": 108.54399555089209,
-     "year_start_price_eur": 108.54399555089209,
-     "last_price_eur": 108.79912953170393,
-     "buy_rsl": 1.5013275030913908,
-     "fees_eur": 0.0,
-     "rsl": 1.4529938386293166,
-     "pct": 0.9957492029755579,
-     "gain_total": 0.0023505121542370944,
-     "gain_ytd": 0.0023505121542370944,
-     "value": 7398.340808155867,
-     "pnl_eur": 17.34911069520473,
+     "rsl": 1.3672781022877545,
+     "pct": 0.9957446808510638,
+     "gain_total": -0.06470707734866621,
+     "gain_ytd": -0.06470707734866621,
+     "value": 6613.170597520083,
+     "pnl_eur": -457.5239810011693,
      "status": "Halten"
     },
     {
@@ -1498,62 +1471,26 @@
      "buy_date": "2026-10-23",
      "buy_price_eur": 288.31319413627045,
      "year_start_price_eur": 288.31319413627045,
-     "last_price_eur": 279.85821362894086,
+     "last_price_eur": 270.5049725834533,
      "buy_rsl": 1.515638894800536,
      "fees_eur": 0.0,
-     "rsl": 1.4317430738895691,
-     "pct": 0.9946865037194474,
-     "gain_total": -0.029325680125944498,
-     "gain_ytd": -0.029325680125944498,
-     "value": 6996.455340723522,
-     "pnl_eur": -211.37451268323986,
-     "status": "Halten"
-    },
-    {
-     "ticker": "P",
-     "name": "Everpure",
-     "shares": 66,
-     "buy_date": "2026-10-09",
-     "buy_price_eur": 137.86687778602123,
-     "year_start_price_eur": 137.86687778602123,
-     "last_price_eur": 113.54932859259486,
-     "buy_rsl": 1.7938751169942944,
-     "fees_eur": 0.0,
-     "rsl": 1.3693319403957227,
-     "pct": 0.9904357066950054,
-     "gain_total": -0.17638427433722592,
-     "gain_ytd": -0.17638427433722592,
-     "value": 7494.255687111261,
-     "pnl_eur": -1604.9582467661407,
-     "status": "Halten"
-    },
-    {
-     "ticker": "PANW",
-     "name": "Palo Alto Networks",
-     "shares": 24,
-     "buy_date": "2026-07-17",
-     "buy_price_eur": 313.40382039390545,
-     "year_start_price_eur": 313.40382039390545,
-     "last_price_eur": 327.1719262831798,
-     "buy_rsl": 1.6857415229074324,
-     "fees_eur": 0.0,
-     "rsl": 1.1515580197684183,
-     "pct": 0.8480340063761955,
-     "gain_total": 0.04393088084238972,
-     "gain_ytd": 0.04393088084238972,
-     "value": 7852.126230796315,
-     "pnl_eur": 330.43454134258445,
+     "rsl": 1.3520728208530053,
+     "pct": 0.9936170212765958,
+     "gain_total": -0.06176693233262209,
+     "gain_ytd": -0.06176693233262209,
+     "value": 6762.624314586333,
+     "pnl_eur": -445.2055388204286,
      "status": "Halten"
     }
    ],
    "yearly_perf": {},
-   "equity_share": 0.9130644863578611,
-   "realized_eur": 19090.12859909635,
-   "unrealized_eur": -298.9483756757729,
+   "equity_share": 0.4277520016107008,
+   "realized_eur": 14021.122834869513,
+   "unrealized_eur": 716.7187413164796,
    "fees_eur": 0.0,
    "start_value": 25000.0,
    "start_date": "2026-01-02",
-   "since_start": 0.7516472089368227,
+   "since_start": 0.5895136630474398,
    "year_reset": true,
    "history": [
     {
@@ -1819,6 +1756,12 @@
      "value": 43791.18,
      "cash": 3807.01,
      "quota": 1.0
+    },
+    {
+     "date": "2026-11-06",
+     "value": 39737.84,
+     "cash": 22739.9,
+     "quota": 0.5
     }
    ],
    "closed_this_year": [
@@ -2016,6 +1959,45 @@
      "gain": 0.09742360673521366,
      "pnl_eur": 741.03,
      "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 41%)"
+    },
+    {
+     "ticker": "PANW",
+     "name": "Palo Alto Networks",
+     "buy_date": "2026-07-17",
+     "buy_price_eur": 313.40382039390545,
+     "buy_rsl": 1.6857415229074324,
+     "shares": 24,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 279.509,
+     "gain": -0.10815054561239268,
+     "pnl_eur": -813.48,
+     "reason": "RSL 0.97 unter 1.00"
+    },
+    {
+     "ticker": "P",
+     "name": "Everpure",
+     "buy_date": "2026-10-09",
+     "buy_price_eur": 137.86687778602123,
+     "buy_rsl": 1.7938751169942944,
+     "shares": 66,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 86.167,
+     "gain": -0.37500206792491064,
+     "pnl_eur": -3412.22,
+     "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 47%)"
+    },
+    {
+     "ticker": "6098.T",
+     "name": "Recruit",
+     "buy_date": "2026-10-23",
+     "buy_price_eur": 108.54399555089209,
+     "buy_rsl": 1.5013275030913908,
+     "shares": 68,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 96.142,
+     "gain": -0.11425384243138492,
+     "pnl_eur": -843.31,
+     "reason": "Aktienquote auf 50% gesenkt"
     }
    ],
    "label": "Musterdepot spekulativ",
@@ -2452,51 +2434,51 @@
      "reason": "RSL 1.50, Rang-Perzentil 99.9%",
      "gain": null,
      "amount_eur": 7070.69
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "PANW",
+     "name": "Palo Alto Networks",
+     "shares": 24,
+     "price_eur": 279.509,
+     "price_local": 313.8399963378906,
+     "reason": "RSL 0.97 unter 1.00",
+     "gain": -0.10815054561239268,
+     "pnl_eur": -813.48
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "P",
+     "name": "Everpure",
+     "shares": 66,
+     "price_eur": 86.167,
+     "price_local": 96.75,
+     "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 47%)",
+     "gain": -0.37500206792491064,
+     "pnl_eur": -3412.22
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "6098.T",
+     "name": "Recruit",
+     "shares": 68,
+     "price_eur": 96.142,
+     "price_local": 17000.0,
+     "reason": "Aktienquote auf 50% gesenkt",
+     "gain": -0.11425384243138492,
+     "pnl_eur": -843.31
     }
    ]
   },
   "mein_depot": {
-   "cash": 3742.735511393378,
-   "invested": 22713.590473496814,
-   "total": 26456.32598489019,
-   "ytd": -0.002488244135316342,
+   "cash": 15404.671352066249,
+   "invested": 10135.847630685255,
+   "total": 25540.518982751506,
+   "ytd": -0.037017915838721716,
    "positions": [
-    {
-     "ticker": "PSX",
-     "name": "Phillips 66",
-     "shares": 18,
-     "buy_date": "2026-10-09",
-     "buy_price_eur": 248.2478198529498,
-     "year_start_price_eur": 248.2478198529498,
-     "last_price_eur": 252.91505931732812,
-     "buy_rsl": 1.3971305711439463,
-     "fees_eur": 0.0,
-     "rsl": 1.323185105723005,
-     "pct": 0.9851222104144527,
-     "gain_total": 0.018800726899204978,
-     "gain_ytd": 0.018800726899204978,
-     "value": 4552.4710677119065,
-     "pnl_eur": 84.01031035880987,
-     "status": "Halten"
-    },
-    {
-     "ticker": "VLO",
-     "name": "Valero Energy",
-     "shares": 12,
-     "buy_date": "2026-09-25",
-     "buy_price_eur": 340.3854210836198,
-     "year_start_price_eur": 340.3854210836198,
-     "last_price_eur": 357.38796567505796,
-     "buy_rsl": 1.3645605891184207,
-     "fees_eur": 0.0,
-     "rsl": 1.2709288158606815,
-     "pct": 0.9723698193411264,
-     "gain_total": 0.04995086022577122,
-     "gain_ytd": 0.04995086022577122,
-     "value": 4288.655588100695,
-     "pnl_eur": 204.03053509725783,
-     "status": "Halten"
-    },
     {
      "ticker": "SAP.DE",
      "name": "SAP",
@@ -2504,16 +2486,16 @@
      "buy_date": "2026-07-02",
      "buy_price_eur": 142.46,
      "year_start_price_eur": 185.9199981689453,
-     "last_price_eur": 211.25,
+     "last_price_eur": 210.75,
      "buy_rsl": null,
      "fees_eur": 0.0,
      "initial": true,
-     "rsl": 1.2691409380549687,
-     "pct": 0.971307120085016,
-     "gain_total": 0.482872385230942,
-     "gain_ytd": 0.136241405338426,
-     "value": 1267.5,
-     "pnl_eur": 412.73999999999995,
+     "rsl": 1.247353065709594,
+     "pct": 0.9723404255319149,
+     "gain_total": 0.47936262810613495,
+     "gain_ytd": 0.13355207656839418,
+     "value": 1264.5,
+     "pnl_eur": 409.73999999999995,
      "status": "Halten"
     },
     {
@@ -2523,15 +2505,15 @@
      "buy_date": "2026-09-25",
      "buy_price_eur": 151.9065957341115,
      "year_start_price_eur": 151.9065957341115,
-     "last_price_eur": 156.37399599629757,
+     "last_price_eur": 155.6429915148689,
      "buy_rsl": 1.316229585361321,
      "fees_eur": 0.0,
-     "rsl": 1.2479329920438857,
-     "pct": 0.9617428267800212,
-     "gain_total": 0.029408862996347596,
-     "gain_ytd": 0.029408862996347596,
-     "value": 4534.845883892629,
-     "pnl_eur": 129.55460760339577,
+     "rsl": 1.221044676053615,
+     "pct": 0.9521276595744681,
+     "gain_total": 0.024596665883404922,
+     "gain_ytd": 0.024596665883404922,
+     "value": 4513.646753931198,
+     "pnl_eur": 108.35547764196434,
      "status": "Halten"
     },
     {
@@ -2541,44 +2523,26 @@
      "buy_date": "2026-09-25",
      "buy_price_eur": 237.6930791292324,
      "year_start_price_eur": 237.6930791292324,
-     "last_price_eur": 239.0544942940471,
+     "last_price_eur": 242.09449315300319,
      "buy_rsl": 1.3369395107636166,
      "fees_eur": 0.0,
-     "rsl": 1.2260820325338537,
-     "pct": 0.9426142401700319,
-     "gain_total": 0.005727618026583281,
-     "gain_ytd": 0.005727618026583281,
-     "value": 4302.980897292848,
-     "pnl_eur": 24.505472966664627,
+     "rsl": 1.216806796039028,
+     "pct": 0.9468085106382979,
+     "gain_total": 0.018517215730028846,
+     "gain_ytd": 0.018517215730028846,
+     "value": 4357.700876754057,
+     "pnl_eur": 79.22545242787436,
      "status": "Halten"
-    },
-    {
-     "ticker": "2269.HK",
-     "name": "WuXi Biologics",
-     "shares": 743,
-     "buy_date": "2026-09-25",
-     "buy_price_eur": 5.941604252118602,
-     "year_start_price_eur": 5.941604252118602,
-     "last_price_eur": 5.07017097779103,
-     "buy_rsl": 1.3873531572668796,
-     "fees_eur": 0.0,
-     "rsl": 1.0969639855372624,
-     "pct": 0.7130712008501594,
-     "gain_total": -0.14666632736719953,
-     "gain_ytd": -0.14666632736719953,
-     "value": 3767.1370364987356,
-     "pnl_eur": -647.4749228253859,
-     "status": "Beobachten"
     }
    ],
    "yearly_perf": {},
-   "equity_share": 0.8585315469150577,
-   "realized_eur": -26.500018310546878,
-   "unrealized_eur": 207.36600320074217,
+   "equity_share": 0.3968536284454667,
+   "realized_eur": -1332.2619473183306,
+   "unrealized_eur": 597.3209300698386,
    "fees_eur": 0.0,
    "start_value": 26522.31999206543,
    "start_date": "2026-09-25",
-   "since_start": -0.002488244135316342,
+   "since_start": -0.037017915838721716,
    "year_reset": false,
    "history": [
     {
@@ -2616,6 +2580,12 @@
      "value": 26456.33,
      "cash": 3742.74,
      "quota": 1.0
+    },
+    {
+     "date": "2026-11-06",
+     "value": 25540.52,
+     "cash": 15404.67,
+     "quota": 0.5
     }
    ],
    "closed_this_year": [
@@ -2631,6 +2601,45 @@
      "gain": -0.06299029786200827,
      "pnl_eur": -26.5,
      "reason": "RSL 0.98 unter 1.00"
+    },
+    {
+     "ticker": "VLO",
+     "name": "Valero Energy",
+     "buy_date": "2026-09-25",
+     "buy_price_eur": 340.3854210836198,
+     "buy_rsl": 1.3645605891184207,
+     "shares": 12,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 308.552,
+     "gain": -0.09352218984569305,
+     "pnl_eur": -382.0,
+     "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)"
+    },
+    {
+     "ticker": "PSX",
+     "name": "Phillips 66",
+     "buy_date": "2026-10-09",
+     "buy_price_eur": 248.2478198529498,
+     "buy_rsl": 1.3971305711439463,
+     "shares": 18,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 218.841,
+     "gain": -0.11845880337105275,
+     "pnl_eur": -529.33,
+     "reason": "Aktienquote auf 50% gesenkt"
+    },
+    {
+     "ticker": "2269.HK",
+     "name": "WuXi Biologics",
+     "buy_date": "2026-09-25",
+     "buy_price_eur": 5.941604252118602,
+     "buy_rsl": 1.3873531572668796,
+     "shares": 743,
+     "sell_date": "2026-11-06",
+     "sell_price_eur": 5.411,
+     "gain": -0.08934654704875888,
+     "pnl_eur": -394.43,
+     "reason": "Aktienquote auf 50% gesenkt"
     }
    ],
    "label": "Mein Depot",
@@ -2707,6 +2716,42 @@
      "reason": "RSL 1.40, Rang-Perzentil 98.2%",
      "gain": null,
      "amount_eur": 4468.46
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "VLO",
+     "name": "Valero Energy",
+     "shares": 12,
+     "price_eur": 308.552,
+     "price_local": 346.45001220703125,
+     "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)",
+     "gain": -0.09352218984569305,
+     "pnl_eur": -382.0
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "PSX",
+     "name": "Phillips 66",
+     "shares": 18,
+     "price_eur": 218.841,
+     "price_local": 245.72000122070312,
+     "reason": "Aktienquote auf 50% gesenkt",
+     "gain": -0.11845880337105275,
+     "pnl_eur": -529.33
+    },
+    {
+     "date": "2026-11-06",
+     "action": "Verkauf",
+     "ticker": "2269.HK",
+     "name": "WuXi Biologics",
+     "shares": 743,
+     "price_eur": 5.411,
+     "price_local": 47.619998931884766,
+     "reason": "Aktienquote auf 50% gesenkt",
+     "gain": -0.08934654704875888,
+     "pnl_eur": -394.43
     }
    ]
   }
@@ -2714,281 +2759,318 @@
  "actions": {
   "konservativ": [
    {
-    "date": "2026-10-30",
+    "date": "2026-11-06",
     "action": "Verkauf",
-    "ticker": "O39.SI",
-    "name": "OCBC",
-    "shares": 178,
-    "price_eur": 20.472,
-    "price_local": 29.290000915527344,
-    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 70%)",
-    "gain": 0.05364385468847632,
-    "pnl_eur": 185.52
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "shares": 13,
+    "price_eur": 218.841,
+    "price_local": 245.72000122070312,
+    "reason": "Aktienquote auf 50% gesenkt",
+    "gain": -0.1607112611848026,
+    "pnl_eur": -544.76
    },
    {
-    "date": "2026-10-30",
+    "date": "2026-11-06",
     "action": "Verkauf",
-    "ticker": "ABNB",
-    "name": "Airbnb",
-    "shares": 20,
-    "price_eur": 147.002,
-    "price_local": 164.38999938964844,
-    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 65%)",
-    "gain": -0.08267937958417237,
-    "pnl_eur": -264.99
+    "ticker": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "shares": 5,
+    "price_eur": 618.76,
+    "price_local": 694.760009765625,
+    "reason": "Aktienquote auf 50% gesenkt",
+    "gain": 0.06378539169843966,
+    "pnl_eur": 185.51
    },
    {
-    "date": "2026-10-30",
-    "action": "Kauf",
-    "ticker": "ROP",
-    "name": "Roper Technologies",
-    "shares": 8,
-    "price_eur": 417.248,
-    "price_local": 466.6000061035156,
-    "reason": "RSL 1.29, Rang-Perzentil 98.1%",
-    "gain": null,
-    "amount_eur": 3337.98
-   },
-   {
-    "date": "2026-10-30",
-    "action": "Kauf",
-    "ticker": "ALLE",
-    "name": "Allegion",
-    "shares": 19,
-    "price_eur": 166.72,
-    "price_local": 186.44000244140625,
-    "reason": "RSL 1.29, Rang-Perzentil 98.0%",
-    "gain": null,
-    "amount_eur": 3167.68
+    "date": "2026-11-06",
+    "action": "Verkauf",
+    "ticker": "DSFIR.AS",
+    "name": "DSM Firmenich AG",
+    "shares": 39,
+    "price_eur": 109.8,
+    "price_local": 109.80000305175781,
+    "reason": "Aktienquote auf 50% gesenkt",
+    "gain": 0.27289589998329244,
+    "pnl_eur": 918.06
    }
   ],
   "spekulativ": [
    {
-    "date": "2026-10-30",
+    "date": "2026-11-06",
     "action": "Verkauf",
-    "ticker": "DELL",
-    "name": "Dell Technologies",
-    "shares": 22,
-    "price_eur": 379.422,
-    "price_local": 424.29998779296875,
-    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 41%)",
-    "gain": 0.09742360673521366,
-    "pnl_eur": 741.03
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "shares": 24,
+    "price_eur": 279.509,
+    "price_local": 313.8399963378906,
+    "reason": "RSL 0.97 unter 1.00",
+    "gain": -0.10815054561239268,
+    "pnl_eur": -813.48
    },
    {
-    "date": "2026-10-30",
-    "action": "Kauf",
-    "ticker": "CRL",
-    "name": "Charles River Laboratories",
-    "shares": 22,
-    "price_eur": 321.395,
-    "price_local": 359.4100036621094,
-    "reason": "RSL 1.50, Rang-Perzentil 99.9%",
-    "gain": null,
-    "amount_eur": 7070.69
+    "date": "2026-11-06",
+    "action": "Verkauf",
+    "ticker": "P",
+    "name": "Everpure",
+    "shares": 66,
+    "price_eur": 86.167,
+    "price_local": 96.75,
+    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 47%)",
+    "gain": -0.37500206792491064,
+    "pnl_eur": -3412.22
+   },
+   {
+    "date": "2026-11-06",
+    "action": "Verkauf",
+    "ticker": "6098.T",
+    "name": "Recruit",
+    "shares": 68,
+    "price_eur": 96.142,
+    "price_local": 17000.0,
+    "reason": "Aktienquote auf 50% gesenkt",
+    "gain": -0.11425384243138492,
+    "pnl_eur": -843.31
    }
   ],
-  "mein_depot": []
+  "mein_depot": [
+   {
+    "date": "2026-11-06",
+    "action": "Verkauf",
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "shares": 12,
+    "price_eur": 308.552,
+    "price_local": 346.45001220703125,
+    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)",
+    "gain": -0.09352218984569305,
+    "pnl_eur": -382.0
+   },
+   {
+    "date": "2026-11-06",
+    "action": "Verkauf",
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "shares": 18,
+    "price_eur": 218.841,
+    "price_local": 245.72000122070312,
+    "reason": "Aktienquote auf 50% gesenkt",
+    "gain": -0.11845880337105275,
+    "pnl_eur": -529.33
+   },
+   {
+    "date": "2026-11-06",
+    "action": "Verkauf",
+    "ticker": "2269.HK",
+    "name": "WuXi Biologics",
+    "shares": 743,
+    "price_eur": 5.411,
+    "price_local": 47.619998931884766,
+    "reason": "Aktienquote auf 50% gesenkt",
+    "gain": -0.08934654704875888,
+    "pnl_eur": -394.43
+   }
+  ]
  },
  "rsl_top": [
   {
    "ticker": "MRNA",
    "name": "Moderna",
-   "rsl": 2.113251760338686,
+   "rsl": 2.2464638354597626,
    "pct": 1.0,
-   "price_eur": 198.2686770246131,
-   "tags": "large"
-  },
-  {
-   "ticker": "CRL",
-   "name": "Charles River Laboratories",
-   "rsl": 1.5021736018824998,
-   "pct": 0.9989373007438895,
-   "price_eur": 321.3952081146024,
+   "price_eur": 226.3841476122543,
    "tags": "large"
   },
   {
    "ticker": "ACN",
    "name": "Accenture",
-   "rsl": 1.497110824296257,
-   "pct": 0.997874601487779,
-   "price_eur": 230.92594685516198,
+   "rsl": 1.4751564763808844,
+   "pct": 0.9989361702127659,
+   "price_eur": 232.0038942782033,
    "tags": "large"
   },
   {
    "ticker": "CSL.AX",
    "name": "CSL",
-   "rsl": 1.4551623676647374,
-   "pct": 0.9968119022316685,
-   "price_eur": 126.14055686735145,
-   "tags": "large"
-  },
-  {
-   "ticker": "6098.T",
-   "name": "Recruit",
-   "rsl": 1.4529938386293166,
-   "pct": 0.9957492029755579,
-   "price_eur": 108.79912953170393,
-   "tags": "large"
-  },
-  {
-   "ticker": "VEEV",
-   "name": "Veeva Systems",
-   "rsl": 1.4317430738895691,
-   "pct": 0.9946865037194474,
-   "price_eur": 279.85821362894086,
+   "rsl": 1.409187155014921,
+   "pct": 0.997872340425532,
+   "price_eur": 124.71527397841398,
    "tags": "large"
   },
   {
    "ticker": "8766.T",
    "name": "Tokio Marine",
-   "rsl": 1.42857640347302,
-   "pct": 0.9936238044633369,
-   "price_eur": 3.2832405368176043,
+   "rsl": 1.374686653062069,
+   "pct": 0.9968085106382979,
+   "price_eur": 3.2224678660710118,
+   "tags": "large"
+  },
+  {
+   "ticker": "CRL",
+   "name": "Charles River Laboratories",
+   "rsl": 1.3672781022877545,
+   "pct": 0.9957446808510638,
+   "price_eur": 300.59866352364014,
    "tags": "large"
   },
   {
    "ticker": "PTC",
    "name": "PTC Inc.",
-   "rsl": 1.3894214831551406,
-   "pct": 0.9925611052072264,
-   "price_eur": 174.8577284899599,
+   "rsl": 1.3575664782072878,
+   "pct": 0.9946808510638298,
+   "price_eur": 173.73129119422796,
    "tags": "large"
   },
   {
-   "ticker": "IT",
-   "name": "Gartner",
-   "rsl": 1.3809453655525241,
-   "pct": 0.9914984059511158,
-   "price_eur": 204.59087603990142,
-   "tags": "large"
-  },
-  {
-   "ticker": "P",
-   "name": "Everpure",
-   "rsl": 1.3693319403957227,
-   "pct": 0.9904357066950054,
-   "price_eur": 113.54932859259486,
-   "tags": "large"
-  },
-  {
-   "ticker": "MPC",
-   "name": "Marathon Petroleum",
-   "rsl": 1.3690454679471125,
-   "pct": 0.9893730074388948,
-   "price_eur": 397.6909183922893,
-   "tags": "large"
-  },
-  {
-   "ticker": "APA",
-   "name": "APA Corporation",
-   "rsl": 1.3567554766759637,
-   "pct": 0.9883103081827843,
-   "price_eur": 47.23322840643837,
-   "tags": "large"
-  },
-  {
-   "ticker": "HAS",
-   "name": "Hasbro",
-   "rsl": 1.3387439581054177,
-   "pct": 0.9872476089266737,
-   "price_eur": 106.49384760410527,
-   "tags": "large"
-  },
-  {
-   "ticker": "RVTY",
-   "name": "Revvity",
-   "rsl": 1.3331126920290577,
-   "pct": 0.9861849096705633,
-   "price_eur": 140.39411023581422,
-   "tags": "large"
-  },
-  {
-   "ticker": "PSX",
-   "name": "Phillips 66",
-   "rsl": 1.323185105723005,
-   "pct": 0.9851222104144527,
-   "price_eur": 252.91505931732812,
+   "ticker": "VEEV",
+   "name": "Veeva Systems",
+   "rsl": 1.3520728208530053,
+   "pct": 0.9936170212765958,
+   "price_eur": 270.5049725834533,
    "tags": "large"
   },
   {
    "ticker": "WKL.AS",
    "name": "Wolters Kluwer",
-   "rsl": 1.3094856216571023,
-   "pct": 0.9840595111583422,
-   "price_eur": 87.0,
+   "rsl": 1.3362733003893743,
+   "pct": 0.9925531914893617,
+   "price_eur": 90.08000183105469,
    "tags": "large"
   },
   {
-   "ticker": "REGN",
-   "name": "Regeneron Pharmaceuticals",
-   "rsl": 1.3082793012204406,
-   "pct": 0.9829968119022316,
-   "price_eur": 829.7470891927644,
+   "ticker": "HAS",
+   "name": "Hasbro",
+   "rsl": 1.3154239681090136,
+   "pct": 0.9914893617021276,
+   "price_eur": 105.90243346735043,
    "tags": "large"
   },
   {
    "ticker": "4661.T",
    "name": "Oriental Land",
-   "rsl": 1.301264061711508,
-   "pct": 0.9819341126461212,
-   "price_eur": 19.481844131770735,
+   "rsl": 1.3074421873945608,
+   "pct": 0.9904255319148936,
+   "price_eur": 19.958036754989433,
    "tags": "large"
   },
   {
    "ticker": "ROP",
    "name": "Roper Technologies",
-   "rsl": 1.293739089412813,
-   "pct": 0.9808714133900106,
-   "price_eur": 417.2477241587806,
+   "rsl": 1.2956976464472,
+   "pct": 0.9893617021276596,
+   "price_eur": 424.464711819697,
    "tags": "large"
   },
   {
-   "ticker": "ALLE",
-   "name": "Allegion",
-   "rsl": 1.2909144441442528,
-   "pct": 0.9798087141339001,
-   "price_eur": 166.72024366321185,
-   "tags": "large"
-  },
-  {
-   "ticker": "GDDY",
-   "name": "GoDaddy",
-   "rsl": 1.2873743321303328,
-   "pct": 0.9787460148777896,
-   "price_eur": 104.83952346581327,
-   "tags": "large"
-  },
-  {
-   "ticker": "SOON.SW",
-   "name": "Sonova",
-   "rsl": 1.286628317966825,
-   "pct": 0.9776833156216791,
-   "price_eur": 308.1667218747285,
+   "ticker": "TYL",
+   "name": "Tyler Technologies",
+   "rsl": 1.2946705713228495,
+   "pct": 0.9882978723404255,
+   "price_eur": 374.5549221160285,
    "tags": "large"
   },
   {
    "ticker": "MTD",
    "name": "Mettler Toledo",
-   "rsl": 1.2795747330531626,
-   "pct": 0.9766206163655685,
-   "price_eur": 1497.665401211856,
+   "rsl": 1.2918782155340816,
+   "pct": 0.9872340425531915,
+   "price_eur": 1533.763962362247,
    "tags": "large"
   },
   {
-   "ticker": "CRWD",
-   "name": "CrowdStrike",
-   "rsl": 1.2790672909377827,
-   "pct": 0.975557917109458,
-   "price_eur": 223.94201272661007,
+   "ticker": "SWK",
+   "name": "Stanley Black & Decker",
+   "rsl": 1.2904712820514346,
+   "pct": 0.9861702127659574,
+   "price_eur": 102.28655241398003,
    "tags": "large"
   },
   {
-   "ticker": "FDS",
-   "name": "FactSet",
-   "rsl": 1.2763314190563748,
-   "pct": 0.9744952178533475,
-   "price_eur": 294.71138814455077,
+   "ticker": "SOON.SW",
+   "name": "Sonova",
+   "rsl": 1.286676465021055,
+   "pct": 0.9851063829787234,
+   "price_eur": 314.54783686112415,
+   "tags": "large"
+  },
+  {
+   "ticker": "RVTY",
+   "name": "Revvity",
+   "rsl": 1.2827170370373826,
+   "pct": 0.9840425531914894,
+   "price_eur": 138.1425112594858,
+   "tags": "large"
+  },
+  {
+   "ticker": "BDX",
+   "name": "Becton Dickinson",
+   "rsl": 1.2736845681469045,
+   "pct": 0.9829787234042553,
+   "price_eur": 188.70244242801238,
+   "tags": "large"
+  },
+  {
+   "ticker": "VLTO",
+   "name": "Veralto",
+   "rsl": 1.2671413841373913,
+   "pct": 0.9819148936170212,
+   "price_eur": 104.2815168192368,
+   "tags": "large"
+  },
+  {
+   "ticker": "MCK",
+   "name": "McKesson Corporation",
+   "rsl": 1.264210421565793,
+   "pct": 0.9808510638297873,
+   "price_eur": 944.7946382966163,
+   "tags": "large"
+  },
+  {
+   "ticker": "ALLE",
+   "name": "Allegion",
+   "rsl": 1.2602059146415578,
+   "pct": 0.9797872340425532,
+   "price_eur": 165.1101797260352,
+   "tags": "large"
+  },
+  {
+   "ticker": "DSY.PA",
+   "name": "Dassault Systèmes",
+   "rsl": 1.2558792605136895,
+   "pct": 0.9787234042553191,
+   "price_eur": 25.950000762939453,
+   "tags": "large"
+  },
+  {
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "rsl": 1.2546149801788,
+   "pct": 0.9776595744680852,
+   "price_eur": 805.4230945348774,
+   "tags": "large"
+  },
+  {
+   "ticker": "GEHC",
+   "name": "GE HealthCare",
+   "rsl": 1.2516841390478426,
+   "pct": 0.9765957446808511,
+   "price_eur": 73.3684459632271,
+   "tags": "large"
+  },
+  {
+   "ticker": "6098.T",
+   "name": "Recruit",
+   "rsl": 1.2492390030639628,
+   "pct": 0.975531914893617,
+   "price_eur": 96.14242698634752,
+   "tags": "large"
+  },
+  {
+   "ticker": "DSFIR.AS",
+   "name": "DSM Firmenich AG",
+   "rsl": 1.2490888804311069,
+   "pct": 0.9744680851063829,
+   "price_eur": 109.80000305175781,
    "tags": "large"
   }
  ],
@@ -2996,121 +3078,121 @@
   {
    "ticker": "MRNA",
    "name": "Moderna",
-   "rsl": 2.113251760338686,
+   "rsl": 2.2464638354597626,
    "pct": 1.0,
-   "price_eur": 198.2686770246131,
-   "tags": "large"
-  },
-  {
-   "ticker": "CRL",
-   "name": "Charles River Laboratories",
-   "rsl": 1.5021736018824998,
-   "pct": 0.9989373007438895,
-   "price_eur": 321.3952081146024,
+   "price_eur": 226.3841476122543,
    "tags": "large"
   },
   {
    "ticker": "ACN",
    "name": "Accenture",
-   "rsl": 1.497110824296257,
-   "pct": 0.997874601487779,
-   "price_eur": 230.92594685516198,
+   "rsl": 1.4751564763808844,
+   "pct": 0.9989361702127659,
+   "price_eur": 232.0038942782033,
    "tags": "large"
   },
   {
    "ticker": "CSL.AX",
    "name": "CSL",
-   "rsl": 1.4551623676647374,
-   "pct": 0.9968119022316685,
-   "price_eur": 126.14055686735145,
-   "tags": "large"
-  },
-  {
-   "ticker": "6098.T",
-   "name": "Recruit",
-   "rsl": 1.4529938386293166,
-   "pct": 0.9957492029755579,
-   "price_eur": 108.79912953170393,
-   "tags": "large"
-  },
-  {
-   "ticker": "VEEV",
-   "name": "Veeva Systems",
-   "rsl": 1.4317430738895691,
-   "pct": 0.9946865037194474,
-   "price_eur": 279.85821362894086,
+   "rsl": 1.409187155014921,
+   "pct": 0.997872340425532,
+   "price_eur": 124.71527397841398,
    "tags": "large"
   },
   {
    "ticker": "8766.T",
    "name": "Tokio Marine",
-   "rsl": 1.42857640347302,
-   "pct": 0.9936238044633369,
-   "price_eur": 3.2832405368176043,
+   "rsl": 1.374686653062069,
+   "pct": 0.9968085106382979,
+   "price_eur": 3.2224678660710118,
+   "tags": "large"
+  },
+  {
+   "ticker": "CRL",
+   "name": "Charles River Laboratories",
+   "rsl": 1.3672781022877545,
+   "pct": 0.9957446808510638,
+   "price_eur": 300.59866352364014,
    "tags": "large"
   },
   {
    "ticker": "PTC",
    "name": "PTC Inc.",
-   "rsl": 1.3894214831551406,
-   "pct": 0.9925611052072264,
-   "price_eur": 174.8577284899599,
+   "rsl": 1.3575664782072878,
+   "pct": 0.9946808510638298,
+   "price_eur": 173.73129119422796,
    "tags": "large"
   },
   {
-   "ticker": "IT",
-   "name": "Gartner",
-   "rsl": 1.3809453655525241,
-   "pct": 0.9914984059511158,
-   "price_eur": 204.59087603990142,
+   "ticker": "VEEV",
+   "name": "Veeva Systems",
+   "rsl": 1.3520728208530053,
+   "pct": 0.9936170212765958,
+   "price_eur": 270.5049725834533,
    "tags": "large"
   },
   {
-   "ticker": "P",
-   "name": "Everpure",
-   "rsl": 1.3693319403957227,
-   "pct": 0.9904357066950054,
-   "price_eur": 113.54932859259486,
-   "tags": "large"
-  },
-  {
-   "ticker": "MPC",
-   "name": "Marathon Petroleum",
-   "rsl": 1.3690454679471125,
-   "pct": 0.9893730074388948,
-   "price_eur": 397.6909183922893,
-   "tags": "large"
-  },
-  {
-   "ticker": "APA",
-   "name": "APA Corporation",
-   "rsl": 1.3567554766759637,
-   "pct": 0.9883103081827843,
-   "price_eur": 47.23322840643837,
+   "ticker": "WKL.AS",
+   "name": "Wolters Kluwer",
+   "rsl": 1.3362733003893743,
+   "pct": 0.9925531914893617,
+   "price_eur": 90.08000183105469,
    "tags": "large"
   },
   {
    "ticker": "HAS",
    "name": "Hasbro",
-   "rsl": 1.3387439581054177,
-   "pct": 0.9872476089266737,
-   "price_eur": 106.49384760410527,
+   "rsl": 1.3154239681090136,
+   "pct": 0.9914893617021276,
+   "price_eur": 105.90243346735043,
    "tags": "large"
   },
   {
-   "ticker": "RVTY",
-   "name": "Revvity",
-   "rsl": 1.3331126920290577,
-   "pct": 0.9861849096705633,
-   "price_eur": 140.39411023581422,
+   "ticker": "4661.T",
+   "name": "Oriental Land",
+   "rsl": 1.3074421873945608,
+   "pct": 0.9904255319148936,
+   "price_eur": 19.958036754989433,
    "tags": "large"
   },
   {
-   "ticker": "PSX",
-   "name": "Phillips 66",
-   "rsl": 1.323185105723005,
-   "pct": 0.9851222104144527,
-   "price_eur": 252.91505931732812,
+   "ticker": "ROP",
+   "name": "Roper Technologies",
+   "rsl": 1.2956976464472,
+   "pct": 0.9893617021276596,
+   "price_eur": 424.464711819697,
+   "tags": "large"
+  },
+  {
+   "ticker": "TYL",
+   "name": "Tyler Technologies",
+   "rsl": 1.2946705713228495,
+   "pct": 0.9882978723404255,
+   "price_eur": 374.5549221160285,
+   "tags": "large"
+  },
+  {
+   "ticker": "MTD",
+   "name": "Mettler Toledo",
+   "rsl": 1.2918782155340816,
+   "pct": 0.9872340425531915,
+   "price_eur": 1533.763962362247,
+   "tags": "large"
+  },
+  {
+   "ticker": "SWK",
+   "name": "Stanley Black & Decker",
+   "rsl": 1.2904712820514346,
+   "pct": 0.9861702127659574,
+   "price_eur": 102.28655241398003,
+   "tags": "large"
+  },
+  {
+   "ticker": "SOON.SW",
+   "name": "Sonova",
+   "rsl": 1.286676465021055,
+   "pct": 0.9851063829787234,
+   "price_eur": 314.54783686112415,
    "tags": "large"
   }
  ],
@@ -6510,7 +6592,13 @@
    "s1": 1.0,
    "s2": 1.0,
    "q": 1.0
+  },
+  {
+   "date": "2026-11-06",
+   "s1": -1.0,
+   "s2": 1.0,
+   "q": 0.5
   }
  ],
- "universe_size": 941
+ "universe_size": 940
 }

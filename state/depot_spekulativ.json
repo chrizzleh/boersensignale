@@ -1,18 +1,7 @@
 {
  "name": "spekulativ",
- "cash": 3807.0087457185473,
+ "cash": 22739.900302283506,
  "positions": [
-  {
-   "ticker": "PANW",
-   "name": "Palo Alto Networks",
-   "shares": 24,
-   "buy_date": "2026-07-17",
-   "buy_price_eur": 313.40382039390545,
-   "year_start_price_eur": 313.40382039390545,
-   "last_price_eur": 327.1719262831798,
-   "buy_rsl": 1.6857415229074324,
-   "fees_eur": 0.0
-  },
   {
    "ticker": "MRNA",
    "name": "Moderna",
@@ -20,19 +9,8 @@
    "buy_date": "2026-09-04",
    "buy_price_eur": 125.16863129112446,
    "year_start_price_eur": 125.16863129112446,
-   "last_price_eur": 198.2686770246131,
+   "last_price_eur": 226.3841476122543,
    "buy_rsl": 2.2339868840933157,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "P",
-   "name": "Everpure",
-   "shares": 66,
-   "buy_date": "2026-10-09",
-   "buy_price_eur": 137.86687778602123,
-   "year_start_price_eur": 137.86687778602123,
-   "last_price_eur": 113.54932859259486,
-   "buy_rsl": 1.7938751169942944,
    "fees_eur": 0.0
   },
   {
@@ -42,19 +20,8 @@
    "buy_date": "2026-10-23",
    "buy_price_eur": 288.31319413627045,
    "year_start_price_eur": 288.31319413627045,
-   "last_price_eur": 279.85821362894086,
+   "last_price_eur": 270.5049725834533,
    "buy_rsl": 1.515638894800536,
-   "fees_eur": 0.0
-  },
-  {
-   "ticker": "6098.T",
-   "name": "Recruit",
-   "shares": 68,
-   "buy_date": "2026-10-23",
-   "buy_price_eur": 108.54399555089209,
-   "year_start_price_eur": 108.54399555089209,
-   "last_price_eur": 108.79912953170393,
-   "buy_rsl": 1.5013275030913908,
    "fees_eur": 0.0
   },
   {
@@ -64,7 +31,7 @@
    "buy_date": "2026-10-30",
    "buy_price_eur": 321.3952081146024,
    "year_start_price_eur": 321.3952081146024,
-   "last_price_eur": 321.3952081146024,
+   "last_price_eur": 300.59866352364014,
    "buy_rsl": 1.5021736018824998,
    "fees_eur": 0.0
   }
@@ -336,6 +303,12 @@
    "value": 43791.18,
    "cash": 3807.01,
    "quota": 1.0
+  },
+  {
+   "date": "2026-11-06",
+   "value": 39737.84,
+   "cash": 22739.9,
+   "quota": 0.5
   }
  ],
  "closed": [
@@ -533,6 +506,45 @@
    "gain": 0.09742360673521366,
    "pnl_eur": 741.03,
    "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 41%)"
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "buy_date": "2026-07-17",
+   "buy_price_eur": 313.40382039390545,
+   "buy_rsl": 1.6857415229074324,
+   "shares": 24,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 279.509,
+   "gain": -0.10815054561239268,
+   "pnl_eur": -813.48,
+   "reason": "RSL 0.97 unter 1.00"
+  },
+  {
+   "ticker": "P",
+   "name": "Everpure",
+   "buy_date": "2026-10-09",
+   "buy_price_eur": 137.86687778602123,
+   "buy_rsl": 1.7938751169942944,
+   "shares": 66,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 86.167,
+   "gain": -0.37500206792491064,
+   "pnl_eur": -3412.22,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 47%)"
+  },
+  {
+   "ticker": "6098.T",
+   "name": "Recruit",
+   "buy_date": "2026-10-23",
+   "buy_price_eur": 108.54399555089209,
+   "buy_rsl": 1.5013275030913908,
+   "shares": 68,
+   "sell_date": "2026-11-06",
+   "sell_price_eur": 96.142,
+   "gain": -0.11425384243138492,
+   "pnl_eur": -843.31,
+   "reason": "Aktienquote auf 50% gesenkt"
   }
  ],
  "last_sold": {
@@ -550,13 +562,16 @@
   "STX": "2026-10-09",
   "ATS.VI": "2026-10-23",
   "0992.HK": "2026-10-23",
-  "DELL": "2026-10-30"
+  "DELL": "2026-10-30",
+  "PANW": "2026-11-06",
+  "P": "2026-11-06",
+  "6098.T": "2026-11-06"
  },
  "start_date": "2026-01-02",
  "capital": 25000.0,
  "start_value": 25000.0,
  "year_reset": true,
- "realized_eur": 19090.12859909635,
+ "realized_eur": 14021.122834869513,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -990,6 +1005,42 @@
    "reason": "RSL 1.50, Rang-Perzentil 99.9%",
    "gain": null,
    "amount_eur": 7070.69
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "shares": 24,
+   "price_eur": 279.509,
+   "price_local": 313.8399963378906,
+   "reason": "RSL 0.97 unter 1.00",
+   "gain": -0.10815054561239268,
+   "pnl_eur": -813.48
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "P",
+   "name": "Everpure",
+   "shares": 66,
+   "price_eur": 86.167,
+   "price_local": 96.75,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 47%)",
+   "gain": -0.37500206792491064,
+   "pnl_eur": -3412.22
+  },
+  {
+   "date": "2026-11-06",
+   "action": "Verkauf",
+   "ticker": "6098.T",
+   "name": "Recruit",
+   "shares": 68,
+   "price_eur": 96.142,
+   "price_local": 17000.0,
+   "reason": "Aktienquote auf 50% gesenkt",
+   "gain": -0.11425384243138492,
+   "pnl_eur": -843.31
   }
  ]
 }
