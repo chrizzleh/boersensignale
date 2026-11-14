@@ -1,32 +1,32 @@
-2026-11-07 11:31:36,628 INFO Lade 28 Markt- und 15 Devisenreihen …
-2026-11-07 11:31:41,941 INFO Lade 971 Aktien ab 2022-08-27 …
-2026-11-07 11:31:59,974 ERROR $AOX.DE: possibly delisted; no timezone found
-2026-11-07 11:32:03,895 ERROR 
+2026-11-14 11:56:47,024 INFO Lade 28 Markt- und 15 Devisenreihen …
+2026-11-14 11:56:51,979 INFO Lade 971 Aktien ab 2022-09-03 …
+2026-11-14 11:57:13,960 ERROR $AOX.DE: possibly delisted; no timezone found
+2026-11-14 11:57:14,225 ERROR 
 1 Failed download:
-2026-11-07 11:32:03,895 ERROR ['AOX.DE']: possibly delisted; no timezone found
-2026-11-07 11:32:11,491 ERROR $ECV.DE: possibly delisted; no timezone found
-2026-11-07 11:32:15,857 ERROR 
+2026-11-14 11:57:14,225 ERROR ['AOX.DE']: possibly delisted; no timezone found
+2026-11-14 11:57:21,196 ERROR $ECV.DE: possibly delisted; no timezone found
+2026-11-14 11:57:25,881 ERROR 
 1 Failed download:
-2026-11-07 11:32:15,857 ERROR ['ECV.DE']: possibly delisted; no timezone found
-2026-11-07 11:32:41,704 ERROR $RENK.DE: possibly delisted; no timezone found
-2026-11-07 11:32:46,375 ERROR $ROG.SW: possibly delisted; no timezone found
-2026-11-07 11:32:48,546 ERROR 
+2026-11-14 11:57:25,882 ERROR ['ECV.DE']: possibly delisted; no timezone found
+2026-11-14 11:57:54,651 ERROR $RENK.DE: possibly delisted; no timezone found
+2026-11-14 11:57:55,281 ERROR $ROG.SW: possibly delisted; no timezone found
+2026-11-14 11:57:59,455 ERROR 
 2 Failed downloads:
-2026-11-07 11:32:48,546 ERROR ['RENK.DE', 'ROG.SW']: possibly delisted; no timezone found
-2026-11-07 11:32:54,567 INFO Aktien mit Daten: 967, ohne Daten: 4 (['AOX.DE', 'ECV.DE', 'RENK.DE', 'ROG.SW'] …)
-2026-11-07 11:33:50,782 WARNING fred('DGS10', '2003-01-01') fehlgeschlagen: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)
-2026-11-07 11:33:55,167 INFO Makro us10 aus Yahoo ersetzt
-2026-11-07 11:33:55,167 INFO Makro us1 aus Yahoo ersetzt
-2026-11-07 11:33:55,168 INFO Makro brent aus Yahoo ersetzt
-2026-11-07 11:33:55,168 INFO Makro eurusd aus Yahoo ersetzt
-2026-11-07 11:33:55,168 INFO Makro us10    5995 Werte bis 2026-11-06
-2026-11-07 11:33:55,168 INFO Makro us1     5995 Werte bis 2026-11-06
-2026-11-07 11:33:55,168 INFO Makro eu10    5668 Werte bis 2026-11-05
-2026-11-07 11:33:55,168 INFO Makro eu1     5668 Werte bis 2026-11-05
-2026-11-07 11:33:55,168 INFO Makro brent   4799 Werte bis 2026-11-06
-2026-11-07 11:33:55,168 INFO Makro eurusd  5951 Werte bis 2026-11-06
-2026-11-07 11:33:57,737 WARNING Using fontTools instead of HarfBuzz-Subset for font "Liberation Sans". This will be unsupported in future versions of WeasyPrint. Please install HarfBuzz-Subset >= 4.1.0 with your package manager.
-2026-11-07 11:33:57,901 WARNING Using fontTools instead of HarfBuzz-Subset for font "Liberation Sans". This will be unsupported in future versions of WeasyPrint. Please install HarfBuzz-Subset >= 4.1.0 with your package manager.
-2026-11-07 11:33:57,993 WARNING Using fontTools instead of HarfBuzz-Subset for font "DejaVu Sans". This will be unsupported in future versions of WeasyPrint. Please install HarfBuzz-Subset >= 4.1.0 with your package manager.
-2026-11-07 11:33:58,190 INFO Report geschrieben: 2026-11-06 (PDF: True)
-2026-11-07 11:33:58,192 INFO Kein E-Mail-Versand (MAIL_USER/MAIL_PASSWORD/MAIL_TO nicht gesetzt)
+2026-11-14 11:57:59,455 ERROR ['RENK.DE', 'ROG.SW']: possibly delisted; no timezone found
+2026-11-14 11:58:06,516 INFO Aktien mit Daten: 967, ohne Daten: 4 (['AOX.DE', 'ECV.DE', 'RENK.DE', 'ROG.SW'] …)
+2026-11-14 11:59:02,888 WARNING fred('DGS10', '2003-01-01') fehlgeschlagen: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)
+2026-11-14 11:59:11,857 INFO Makro us10 aus Yahoo ersetzt
+2026-11-14 11:59:11,857 INFO Makro us1 aus Yahoo ersetzt
+2026-11-14 11:59:11,857 INFO Makro brent aus Yahoo ersetzt
+2026-11-14 11:59:11,857 INFO Makro eurusd aus Yahoo ersetzt
+2026-11-14 11:59:11,857 INFO Makro us10    6000 Werte bis 2026-11-13
+2026-11-14 11:59:11,857 INFO Makro us1     6000 Werte bis 2026-11-13
+2026-11-14 11:59:11,857 INFO Makro eu10    5673 Werte bis 2026-11-12
+2026-11-14 11:59:11,857 INFO Makro eu1     5673 Werte bis 2026-11-12
+2026-11-14 11:59:11,857 INFO Makro brent   4804 Werte bis 2026-11-13
+2026-11-14 11:59:11,857 INFO Makro eurusd  5956 Werte bis 2026-11-13
+2026-11-14 11:59:13,532 WARNING Using fontTools instead of HarfBuzz-Subset for font "Liberation Sans". This will be unsupported in future versions of WeasyPrint. Please install HarfBuzz-Subset >= 4.1.0 with your package manager.
+2026-11-14 11:59:13,711 WARNING Using fontTools instead of HarfBuzz-Subset for font "Liberation Sans". This will be unsupported in future versions of WeasyPrint. Please install HarfBuzz-Subset >= 4.1.0 with your package manager.
+2026-11-14 11:59:13,770 WARNING Using fontTools instead of HarfBuzz-Subset for font "DejaVu Sans". This will be unsupported in future versions of WeasyPrint. Please install HarfBuzz-Subset >= 4.1.0 with your package manager.
+2026-11-14 11:59:13,953 INFO Report geschrieben: 2026-11-13 (PDF: True)
+2026-11-14 11:59:13,954 INFO Kein E-Mail-Versand (MAIL_USER/MAIL_PASSWORD/MAIL_TO nicht gesetzt)
