@@ -1,6 +1,6 @@
 {
  "name": "mein_depot",
- "cash": 15404.671352066249,
+ "cash": 19495.96435246064,
  "positions": [
   {
    "ticker": "SAP.DE",
@@ -9,21 +9,10 @@
    "buy_date": "2026-07-02",
    "buy_price_eur": 142.46,
    "year_start_price_eur": 185.9199981689453,
-   "last_price_eur": 183.67999267578125,
+   "last_price_eur": 195.63999938964844,
    "buy_rsl": null,
    "fees_eur": 0.0,
    "initial": true
-  },
-  {
-   "ticker": "IQV",
-   "name": "IQVIA",
-   "shares": 18,
-   "buy_date": "2026-09-25",
-   "buy_price_eur": 237.6930791292324,
-   "year_start_price_eur": 237.6930791292324,
-   "last_price_eur": 224.08952071767322,
-   "buy_rsl": 1.3369395107636166,
-   "fees_eur": 0.0
   },
   {
    "ticker": "A",
@@ -32,7 +21,7 @@
    "buy_date": "2026-09-25",
    "buy_price_eur": 151.9065957341115,
    "year_start_price_eur": 151.9065957341115,
-   "last_price_eur": 155.31841386574828,
+   "last_price_eur": 164.09758009754358,
    "buy_rsl": 1.316229585361321,
    "fees_eur": 0.0
   }
@@ -94,6 +83,12 @@
    "value": 25044.6,
    "cash": 15404.67,
    "quota": 0.5
+  },
+  {
+   "date": "2026-11-27",
+   "value": 25428.63,
+   "cash": 19495.96,
+   "quota": 0.5
   }
  ],
  "closed": [
@@ -148,19 +143,33 @@
    "gain": -0.08934654704875888,
    "pnl_eur": -394.43,
    "reason": "Aktienquote auf 50% gesenkt"
+  },
+  {
+   "ticker": "IQV",
+   "name": "IQVIA",
+   "buy_date": "2026-09-25",
+   "buy_price_eur": 237.6930791292324,
+   "buy_rsl": 1.3369395107636166,
+   "shares": 18,
+   "sell_date": "2026-11-27",
+   "sell_price_eur": 227.294,
+   "gain": -0.043749795281638804,
+   "pnl_eur": -187.18,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)"
   }
  ],
  "last_sold": {
   "JEN.DE": "2026-10-09",
   "VLO": "2026-11-06",
   "PSX": "2026-11-06",
-  "2269.HK": "2026-11-06"
+  "2269.HK": "2026-11-06",
+  "IQV": "2026-11-27"
  },
  "start_date": "2026-09-25",
  "capital": 25000.0,
  "start_value": 26522.31999206543,
  "year_reset": false,
- "realized_eur": -1332.2619473183306,
+ "realized_eur": -1519.4443712501236,
  "fees_eur": 0.0,
  "transactions": [
   {
@@ -270,6 +279,18 @@
    "reason": "Aktienquote auf 50% gesenkt",
    "gain": -0.08934654704875888,
    "pnl_eur": -394.43
+  },
+  {
+   "date": "2026-11-27",
+   "action": "Verkauf",
+   "ticker": "IQV",
+   "name": "IQVIA",
+   "shares": 18,
+   "price_eur": 227.294,
+   "price_local": 249.38999938964844,
+   "reason": "aus der Spitzengruppe gefallen (Rang-Perzentil 66%)",
+   "gain": -0.043749795281638804,
+   "pnl_eur": -187.18
   }
  ]
 }
